@@ -19,9 +19,9 @@
     <title>Register Jaiya</title>
 </head>
 <body>
-	
+<div class="card-body black bg-light">
     <form id="insert">
-		<div class="card-body black bg-light">
+		<!-- <div class="card-body black bg-light"> -->
         <center>
 			<h1>Register</h1>
             <div class="col-md-4 mb-4">
@@ -49,8 +49,9 @@
                 </div>
              </div>
 		</center>
-</div>
+<!-- </div> -->
 	</form>
+    </div>
 	
 
     <!-- <form id="insert">
