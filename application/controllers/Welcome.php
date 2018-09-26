@@ -7,17 +7,17 @@ class Welcome extends CI_Controller {
 		parent::__construct();
 		
     }
-	public function index()
-	{
-		$this->load->view("layout/head");
-		$this->load->view("layout/header");
-		$this->load->view('register/register');
-		$this->load->view("layout/footer");
-		$this->load->view("layout/foot");	
-		$this->load->view("register/script");
+	// public function index()
+	// {
+	// 	$this->load->view("layout/head");
+	// 	$this->load->view("layout/header");
+	// 	$this->load->view('register/register');
+	// 	$this->load->view("layout/footer");
+	// 	$this->load->view("layout/foot");	
+	// 	$this->load->view("register/script");
 		
-	}
-	public function login()
+	// }
+	public function index()
 	{
 		$this->load->view("layout/head");
 		$this->load->view("layout/header");
