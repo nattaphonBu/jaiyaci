@@ -79,7 +79,7 @@
                 "tel": $("#tel").val()
                 };
                 // console.log(formdata);
-                $.post("http://localhost:8080/Project/api/jaiya/insert", JSON.stringify(formdata),
+                $.post("http://localhost:8080/๋Jaiya/api/register/insert", JSON.stringify(formdata),
                     function (data, textStatus, jqXHR) {
                         alert(data.message);
                     }
