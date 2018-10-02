@@ -7,6 +7,15 @@ class Menu extends CI_Controller {
 		parent::__construct();
 		
     }
-	
+	public function menu()
+	{
+		$this->load->view("layout/head");
+		$this->load->view("layout/header");
+		$this->load->view('user/menu/content');
+		$this->load->view("layout/footer");
+		$this->load->view("layout/foot");	
+		$this->load->view("user/menu/script");
+		
+	}
 	
 }

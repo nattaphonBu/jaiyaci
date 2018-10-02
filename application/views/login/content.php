@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <body>
@@ -29,3 +30,6 @@
     
 
 
+=======
+<a class="item" href="<?=base_url("register/register") ?>">ลงชื่อเข้าใช้</a>
+>>>>>>> 38df11ba8523e311bb36212a863b25eb98a652d2

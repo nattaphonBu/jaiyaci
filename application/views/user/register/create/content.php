@@ -40,14 +40,4 @@
     
     
 
-    <!-- <form id="insert">
-        Groupname: <input type="text" name="groupname" id="groupname">
-        Service: <input type="text" name="service" id="service1">
-                 <input type="text" name="service" id="service2">
-        <input type="submit" value="send">
-
-    </form> -->
-<!-- 
-    <script src="./publish/js/jquery-3.3.1.min.js"></script>
-    <script src="./publish/js/setup.js"></script> -->
     
