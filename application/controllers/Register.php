@@ -11,10 +11,10 @@ class Register extends CI_Controller {
 	{
 		$this->load->view("layout/head");
 		$this->load->view("layout/header");
-		$this->load->view('user/register/content');
+		$this->load->view('user/register/create/content');
 		$this->load->view("layout/footer");
 		$this->load->view("layout/foot");	
-		$this->load->view("user/register/script");
+		$this->load->view("user/register/create/script");
 		
 	}
 	

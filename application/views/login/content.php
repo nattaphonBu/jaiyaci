@@ -1,1 +1,1 @@
-<a class="item" href="<?=base_url("/register") ?>">ลงชื่อเข้าใช้</a>
+<a class="item" href="<?=base_url("register/register") ?>">ลงชื่อเข้าใช้</a>
