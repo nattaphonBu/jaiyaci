@@ -18,31 +18,58 @@
                 
     //     });
     // });
-    $("#submit").validate({
+    // jQuery.validator.addMethod("username", function(value, element) {
+    //   return this.optional( element  ) || /^[A-Za-z\d]+$/.test( value );
+    // }, 'ภาษาอังกฤษหรือตัวเลขเท่านั้น');
+    $("#insert").validate({
         rules: {
             username: {
                 required: true
             },
+            password: {
+                required: true,
+            minlength:6
+          },
+          confirmpassword: { 
+                required: true,
+                equalTo: "#password"
+          },
+          tel:{
+            required :true,
+            minlenght: 9
+          }
         },
         messages: {
             username: {
                 required: "กรุณากรอกชื่อ"
+            },
+            password: {
+                required: "รหัสผ่าน",
+                minlength: "รหัสผ่านอย่างน้อย 6 ตัวอักษร"
+            },
+          confirmpassword: {
+                required: "รหัสผ่านอีกครั้ง",
+                equalTo: "กรุณาใส่รหัสผ่านให้ตรงกัน"
+            },
+            tel:{
+                minlength: "เบอร์โทรศัพท์อย่างน้อย 9 ตัว",
+                required: "เบอร์โทรศัพท์"
             }
         },
     });
     
-    $("#submit").submit(function(){
+    $("#insert").submit(function(){
         createRim();
     })
 
 
     function createRim(){
         event.preventDefault();
-        var isValid = $("#submit").valid();
+        var isValid = $("#insert").valid();
         
         if(isValid){
-            var data = $("#submit").serialize();
-            $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(formdata),
+            var data = $("#insert").serialize();
+            $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),
             function(data){
                 alert(data.message);
             });

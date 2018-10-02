@@ -9,8 +9,8 @@
     <link href="<?=base_url("./publish/css/bootstrap.min.js") ?>" rel="stylesheet">
     <link href="<?=base_url("./publish/css/jquery-3.3.1.slim.min.js") ?>" rel="stylesheet">
     <link href="<?=base_url("./publish/css/popper.min.js") ?>" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        
+    <link href="<?=base_url("./publish/css/bootstrap.min.css") ?>" rel="stylesheet">
+    <link href="<?=base_url("./publish/css/file/class.css") ?>" rel="stylesheet">    
     
 </head>
 
