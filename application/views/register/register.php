@@ -18,14 +18,14 @@
                         <label>email</label><span class="error">*</span>
                         <input type="email" class="form-control" id="email" placeholder="email">
                     
-                        <label>Password</label><span class="error">*</span>
+                        <!-- <label>Password</label><span class="error">*</span>
                         <input type="password" class="form-control" id="password" placeholder="Password">
                     
                         <label>Confirm Password</label><span class="error">*</span>
                         <input type="password" class="form-control" id="confirmpassword" placeholder="confirm password">
                     
                         <label>Telephone</label><span class="error">*</span>
-                        <input type="text" class="form-control" id="tel" placeholder="telephone">
+                        <input type="text" class="form-control" id="tel" placeholder="telephone"> -->
                     
 						<div class="col-lg-4">
 						<button type="submit" class="btn btn-primary">Submit</button>
@@ -47,7 +47,9 @@
         <input type="submit" value="send">
 
     </form> -->
-<!-- 
-    <script src="./publish/js/jquery-3.3.1.min.js"></script>
-    <script src="./publish/js/setup.js"></script> -->
+
+     <!-- <script src="./publish/js/jquery-3.3.1.min.js"></script>
+    <script src="./publish/js/setup.js"></script>  -->
+        
+   
     
