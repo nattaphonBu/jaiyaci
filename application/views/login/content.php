@@ -38,7 +38,7 @@
 </style>
 </head>
 <body>
-<div id="example3">
+
     <form id="insert">
     <div class="card-body black bg-light">
         <center>
@@ -47,14 +47,24 @@
             <div class="col-md-4 mb-4">
                 <div class="form-group">
                     <p align="LEFT">
-                        <label>Username</label><span class="error"></span>
-                        <input type="text" class="form-control" id="username"  placeholder="username">
-                        <label>Password</label><span class="error"></span>
-                        <input type="password" class="form-control" id="password" placeholder="Password">                
+                        <label>Username</label><span class="error">*</span>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="username">
+                </div>  
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="form-group">
+                <p align="LEFT">
+                        <label>Password</label><span class="error">*</span>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">           
+                </div>  
+            </div>     
                         <br>                     
                             <p align="CENTER"><button class="button">ลืมรหัสผ่าน</button>&nbsp;<button class="button">สมัครสมาชิก</button></p>
 						<div class="col-lg-4">
 						<a class="item" href="<?=base_url("/Register/register") ?>">ลงชื่อเข้าใช้</a>
+                        </div>
+                        <div class="col-lg-4">
+						<button type="insert" class="btn btn-primary">Submit</button>
 						</div>
                     </p>
                 </div>
@@ -64,7 +74,7 @@
 		</center>
     </div>	
 	</form>
-</div>  
+
 
 </html>
 <!-- =======

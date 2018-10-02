@@ -26,7 +26,6 @@
             <div class="col-md-4 mb-4">
                 <div class="form-group">
                 <p align =left>
-                <p align =left>
                         <label>Password</label><span class="error">*</span>
                         <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                 </div>
