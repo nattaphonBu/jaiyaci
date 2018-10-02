@@ -15,26 +15,6 @@
     margin: 4px 2px;
     cursor: pointer;
 }
-
-#example1 {
-    border: 10px dotted black;
-    padding:35px;
-    background: yellow;
-}
-
-#example2 {
-    border: 10px dotted black;
-    padding:35px;
-    background: yellow;
-    background-clip: padding-box;
-}
-
-#example3 {
-    border: 10px dotted black;
-    padding:35px;
-    background: yellow;
-    background-clip: content-box;
-}
 </style>
 </head>
 <body>
