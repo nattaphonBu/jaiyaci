@@ -41,24 +41,30 @@
         },
     });
     
-    // $("#insert").submit(function(){
-    //     createRim();
-    // })
+    $("#insert").submit(function(){
+        UpdateUserdata();
+    })
 
 
-    // function createRim(){
-    //     event.preventDefault();
-    //     var isValid = $("#insert").valid();
-        
-    //     if(isValid){
-    //         var data = $("#insert").serialize();
-    //         $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),
-    //         function(data){
-    //             alert(data.message);
-    //         });
+    function UpdateUserdata(){
+        event.preventDefault();
+        var isValid = $("#insert").valid();
+        var data = {
+                "firstname": $("#firstname").val(),
+                "lastname": $("#lastname").val(),
+                "dob":$("#dob").val(),
+                "gender":$("#gender").val(),
+                "bloodgroup":$("#bloodgroup").val()
+            };
+        if(isValid){
+            var data = $("#insert").serialize();
+            // $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),
+            function(data){
+                alert(data.message);
+            });
             
-    //     }
-    // }
+        }
+    }
     
 
 </script>
