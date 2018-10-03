@@ -1,6 +1,6 @@
 
 <div class="container">
-   <center><h1>Menu</h1>
+   <br><center><h1>Menu</h1><br>
     <div class="row">
         <a class="col-md-3 form-group" href="<?=base_url("") ?>">
             <img src="./publish/img/alarm.png" class="img-responsive" width="200px" height="200px"><p>แจ้งเตือน</p>
