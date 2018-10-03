@@ -61,11 +61,11 @@
     });
     
     $("#insert").submit(function(){
-        createRim();
+        register();
     })
 
 
-    function createRim(){
+    function register(){
         event.preventDefault();
         var isValid = $("#insert").valid();
         
@@ -78,7 +78,6 @@
             };
             console.log(data);
             $.post("http://localhost:8080/JaiyaSrc/api/registernew/insert", JSON.stringify(data),
-            // $.post("http://localhost:8080/maven/api/herb/insert", JSON.stringify(data),
             function (data, textStatus, jqXHR){
                 alert(data.message);
             });
