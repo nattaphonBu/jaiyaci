@@ -17,5 +17,12 @@ class Register extends CI_Controller {
 		$this->load->view("user/register/create/script");
 		
 	}
+	public function register1()
+	{
+		
+		$this->load->view('test');
+		
+		
+	}
 	
 }

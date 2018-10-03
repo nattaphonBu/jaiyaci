@@ -28,15 +28,16 @@
             },
             password: {
                 required: true,
-            minlength:6
+                minlength:6
           },
           confirmpassword: { 
                 required: true,
-                equalTo: "#password"
+                equalTo: "#password",
+                minlength: 6
           },
           tel:{
             required :true,
-            minlenght: 9
+            minlength: 9
           }
         },
         messages: {
@@ -49,7 +50,8 @@
             },
           confirmpassword: {
                 required: "รหัสผ่านอีกครั้ง",
-                equalTo: "กรุณาใส่รหัสผ่านให้ตรงกัน"
+                equalTo: "กรุณาใส่รหัสผ่านให้ตรงกัน",
+                minlength: "รหัสผ่านอย่างน้อย 6 ตัวอักษร"
             },
             tel:{
                 minlength: "เบอร์โทรศัพท์อย่างน้อย 9 ตัว",
@@ -68,9 +70,16 @@
         var isValid = $("#insert").valid();
         
         if(isValid){
-            var data = $("#insert").serialize();
-            $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),
-            function(data){
+            var data = {
+                "username": $("#username").val(),
+                "password": $("#password").val(),
+                "email":$("#email").val(),
+                "tel":$("#tel").val()
+            };
+            console.log(data);
+            $.post("http://localhost:8080/JaiyaSrc/api/registernew/insert", JSON.stringify(data),
+            // $.post("http://localhost:8080/maven/api/herb/insert", JSON.stringify(data),
+            function (data, textStatus, jqXHR){
                 alert(data.message);
             });
             
@@ -79,6 +88,6 @@
     
 
 </script>
-   
+
 </body>
 </html>

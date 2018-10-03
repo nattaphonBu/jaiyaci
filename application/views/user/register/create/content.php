@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <body>
 
     <form id="insert">
