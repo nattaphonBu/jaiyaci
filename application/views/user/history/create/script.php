@@ -1,4 +1,4 @@
-hisorygetpillowId
+
 <script>
     $("#insert").submit(function(){
         createhistory();
