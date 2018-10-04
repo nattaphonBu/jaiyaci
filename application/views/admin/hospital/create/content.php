@@ -1,10 +1,10 @@
 <!DOCTYPE html>                 
   <head>
-    <title>Centre Things</title>
+    <title>Hospital</title>
     <style>
       #img_container{
-        border: 1px solid grey;
-        height: 250px;
+        border: 10px solid yellow;
+        height: 200px;
       }
       #img_container img{
         height: 100px;
@@ -17,6 +17,7 @@
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+
     
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
@@ -24,12 +25,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .input-container {
     display: -ms-flexbox; /* IE10 */
     display: flex;
-    width: 100%;
-    margin-bottom: 15px;
+    width: 50%;
+    margin-bottom: 10px;
+   
 }
 
 .icon {
-    padding: 10px;
+    padding: 15px;
     background: green;
     color: white;
     min-width: 50px;
@@ -43,38 +45,45 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .input-field:focus {
-    border: 2px solid green;
+    border: 2px solid black;
 }
+
 
 /* Set a style for the submit button */
 .btn {
     background-color: green ;
-    color: gray;
-    padding: 15px 20px;
-    border: none;
+    color: while;
+    padding: 20px 20px;
+    border: 5px;
     cursor: pointer;
     width: 100%;
-    opacity: 0.9;
+    opacity: ;
+    text-align: center;
+    
 }
 
 .btn:hover {
-    opacity: 1;
+    opacity: 5;
 }
 </style>
 </head>
 <body>
-        <div class="form-group">
-                <button type="submit" class="btn btn-primary"> Hospital Form</button>
+        <div class="form-group"><h3>
+         
+        
+                <button type="submit"  class="btn btn-primary"  > <h1>Hospital Form</h1></button></h3>
               </div>
+
 
 </div>
 
-<form action="/action_page.php" style="max-width:500px;margin:auto">
- 
-  <div class="input-container">
+<form action="/action_page.php"  style="max-width:1000px;margin:auto "  >
+
+
+  <div  class="input-container">
     <i class="fa fa-hospital-o icon"></i>
-    <label><input class="input-field" type="text" placeholder="ชื่อโรงพยาบาล" name="" ></label>
-    
+    <input class="input-field"  type="text" placeholder="ชื่อโรงพยาบาล" name=""  >
+    <label><span class="error">*</span></label>
     
   </div>
 
@@ -88,31 +97,36 @@ body {font-family: Arial, Helvetica, sans-serif;}
   <div class="input-container">
         <i class="fa fa-globe icon"></i>
     <input class="input-field" type="text" placeholder="ลองจิจูด" name="ลองจิจูด">
+    <label><span class="error">*</span></label>
   </div>
 
   <div class="input-container">
         <i class="fa fa-phone icon"></i>
     <input class="input-field" type="text" placeholder="เบอร์โทร" name="เบอร์โทร">
+    <label><span class="error">*</span></label>
   </div>
 
   <div class="input-container">
         <i class="fa fa-area-chart icon"></i>
-    <input class="input-field" type="text" placeholder="ตำบล" name="ตำบล">
+    <input class="input-field" type="text" placeholder="จังหวัด" name="จังหวัด">
+    <label><span class="error">*</span></label>
   </div>
 
   <div class="input-container">
         <i class="fa fa-area-chart icon"></i>
     <input class="input-field" type="text" placeholder="อำเภอ" name="อำเภอ">
+    <label><span class="error">*</span></label>
   </div>
 
   <div class="input-container">
         <i class="fa fa-map icon"></i>
-    <input class="input-field" type="text" placeholder="จังหวัด" name="จังหวัด">
+    <input class="input-field" type="text" placeholder="ตำบล" name="ตำบล">
+    <label><span class="error">*</span></label>
   </div>
  
 </form>
 <div class="form-group">
-        <button type="submit" class="btn btn-primary">บันทึก</button>
+        <button type="submit" class="btn btn-primary"></button>
       </div>
     </div>
     </form>
