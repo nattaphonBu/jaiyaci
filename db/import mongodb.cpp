@@ -5,7 +5,7 @@
 
 int main () {
 
-		system("mongoimport -d jaiya -c province --drop --file province.json");
+		system("mongoimport -d jaiya -c province --drop --file province.json --jsonArray");
 		system("mongoimport -d jaiya -c district --drop --file district.json");
 		system("mongoimport -d jaiya -c hospital --drop --file hospital.json");
 		system("mongoimport -d jaiya -c machine --drop --file machine.json");
@@ -13,6 +13,7 @@ int main () {
 		system("mongoimport -d jaiya -c user --drop --file user.json");
 		system("mongoimport -d jaiya -c userData --drop --file userData.json");
 		system("mongoimport -d jaiya -c timetogetpillow --drop --file timetogetpillow.json");
+		system("mongoimport -d jaiya -c requestmachine --drop --file requestmachine.json");
 		
 	
 

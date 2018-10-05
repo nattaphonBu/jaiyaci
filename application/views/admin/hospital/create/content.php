@@ -118,9 +118,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <div class="form-group">
         <button type="submit" class="btn btn-primary">บันทึก</button>
       </div>
-  </div>
-    </div>
+  <!-- </div> -->
+    <!-- </div> -->
     </form>
+  </div>
 </body>
 </html>
 
