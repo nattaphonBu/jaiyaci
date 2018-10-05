@@ -42,7 +42,16 @@
         </div>    
     </div>
     <div class="row justify-content-md-center">
-    <button type="button" class="btn btn-primary">Login</button>
+    <button type="button" class="btn-lg btn-success">Login</button>
+</div>
+<br>
+<div class="row justify-content-md-center">
+    <div>
+        <button type="button" class="btn-lg btn-info">Register</button>
+    </div>
+    <div>
+    <button type="button" class="btn-lg btn-danger">forgot password</button>
+    </div>
 </div>
     </section>
     
