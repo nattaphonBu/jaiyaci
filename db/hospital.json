@@ -1,1 +1,4 @@
 {"_id":1.0,"nameofhospital":"โรงพยาบาลท่าศาลา","latijude":0.8554426985,"longjijude":0.97455426,"tell":-9.853545e+06,"province":1.0,"district":1.0,"subdistrict":1.0}
+{"_id":{"$oid":"5bb4ea9d68677f2b4cca8366"},"id":0,"nameofhospital":"Hello","latijude":11.3357,"longjijude":22.3356,"tell":"0123456789","provinceId":1,"districtId":2,"subdistrictId":0}
+{"_id":{"$oid":"5bb4ee5768677f38e0ec9652"},"id":null,"nameofhospital":"h1","latijude":1.0,"longjijude":1.0,"tell":"111111111","provinceId":1,"districtId":1,"subdistrictId":0}
+{"_id":null,"id":0,"nameofhospital":"11","latijude":1.0,"longjijude":1.0,"tell":"111111111111","provinceId":1,"districtId":1,"subdistrictId":0}

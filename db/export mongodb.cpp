@@ -13,6 +13,7 @@ int main () {
 		system("mongoexport --db jaiya --collection user --out user.json");
 		system("mongoexport --db jaiya --collection userData --out userData.json");
 		system("mongoexport --db jaiya --collection timetogetpillow --out timetogetpillow.json");
+		system("mongoexport --db jaiya --collection requestmachine --out requestmachine.json");
 	
 
    return(0);
