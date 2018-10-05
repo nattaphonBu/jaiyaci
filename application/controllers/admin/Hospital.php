@@ -14,7 +14,8 @@ class Hospital extends CI_Controller {
 		$this->load->view('admin/hospital/create/content');
 		$this->load->view("layout/footer");
 		$this->load->view("layout/foot");	
-		$this->load->view("admin/hospital/create/script");
+		// $this->load->view("admin/hospital/create/script");
+
 		
 	}
 	
