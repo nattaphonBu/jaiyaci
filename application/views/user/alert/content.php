@@ -1,7 +1,7 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <div class="container">
-    <br><center><h1>แจ้งเตือน</h1><br>
+    <br><center><h1>รายการแจ้งเตือน</h1><br>
       <table class="table" id="alert-table" align="center">
         <thead>
             <tr>
