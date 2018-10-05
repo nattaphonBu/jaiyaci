@@ -77,23 +77,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 </div>
 
-<<<<<<< HEAD
-<form action="/action_page.php"  style="max-width:1000px;margin:auto "  >
-
-
-  <div  class="input-container">
-    <i class="fa fa-hospital-o icon"></i>
-    <input class="input-field"  type="text" placeholder="ชื่อโรงพยาบาล" name=""  >
-    <label><span class="error">*</span></label>
-    
-=======
 <div style="max-width:500px;margin:auto">
 <form id="insert">
   <div class="input-container">
     <i class="fa fa-hospital-o icon"></i>
   <input class="input-field" type="text" placeholder="ชื่อโรงพยาบาล" name="nameofhospital" id="nameofhospital" >
   <label><span class="error">*</span></label>
->>>>>>> 6e0bc7f4f5b4e22cb31b0cb84c106c3d2e2cceba
   </div>
 
   <div class="input-container">
@@ -105,53 +94,31 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
   <div class="input-container">
         <i class="fa fa-globe icon"></i>
-<<<<<<< HEAD
-    <input class="input-field" type="text" placeholder="ลองจิจูด" name="ลองจิจูด">
-=======
     <input class="input-field" type="text" placeholder="ลองจิจูด" name="longjijude" id="longjijude">
->>>>>>> 6e0bc7f4f5b4e22cb31b0cb84c106c3d2e2cceba
     <label><span class="error">*</span></label>
   </div>
 
   <div class="input-container">
         <i class="fa fa-phone icon"></i>
-<<<<<<< HEAD
-    <input class="input-field" type="text" placeholder="เบอร์โทร" name="เบอร์โทร">
-=======
     <input class="input-field" type="text" placeholder="เบอร์โทร" name="tell" id="tell">
->>>>>>> 6e0bc7f4f5b4e22cb31b0cb84c106c3d2e2cceba
     <label><span class="error">*</span></label>
   </div>
 
   <div class="input-container">
-<<<<<<< HEAD
-        <i class="fa fa-area-chart icon"></i>
-    <input class="input-field" type="text" placeholder="จังหวัด" name="จังหวัด">
-=======
         <i class="fa fa-map icon"></i>
     <input class="input-field" type="text" placeholder="จังหวัด" name="provinceId" id="provinceId">
->>>>>>> 6e0bc7f4f5b4e22cb31b0cb84c106c3d2e2cceba
     <label><span class="error">*</span></label>
   </div>
 
   <div class="input-container">
         <i class="fa fa-area-chart icon"></i>
-<<<<<<< HEAD
-    <input class="input-field" type="text" placeholder="อำเภอ" name="อำเภอ">
-=======
     <input class="input-field" type="text" placeholder="อำเภอ" name="districtId" id="districtId">
->>>>>>> 6e0bc7f4f5b4e22cb31b0cb84c106c3d2e2cceba
     <label><span class="error">*</span></label>
   </div>
 
   <div class="input-container">
-<<<<<<< HEAD
-        <i class="fa fa-map icon"></i>
-    <input class="input-field" type="text" placeholder="ตำบล" name="ตำบล">
-=======
         <i class="fa fa-area-chart icon"></i>
     <input class="input-field" type="text" placeholder="ตำบล" name="subdistrictId" id="subdistrictId">
->>>>>>> 6e0bc7f4f5b4e22cb31b0cb84c106c3d2e2cceba
     <label><span class="error">*</span></label>
   </div>
 
