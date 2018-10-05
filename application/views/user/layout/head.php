@@ -12,17 +12,7 @@
     <link href="<?=base_url("./publish/css/bootstrap.min.css") ?>" rel="stylesheet">
     <link href="<?=base_url("./publish/css/file/class.css") ?>" rel="stylesheet">    
     
-    <link href="<?=base_url("./publish/css/style.css") ?>" rel="stylesheet">    
-    
-    <link href="<?=base_url("./publish/css/animate.css") ?>" rel="stylesheet">    
-    
-    <link href="<?=base_url("./publish/css/responsive.css") ?>" rel="stylesheet">    
-    
-    <link href="<?=base_url("./publish/css/font-awesome.min.css") ?>" rel="stylesheet">   
-
-    <!-- <link rel="icon" href="img/core-img/favicon.ico"> -->
-
-   
+</head>
 
 
     
