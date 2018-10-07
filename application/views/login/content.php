@@ -3,7 +3,10 @@
 <body>
     <form id ="login">
     <section class="welcome_area clearfix" id="" style="background-image: url(./publish/img/welcome-bg.png)" width="80%">
-    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="row justify-content-md-center">
+    <img src="./publish/img/pic1.png" >
+</div>
     <div class="row justify-content-md-center">
         <div class="col-md-4 mb-4">
             <div class="form-group">
