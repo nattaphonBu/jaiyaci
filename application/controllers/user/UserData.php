@@ -12,11 +12,11 @@ class UserData extends CI_Controller {
     }
 	public function insert()
 	{
-		$this->load->view("layout/head");
-		$this->load->view("layout/header");
+		$this->load->view("user/layout/head");
+		$this->load->view("user/layout/header");
 		$this->load->view('user/userData/create/content');
-		$this->load->view("layout/footer");
-		$this->load->view("layout/foot");	
+		$this->load->view("user/layout/footer");
+		$this->load->view("user/layout/foot");	
 		$this->load->view("user/userData/create/script");
 
 		

@@ -56,4 +56,4 @@ $route['register'] = 'Register';
 $route['menu'] ='Menu/menu';
 $route['hospital'] = 'admin/Hospital/insert';
 $route['alert'] ='Alert/alert';
-$route['userdata'] = 'user/UserData';
+$route['userdata/user'] = 'UserData';
