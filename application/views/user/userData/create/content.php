@@ -1,30 +1,9 @@
 
-<!-- 
+
+    <br>
+    <br>
+    <br>
     <form id="insert">
-    <div class="card-body black bg-light">
-        <div class="row">
-        
-			<h1>ลงทะเบียนประวัติผู้ใช้</h1>
-            
-            <div class="col-md-2 mb-10">
-                <div class="form-group">
-                    <label>Username</label><span class="error">*</span>
-                    <input type="text" class="form-control" id="username" name="username" placeholder="username">
-                </div>
-            </div>
-                
-						<div class="col-lg-4">
-						<button type="insert" class="btn btn-primary">Submit</button>
-						</div>
-                    </p>
-                </div>
-             </div>
-        </div>
-    </div>	
-    </form> -->
-    <br>
-    <br>
-    <br>
     <div class="row justify-content-md-center">
     <section class="content">
       <div class="container-fluid">
@@ -40,18 +19,62 @@
                 <form id="submit">
                   <div class="card-body black bg-light">
                     <div class="row">
-                      <div class="col-md-12">
+                    <div class="col-md-4">
                         <div class="form-group">
                           <label class="text-dark">ชื่อ</label> <span class="error">*</span>
                           <input type="text" class="form-control" placeholder="ชื่อ" name="firstname" id="firstname">
                         </div>
                       </div>
-                      <div class="col-md-12">
+                      <br>
+                      <div class="col-md-4">
                         <div class="form-group">
-                          <label class="text-dark">ชื่อ</label> <span class="error">*</span>
-                          <input type="text" class="form-control" placeholder="ชื่อ" name="firstname" id="firstname">
+                          <label class="text-dark">นามสกุล</label> <span class="error">*</span>
+                          <input type="text" class="form-control" placeholder="นามสกุล" name="firstname" id="firstname">
                         </div>
                       </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="text-dark">วันเดือนปีเกิด</label> <span class="error">*</span>
+                           <input type="date" name="bday">
+                        </div>
+                      </div>
+                      <div class="form-group col-md-2">
+                              <label class="text-dark">คำนำหน้า</label><span class="error">*</span>
+                              <select class="form-control" name="titleName">
+                                <option value="">เพศ</option>
+                                <option value="ชาย">ชาย</option>
+                                <option value="หญิง">หญิง</option>
+                                
+                              </select>
+                            </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="text-dark">ยาที่แพ้</label> <span class="error">*</span>
+                          <input type="text" class="form-control" placeholder="ยาที่แพ้" name="firstname" id="firstname">
+                        </div>
+                      </div>
+                      <div class="form-group col-md-2">
+                              <label class="text-dark">กรุ๊ปเลือด</label><span class="error">*</span>
+                              <select class="form-control" name="titleName">
+                                <option value="">กรุ๊ปเลือด</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="O">O</option>
+                                <option value="AB">AB</option>
+                                
+                              </select>
+                            </div>
+                      <div class="col-md-4">
+                        <div class="form-group">
+                          <label class="text-dark">โรคประจำตัว</label> <span class="error">*</span>
+                          <input type="text" class="form-control" placeholder="โรคประจำตัว" name="firstname" id="firstname">
+                        </div>
+                      </div>
+                        
+                        
+
+
+
                     </div>
                     
                     <div class="form-group">
@@ -67,6 +90,7 @@
       </div>
     </section>
 </div>
+</form>
     
     
     
