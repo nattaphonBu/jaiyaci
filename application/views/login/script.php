@@ -1,5 +1,5 @@
 <script>
-$("#insert").validate({
+$("#login").validate({
         rules: {
             username: {
                 required: true
@@ -22,18 +22,18 @@ $("#insert").validate({
     })
 
 
-    function createRim(){
-        event.preventDefault();
-        var isValid = $("#insert").valid();
+    // function createRim(){
+    //     event.preventDefault();
+    //     var isValid = $("#insert").valid();
         
-        if(isValid){
-            var data = $("#insert").serialize();
-            $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),
-            function(data){
-                alert(data.message);
-            });
+    //     if(isValid){
+    //         var data = $("#insert").serialize();
+    //         $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),
+    //         function(data){
+    //             alert(data.message);
+    //         });
             
-        }
-    }
+    //     }
+    // }
 
     </script>
