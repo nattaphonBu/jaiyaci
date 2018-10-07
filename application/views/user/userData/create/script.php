@@ -3,10 +3,10 @@
    
     $("#insert").validate({
         rules: {
-        firstname: {
+        firstName: {
             required: true
         },
-        lastname: {
+        lastName: {
             required: true,
           },
           dob: { 
@@ -14,7 +14,7 @@
           },
           gender:{
             required :true,
-            minlenght: 9
+            
           },
           bloodgroup:{
               required: true
@@ -22,10 +22,10 @@
           
         },
         messages: {
-        firstname: {
+        firstName: {
             required: "กรุณากรอกชื่อจริง"
         },
-        lastname: {
+        lastName: {
             required: "กรุณากรอกนามสกุล",
           },
           dob: { 
@@ -49,17 +49,20 @@
     function insertUserdata(){
         event.preventDefault();
         var isValid = $("#insert").valid();
-        var data = {
-                "firstname": $("#firstname").val(),
-                "lastname": $("#lastname").val(),
+        
+        if(isValid){
+            var data = {
+                "firstName": $("#firstName").val(),
+                "lastName": $("#lastName").val(),
                 "dob":$("#dob").val(),
                 "gender":$("#gender").val(),
-                "bloodgroup":$("#bloodgroup").val()
+                "bloodgroup":$("#bloodgroup").val(),
+                "disease":$("#disease").val(),
+                "allergy":$("#allergy").val()
             };
-        if(isValid){
-            var data = $("#insert").serialize();
+            console.log(data);
             $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),
-            function(data){
+            function (data, textStatus, jqXHR){
                 alert(data.message);
             });
             
@@ -71,3 +74,4 @@
    
 </body>
 </html>
+

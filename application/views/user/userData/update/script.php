@@ -1,12 +1,27 @@
 <script>
-   
+    var data = {
+        _id:5ba0a404a5bf58b81c6b7053;
+    };
+
+$.post(base_url+"http://localhost:8080/JaiyaSrc/api/register/findOne",JSON.stringify(data){
+    "_id": 5ba0a404a5bf58b81c6b7053,
+},function(data){
+    if(data.message!=200){
+        showMessage(data.message,"admin/car");
+    }else{
+        result = data.data;
+        $("#firstname").val(result.firstname);
+        // $("#machineSize").val(result.machineSize);
+        // $("#machineCode").val(result.machineCode);
+    }
+});
    
     $("#insert").validate({
         rules: {
-        firstname: {
+        firstName: {
             required: true
         },
-        lastname: {
+        lastName: {
             required: true,
           },
           dob: { 
@@ -22,10 +37,10 @@
           
         },
         messages: {
-        firstname: {
+            firstName: {
             required: "กรุณากรอกชื่อจริง"
         },
-        lastname: {
+        lastName: {
             required: "กรุณากรอกนามสกุล",
           },
           dob: { 
@@ -49,17 +64,20 @@
     function UpdateUserdata(){
         event.preventDefault();
         var isValid = $("#insert").valid();
-        var data = {
-                "firstname": $("#firstname").val(),
-                "lastname": $("#lastname").val(),
+        
+        if(isValid){
+
+            var data = {
+                "firstName": $("#firstName").val(),
+                "lastName": $("#lastName").val(),
                 "dob":$("#dob").val(),
                 "gender":$("#gender").val(),
-                "bloodgroup":$("#bloodgroup").val()
+                "bloodgroup":$("#bloodgroup").val(),
+                "disease":$("#disease").val(),
+                "allergy":$("#allergy").val()
             };
-        if(isValid){
-            var data = $("#insert").serialize();
             $.post("http://localhost:8080/JaiyaSrc/api/register/update", JSON.stringify(data),
-            function(data){
+            function (data, textStatus, jqXHR){
                 alert(data.message);
             });
             

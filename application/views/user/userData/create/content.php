@@ -14,33 +14,32 @@
 
                   <h3 class="card-title"></i> ลงทะเบียนประวัติผู้ใช้</h3>
                 </div>
-                <!-- /.card-header -->
-                <!-- form start -->
-                <form id="submit">
+                
+                
                   <div class="card-body black bg-light">
                     <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
                           <label class="text-dark">ชื่อ</label> <span class="error">*</span>
-                          <input type="text" class="form-control" placeholder="ชื่อ" name="firstname" id="firstname">
+                          <input type="text" class="form-control" placeholder="ชื่อ" name="firstName" id="firstName">
                         </div>
                       </div>
                       <br>
                       <div class="col-md-4">
                         <div class="form-group">
                           <label class="text-dark">นามสกุล</label> <span class="error">*</span>
-                          <input type="text" class="form-control" placeholder="นามสกุล" name="firstname" id="firstname">
+                          <input type="text" class="form-control" placeholder="นามสกุล" name="lastName" id="lastName">
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="form-group">
                           <label class="text-dark">วันเดือนปีเกิด</label> <span class="error">*</span>
-                           <input type="date" name="bday">
+                           <input type="date" name="dob" id="dob">
                         </div>
                       </div>
                       <div class="form-group col-md-2">
-                              <label class="text-dark">คำนำหน้า</label><span class="error">*</span>
-                              <select class="form-control" name="titleName">
+                              <label class="text-dark">เพศ</label><span class="error">*</span>
+                              <select class="form-control" name="gender" id="gender">
                                 <option value="">เพศ</option>
                                 <option value="ชาย">ชาย</option>
                                 <option value="หญิง">หญิง</option>
@@ -49,13 +48,13 @@
                             </div>
                     <div class="col-md-4">
                         <div class="form-group">
-                          <label class="text-dark">ยาที่แพ้</label> <span class="error">*</span>
-                          <input type="text" class="form-control" placeholder="ยาที่แพ้" name="firstname" id="firstname">
+                          <label class="text-dark">ยาที่แพ้</label> 
+                          <input type="text" class="form-control" placeholder="ยาที่แพ้" name="allergy" id="allergy">
                         </div>
                       </div>
                       <div class="form-group col-md-2">
                               <label class="text-dark">กรุ๊ปเลือด</label><span class="error">*</span>
-                              <select class="form-control" name="titleName">
+                              <select class="form-control" name="bloodgroup" id="bloodgroup">
                                 <option value="">กรุ๊ปเลือด</option>
                                 <option value="A">A</option>
                                 <option value="B">B</option>
@@ -66,23 +65,17 @@
                             </div>
                       <div class="col-md-4">
                         <div class="form-group">
-                          <label class="text-dark">โรคประจำตัว</label> <span class="error">*</span>
-                          <input type="text" class="form-control" placeholder="โรคประจำตัว" name="firstname" id="firstname">
+                          <label class="text-dark">โรคประจำตัว</label> 
+                          <input type="text" class="form-control" placeholder="โรคประจำตัว" name="disease" id="disease">
                         </div>
                       </div>
-                        
-                        
-
-
-
-                    </div>
-                    
+                    </div> 
                     <div class="form-group">
-                      <button type="submit" class="btn btn-primary">บันทึก</button>
+                      <button type="insert" class="btn btn-primary">บันทึก</button>
                     </div>
                   </div>
-                </form>
-                  <!-- /.card-body -->
+               
+                 
                
               </div>
             </div>
