@@ -14,10 +14,14 @@ class Machine extends CI_Controller {
 		$this->load->view('admin/machine/create/content');
 		$this->load->view("layout/footer");
 		$this->load->view("layout/foot");	
-
-
-		
 	}
-	
+	public function index()
+	{
+		$this->load->view("layout/head");
+		$this->load->view("layout/header");
+		$this->load->view('admin/machine/content');
+		$this->load->view("layout/footer");
+		$this->load->view("layout/foot");	
+	}
 	
 }
