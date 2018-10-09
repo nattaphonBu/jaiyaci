@@ -1,20 +1,5 @@
 <script>
-    var data = {
-        _id:5ba0a404a5bf58b81c6b7053;
-    };
-
-$.post(base_url+"http://localhost:8080/JaiyaSrc/api/register/findOne",JSON.stringify(data){
-    "_id": 5ba0a404a5bf58b81c6b7053,
-},function(data){
-    if(data.message!=200){
-        showMessage(data.message,"admin/car");
-    }else{
-        result = data.data;
-        $("#firstname").val(result.firstname);
-        // $("#machineSize").val(result.machineSize);
-        // $("#machineCode").val(result.machineCode);
-    }
-});
+   
    
     $("#insert").validate({
         rules: {
@@ -29,7 +14,7 @@ $.post(base_url+"http://localhost:8080/JaiyaSrc/api/register/findOne",JSON.strin
           },
           gender:{
             required :true,
-            minlenght: 9
+            
           },
           bloodgroup:{
               required: true
@@ -37,7 +22,7 @@ $.post(base_url+"http://localhost:8080/JaiyaSrc/api/register/findOne",JSON.strin
           
         },
         messages: {
-            firstName: {
+        firstName: {
             required: "กรุณากรอกชื่อจริง"
         },
         lastName: {
@@ -57,16 +42,15 @@ $.post(base_url+"http://localhost:8080/JaiyaSrc/api/register/findOne",JSON.strin
     });
     
     $("#insert").submit(function(){
-        UpdateUserdata();
+        insertUserdata();
     })
 
 
-    function UpdateUserdata(){
+    function insertUserdata(){
         event.preventDefault();
         var isValid = $("#insert").valid();
         
         if(isValid){
-
             var data = {
                 "firstName": $("#firstName").val(),
                 "lastName": $("#lastName").val(),
@@ -74,8 +58,10 @@ $.post(base_url+"http://localhost:8080/JaiyaSrc/api/register/findOne",JSON.strin
                 "gender":$("#gender").val(),
                 "bloodgroup":$("#bloodgroup").val(),
                 "disease":$("#disease").val(),
-                "allergy":$("#allergy").val()
+                "allergy":$("#allergy").val(),
+                "id": localStorage.getItem("userId")
             };
+            console.log(data);
             $.post("http://localhost:8080/JaiyaSrc/api/register/update", JSON.stringify(data),
             function (data, textStatus, jqXHR){
                 alert(data.message);
@@ -89,3 +75,9 @@ $.post(base_url+"http://localhost:8080/JaiyaSrc/api/register/findOne",JSON.strin
    
 </body>
 </html>
+
+
+
+
+
+

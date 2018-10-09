@@ -4,8 +4,6 @@
     <br>
     <br>
     <form id="insert">
-    <input type="hidden" id="1" name="1" >
-
     <div class="row justify-content-md-center">
     <section class="content">
       <div class="container-fluid">
@@ -16,9 +14,8 @@
 
                   <h3 class="card-title"></i> แก้ไขทะเบียนประวัติผู้ใช้</h3>
                 </div>
-                <!-- /.card-header -->
-                <!-- form start -->
-                <form id="submit">
+                
+                
                   <div class="card-body black bg-light">
                     <div class="row">
                     <div class="col-md-4">
@@ -72,19 +69,13 @@
                           <input type="text" class="form-control" placeholder="โรคประจำตัว" name="disease" id="disease">
                         </div>
                       </div>
-                        
-                        
-
-
-
-                    </div>
-                    
+                    </div> 
                     <div class="form-group">
-                      <button type="submit" class="btn btn-primary">บันทึก</button>
+                      <button type="insert" class="btn btn-primary">บันทึก</button>
                     </div>
                   </div>
-                </form>
-                  <!-- /.card-body -->
+               
+                 
                
               </div>
             </div>
