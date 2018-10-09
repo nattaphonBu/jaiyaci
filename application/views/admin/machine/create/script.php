@@ -3,66 +3,72 @@
    
     $("#insert").validate({
         rules: {
-        firstName: {
+        nameofmachine: {
             required: true
         },
-        lastName: {
+        latitude: {
             required: true,
           },
-          dob: { 
+          longitude: { 
                 required: true,
           },
-          gender:{
+          provinceId:{
             required :true,
             
           },
-          bloodgroup:{
+          districtId:{
+              required: true
+          },
+            subdistrictId:{
               required: true
           },
           
         },
         messages: {
-        firstName: {
+        nameofmachine: {
             required: "กรุณากรอกชื่อจริง"
         },
-        lastName: {
+        latitude: {
             required: "กรุณากรอกนามสกุล",
           },
-          dob: { 
+          longitude: { 
                 required:"กรุณากรอกวันเดือนปีเกิด",
           },
-          gender:{
+          provinceId:{
             required :"กรุณากรอกเพศ"
             
           },
-          bloodgroup:{
+          districtId:{
               required: "กรุณากรอกกรุ๊ปเลือด"
-          }
+          },
+            subdistrictId:{
+              required: "กรุณากรอกตำบล"
+          },
         },
     });
     
     $("#insert").submit(function(){
-        insertUserdata();
+        insertMachine();
     })
 
 
-    function insertUserdata(){
+    function insertMachine(){
         event.preventDefault();
         var isValid = $("#insert").valid();
         
         if(isValid){
             var data = {
-                "firstName": $("#firstName").val(),
-                "lastName": $("#lastName").val(),
-                "dob":$("#dob").val(),
-                "gender":$("#gender").val(),
-                "bloodgroup":$("#bloodgroup").val(),
-                "disease":$("#disease").val(),
-                "allergy":$("#allergy").val(),
-                "id": localStorage.getItem("userId")
+                "nameofmachine": $("#nameofmachine").val(),
+                "latitude": $("#latitude").val(),
+                "longitude":$("#longitude").val(),
+                "provinceId":$("#provinceId").val(),
+                "districtId":$("#districtId").val(),
+                "subdistrictsId":$("#subdistrictsId").val(),
+                "userId":$("#userId").val()
+                
             };
             console.log(data);
-            $.post("http://localhost:8080/JaiyaSrc/api/register/update", JSON.stringify(data),
+            $.post("http://localhost:8080/JaiyaSrc/api/machine/insert", JSON.stringify(data),
             function (data, textStatus, jqXHR){
                 alert(data.message);
             });
@@ -75,9 +81,4 @@
    
 </body>
 </html>
-
-
-
-
-
 
