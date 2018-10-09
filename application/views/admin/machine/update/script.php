@@ -36,7 +36,6 @@
       },
       provinceId:{
         required :"กรุณากรอกเพศ"
-        
       },
       districtId:{
           required: "กรุณากรอกกรุ๊ปเลือด"
