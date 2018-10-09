@@ -1,5 +1,4 @@
 
-
 <body>
     <form id ="login">
     <section class="welcome_area clearfix" id="" style="background-image: url(./publish/img/welcome-bg.png)" width="80%">
