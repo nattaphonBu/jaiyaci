@@ -18,6 +18,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ab1193c6c031c40be6c12f0e2755ebb892c9ce6c
     
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
@@ -25,7 +29,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .input-container {
     display: -ms-flexbox; /* IE10 */
     display: flex;
+<<<<<<< HEAD
     width: 50%;
+=======
+    width: 100%;
+>>>>>>> ab1193c6c031c40be6c12f0e2755ebb892c9ce6c
     margin-bottom: 10px;
    
 }
@@ -68,12 +76,27 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </style>
 </head>
 <body>
+<<<<<<< HEAD
        
 
 
 
 
 <div style="max-width:500px;margin:auto">
+=======
+        <div class="form-group"><h3>
+         
+        
+                <button type="submit"  class="btn btn-primary"  > <h1>Hospital Form</h1></button></h3>
+              </div>
+
+
+</div>
+
+<div style="max-width:500px;margin:auto">
+=======
+>>>>>>> c7b62a0aa5cbcb9db7bea9e60f6150c7268dacf6
+>>>>>>> ab1193c6c031c40be6c12f0e2755ebb892c9ce6c
 <form id="insert">
   <!-- <div class="input-container">
     <i class="fa fa-hospital-o icon"></i>
