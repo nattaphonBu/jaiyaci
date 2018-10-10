@@ -3,7 +3,7 @@
    
    $("#insert").validate({
     rules: {
-    nameofmachine: {
+    nameofhospital: {
         required: true
     },
     latitude: {
@@ -13,8 +13,7 @@
             required: true,
       },
     provinceId:{
-        required :true,
-        
+        required :true,    
       },
     districtId:{
           required: true
@@ -22,20 +21,23 @@
     subdistrictId:{
           required: true
       },
+    tell:{
+          required: true
+      }
       
     },
     messages: {
-    nameofmachine: {
-        required: "กรุณากรอกชื่อตู้"
+    nameofhospital: {
+        required: "กรุณากรอกชื่อ โรงพยาบาล"
     },
     latitude: {
-        required: "กรุณากรอก ละติจูด"
+        required: "กรุณากรอก ละติจูด",
       },
     longitude: { 
-            required:"กรุณากรอก ลองติจูด"
+            required:"กรุณากรอก ลองติจูด",
       },
     provinceId:{
-        required :"กรุณากรอกชื่อ จังหวัด"    
+        required :"กรุณากรอกชื่อ จังหวัด" 
       },
     districtId:{
           required: "กรุณากรอกชื่อ อำเภอ"
@@ -43,32 +45,35 @@
     subdistrictId:{
           required: "กรุณากรอกชื่อ ตำบล"
       },
+    tell:{
+          required: "กรุณากรอกเบอร์โทร โรงพยาบาล"
+      }
     },
 });
     
-    $("#insert").submit(function(){
-        updateMachine();
+    $("#update").submit(function(){
+        updateHospital();
     })
 
 
-    function updateMachine(){
+    function updateHospital(){
         event.preventDefault();
-        var isValid = $("#insert").valid();
+        var isValid = $("#update").valid();
         
         if(isValid){
             var data = {
-                "nameofmachine": $("#nameofmachine").val(),
+                "nameofhospital": $("#nameofhospital").val(),
                 "latitude": $("#latitude").val(),
                 "longitude":$("#longitude").val(),
                 "provinceId":$("#provinceId").val(),
                 "districtId":$("#districtId").val(),
                 "subdistrictsId":$("#subdistrictsId").val(),
-                // "userId":$("#userId").val()
+                "tell":$("#tell").val(),
                 "id": localStorage.getItem("userId")
                 
             };
             console.log(data);
-            $.post("http://localhost:8080/JaiyaSrc/api/machine/update", JSON.stringify(data),
+            $.post("http://localhost:8080/JaiyaSrc/api/hospital/update", JSON.stringify(data),
             function (data, textStatus, jqXHR){
                 alert(data.message);
             });
