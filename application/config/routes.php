@@ -58,3 +58,4 @@ $route['hospital'] = 'admin/Hospital/insert';
 $route['alert'] ='Alert/alert';
 $route['userdata/user'] = 'UserData';
 $route['admin/machine'] ='index';
+$route['user/timetogetpillow']='timetogetpillow/';
