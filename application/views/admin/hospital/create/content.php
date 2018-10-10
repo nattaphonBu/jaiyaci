@@ -25,7 +25,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .input-container {
     display: -ms-flexbox; /* IE10 */
     display: flex;
-    width: 50%;
+    width: 100%;
     margin-bottom: 10px;
    
 }
