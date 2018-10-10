@@ -56,10 +56,7 @@ $route['register'] = 'Register';
 $route['menu'] ='Menu/menu';
 $route['hospital'] = 'admin/Hospital/insert';
 $route['alert'] ='Alert/alert';
-<<<<<<< HEAD
 $route['userdata/user'] = 'UserData';
 $route['admin/machine'] ='index';
 $route['user/timetogetpillow']='timetogetpillow/';
-=======
 $route['user/userdata'] = 'UserData';
->>>>>>> ab1193c6c031c40be6c12f0e2755ebb892c9ce6c
