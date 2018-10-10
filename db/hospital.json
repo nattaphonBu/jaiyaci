@@ -1,0 +1,242 @@
+﻿{
+    "_id" : ObjectId("5bbdcfd52f2f4528a04bbcc8"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลมหาราชนครศรีธรรมราช",
+    "latijude" : 8.390988,
+    "longjijude" : 99.971582,
+    "tell" : "075340250",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "เมืองนครศรีธรรมราช ",
+    "subdistrictId" : "ในเมือง"
+}
+{
+    "_id" : ObjectId("5bbdcfd52f2f4528a04bbcc9"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลสิชล",
+    "latijude" : 9.003981,
+    "longjijude" : 99.903917,
+    "tell" : "075536336",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "สิชล",
+    "subdistrictId" : "สิชล"
+}
+{
+    "_id" : ObjectId("5bbdcfd52f2f4528a04bbcca"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลทุ่งสง",
+    "latijude" : 8.163833,
+    "longjijude" : 99.679992,
+    "tell" : "075410100",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ทุ่งสง",
+    "subdistrictId" : "ปากแพรก"
+}
+{
+    "_id" : ObjectId("5bbdd4b12f2f4528a04bbccb"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลขนอม",
+    "latijude" : 9.204984,
+    "longjijude" : 99.85945,
+    "tell" : "075529033",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ขนอม ",
+    "subdistrictId" : "ขนอม"
+}
+{
+    "_id" : ObjectId("5bbdd4b12f2f4528a04bbccc"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลนบพิตำ",
+    "latijude" : 8.716245,
+    "longjijude" : 99.751485,
+    "tell" : "075355676",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "นบพิตำ",
+    "subdistrictId" : "นบพิตำ"
+}
+{
+    "_id" : ObjectId("5bbdd5182f2f4528a04bbccd"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลขนอม",
+    "latijude" : 9.204984,
+    "longjijude" : 99.85945,
+    "tell" : "075529033",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ขนอม ",
+    "subdistrictId" : "ขนอม"
+}
+{
+    "_id" : ObjectId("5bbdd5182f2f4528a04bbcce"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลท่าศาลา",
+    "latijude" : 8.660173,
+    "longjijude" : 99.923315,
+    "tell" : "075521333",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ท่าศาลา",
+    "subdistrictId" : "ท่าศาลา"
+}
+{
+    "_id" : ObjectId("5bbdd5c12f2f4528a04bbccf"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลพิปูน",
+    "latijude" : 8.540088,
+    "longjijude" : 99.608917,
+    "tell" : "075499026",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "พิปูน ",
+    "subdistrictId" : "ยางค้อม"
+}
+{
+    "_id" : ObjectId("5bbdd5c12f2f4528a04bbcd0"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลพรหมคีรี",
+    "latijude" : 8.522962,
+    "longjijude" : 99.82205,
+    "tell" : "075396123",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "พรหมคีรี",
+    "subdistrictId" : "พรหมโลก"
+}
+{
+    "_id" : ObjectId("5bbdd6612f2f4528a04bbcd1"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลถ้ำพรรณรา",
+    "latijude" : 8.425893,
+    "longjijude" : 99.372375,
+    "tell" : "075306240",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ถ้ำพรรณรา",
+    "subdistrictId" : "ถ้ำพรรณรา"
+}
+{
+    "_id" : ObjectId("5bbdd6612f2f4528a04bbcd2"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลสมเด็จพระยุพราชฉวาง",
+    "latijude" : 8.438853,
+    "longjijude" : 99.524048,
+    "tell" : "075481113",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ฉวาง",
+    "subdistrictId" : "ไสหร้า"
+}
+{
+    "_id" : ObjectId("5bbdd6ec2f2f4528a04bbcd3"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลทุ่งใหญ่",
+    "latijude" : 8.317524,
+    "longjijude" : 99.360557,
+    "tell" : "075489080",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ทุ่งใหญ",
+    "subdistrictId" : "ท่ายาง"
+}
+{
+    "_id" : ObjectId("5bbdd6ec2f2f4528a04bbcd4"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลพ่อท่านคล้ายวาจาสิทธิ์",
+    "latijude" : 8.373424,
+    "longjijude" : 99.559358,
+    "tell" : "075466878",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ช้างกลาง",
+    "subdistrictId" : "หลักช้าง"
+}
+{
+    "_id" : ObjectId("5bbdd7802f2f4528a04bbcd5"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลลานสกา",
+    "latijude" : 8.364988,
+    "longjijude" : 99.800116,
+    "tell" : "075391023",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ลานสกา",
+    "subdistrictId" : "เขาแก้ว"
+}
+{
+    "_id" : ObjectId("5bbdd7802f2f4528a04bbcd6"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลปากพนัง",
+    "latijude" : 8.358693,
+    "longjijude" : 100.198134,
+    "tell" : "075517990",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ปากพนัง ",
+    "subdistrictId" : "ปากพนังฝั่งตะวันออก"
+}
+{
+    "_id" : ObjectId("5bbdd85b2f2f4528a04bbcd7"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลนาบอน",
+    "latijude" : 8.259378,
+    "longjijude" : 99.582825,
+    "tell" : "075491332",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "นาบอน",
+    "subdistrictId" : "นาบอน"
+}
+{
+    "_id" : ObjectId("5bbdd85b2f2f4528a04bbcd8"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลร่อนพิบูลย์",
+    "latijude" : 8.171194,
+    "longjijude" : 99.865194,
+    "tell" : "075449120",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ร่อนพิบูลย ",
+    "subdistrictId" : "ร่อนพิบูลย"
+}
+{
+    "_id" : ObjectId("5bbdd9322f2f4528a04bbcd9"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลบางขัน",
+    "latijude" : 8.023333,
+    "longjijude" : 99.49283,
+    "tell" : "075371025",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "บางขัน",
+    "subdistrictId" : "บ้านลำนาว"
+}
+{
+    "_id" : ObjectId("5bbdd9322f2f4528a04bbcda"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลจุฬาภรณ์ นครศรีธรรมราช",
+    "latijude" : 8.081208,
+    "longjijude" : 99.831595,
+    "tell" : "075355402",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "จุฬาภรณ์ ",
+    "subdistrictId" : "สามตำบล"
+}
+{
+    "_id" : ObjectId("5bbdd9cb2f2f4528a04bbcdb"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลชะอวด",
+    "latijude" : 7.993356,
+    "longjijude" : 99.9844,
+    "tell" : "075381011",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "ชะอวด ",
+    "subdistrictId" : "ชะอวด "
+}
+{
+    "_id" : ObjectId("5bbdd9cb2f2f4528a04bbcdc"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลเชียรใหญ่",
+    "latijude" : 8.161965,
+    "longjijude" : 100.137359,
+    "tell" : "075386256",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "เชียรใหญ",
+    "subdistrictId" : "ท้องลำเจียก"
+}
+{
+    "_id" : ObjectId("5bbdda072f2f4528a04bbcdd"),
+    "id" : "",
+    "nameofhospital" : "โรงพยาบาลหัวไทร",
+    "latijude" : 8.047757,
+    "longjijude" : 100.286229,
+    "tell" : "075389511",
+    "provinceId" : "นครศรีธรรมราช ",
+    "districtId" : "หัวไทร  ",
+    "subdistrictId" : "หัวไทร  "
+}
