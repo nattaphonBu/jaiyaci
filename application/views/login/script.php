@@ -21,6 +21,9 @@ $("#login").validate({
         createRim();
     })
 
+    localStorage.setItem("userId", "5ba0a404a5bf58b81c6b7053");
+    
+
 
     // function createRim(){
     //     event.preventDefault();

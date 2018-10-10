@@ -1,5 +1,4 @@
 
-
     <br>
     <br>
     <br>
@@ -14,8 +13,6 @@
 
                   <h3 class="card-title"></i> ลงทะเบียนประวัติผู้ใช้</h3>
                 </div>
-                
-                
                   <div class="card-body black bg-light">
                     <div class="row">
                     <div class="col-md-4">

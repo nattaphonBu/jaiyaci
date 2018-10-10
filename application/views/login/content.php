@@ -1,13 +1,20 @@
 
-
 <body>
     <form id ="login">
+<<<<<<< HEAD
+=======
+    <div class="card-body black bg-light">
+    <!-- <section class="welcome_area clearfix" id="" style="background-image: url(./publish/img/welcome-bg.png)" width="80%"> -->
+    
+    <div class="row justify-content-md-center">
+    <img src="./publish/img/pic1.png" width="20%">
+>>>>>>> c7b62a0aa5cbcb9db7bea9e60f6150c7268dacf6
 </div>
     <div class="row justify-content-md-center">
         <div class="col-md-4 mb-4">
             <div class="form-group">
                 
-                    <label class="text-white">ชื่อผู้ใช้</label><span class="error">*</span>
+                    <label class="">ชื่อผู้ใช้</label><span class="error">*</span>
                     <input type="text" class="form-control" id="username" name="username" placeholder="username">
             </div>  
         </div>
@@ -15,7 +22,7 @@
         <div class="row justify-content-md-center">
         <div class="col-md-4 mb-4">
             <div class="form-group">
-                    <label class="text-white">รหัสผ่าน</label><span class="error">*</span>
+                    <label class="">รหัสผ่าน</label><span class="error">*</span>
                     <input type="password" class="form-control" id="password" name="password" placeholder="Password">           
             </div>  
         </div>    
@@ -36,6 +43,7 @@
 </div>
     </section> 
 </form>
+</div>
 </body>
 
 </html>
