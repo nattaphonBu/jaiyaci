@@ -5,8 +5,6 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            
-           
                   <h3> แก้ไขข้อมูลโรงพยาบาล</h3>               
                 
                   <div class="card-body black bg-light">
@@ -48,20 +46,18 @@
                       </div>
                     </div> 
 
-                    <div class="">
+                    
                       <button type="submit" class="btn btn-primary">บันทึก</button>
-                    </div>
+                    
                   </div>
-               
-                 
-               
               </div>
             </div>
         </div>
       </div>
     </section>
-</div>
+    </div>
 </form>
+</div>
     
     
     
