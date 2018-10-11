@@ -60,4 +60,4 @@ $route['userdata/user'] = 'UserData';
 $route['admin/machine'] ='index';
 $route['user/timetogetpillow']='timetogetpillow/';
 $route['user/userdata'] = 'UserData';
-$route['admin/User'] = 'index';
+$route['Userdata'] = 'admin/User/index';
