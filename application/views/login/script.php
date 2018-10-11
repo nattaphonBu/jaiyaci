@@ -36,10 +36,10 @@ $("#insert").validate({
                 "username": $("#username").val(),
                 "password": $("#password").val(),
             }
-            var data = $("#insert").serialize();
+            
             $.post("http://localhost:8080/JaiyaSrc/api/login/findOne", JSON.stringify(data),
             function (data, textStatus, jqXHR){
-                alert(data.message);
+                // alert(data.message);
                 var username = data.username;
                 var _id = data._id;
                 var status =data.status;
