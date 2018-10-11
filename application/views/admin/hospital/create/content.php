@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { 
+    background: lightblue url("blue-bg.png") no-repeat fixed center; 
+=======
 <!DOCTYPE html>                 
   <head>
     <title>Hospital</title>
@@ -54,28 +62,57 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 .input-field:focus {
     border: 2px solid black;
+>>>>>>> 204bfe7c589ca9c2f7bead173a742bf8e8900c66
+}
+#example2 {
+
+    border:15px #EA709E;
+    padding: 30px;
+    border-bottom-right-radius: 10px 20px;
+    background:#A5D6F5
 }
 
-
-/* Set a style for the submit button */
-.btn {
-    background-color: green ;
-    color: while;
-    padding: 20px 20px;
-    border: 5px;
-    cursor: pointer;
-    width: 100%;
-    opacity: ;
-    text-align: center;
-    
-}
-
-.btn:hover {
-    opacity: 5;
-}
 </style>
 </head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <body>
+<<<<<<< HEAD
+    <div id="example2">
+        <div class="container">
+        <button type="button" class="btn btn-primary btn-lg" >Hospital Form</button>   
+        <br>
+        <br>
+        <br>
+</div>   
+     <div class="container">
+        <form>
+        <div class="row-md-4">
+            <div class="form-group">
+            <label for="email">ชื่อโรงพยาบาล:</label>
+            <label for="user_profile"></label><span class="error">*</span>
+            <input type="email" class="form-control" id="nameofhospital" placeholder="ชื่อโรงพยาบาล">
+            </div>
+            <div class="form-group">
+            <label for="pwd">ละจิจูด:</label>
+            <label for="user_profile"></label><span class="error">*</span>
+            <input type="password" class="form-control" id="latijude" placeholder="ละจิจูด">
+            </div>
+            <div class="form-group">
+            <label for="pwd">ลองจิจูด:</label>
+            <label for="user_profile"></label><span class="error">*</span>
+            <input type="password" class="form-control" id="longjijude" placeholder="ลองจิจูด">
+            </div>
+            <div class="form-group">
+            <label for="pwd">เบอร์โทร:</label>
+            <label for="user_profile"></label><span class="error">*</span>
+            <input type="password" class="form-control" id="tell" placeholder="เบอร์โทร">
+            </div>
+=======
 <<<<<<< HEAD
        
 
@@ -91,8 +128,44 @@ body {font-family: Arial, Helvetica, sans-serif;}
               </div>
 
 
+>>>>>>> 204bfe7c589ca9c2f7bead173a742bf8e8900c66
 </div>
+        </form>
+          <div class="col-sm">
+ 			    <div class="form-group">
+ 			    <label for="user_profile">จังหวัด</label><span class="error">*</span>
+ 				<select class="form-control" name="provinceId" id="provinceId">
+ 				<option>จังหวัด</option>
+				</select>
+ 			</div>
+ 			</div>
+ 				 <div class="col-sm">
+ 					<div class="form-group">
+ 					<label for="user_profile">อำเภอ</label><span class="error">*</span>
+ 				     <select class="form-control" name="districtId" id="districtId">
+ 					    <option>อำเภอ</option>
+					</select>
+ 					</div>
+ 				 </div>
+ 				 <div class="col-sm">
+ 					<div class="form-group">
+ 					<label for="user_profile">ตำบล</label><span class="error">*</span>
+ 					<select class="form-control" name="subdistrictId" id="subdistrictId">
+ 						<option>ตำบล</option>
+ 					</select>
+ 					 </div>
+                  </div>
+                
+                    </div>
+                    <button type="submit" class="btn btn-default" text-align : center>Submit</button>
+                </div> 
+        </div>
+</div>
+        
+    
 
+<<<<<<< HEAD
+=======
 <div style="max-width:500px;margin:auto">
 =======
 >>>>>>> c7b62a0aa5cbcb9db7bea9e60f6150c7268dacf6
@@ -134,46 +207,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <input class="input-field" type="text" placeholder="อำเภอ" name="districtId" id="districtId">
     <label><span class="error">*</span></label>
   </div>
+>>>>>>> 204bfe7c589ca9c2f7bead173a742bf8e8900c66
 
-  <div class="input-container">
-        <i class="fa fa-area-chart icon"></i>
-    <input class="input-field" type="text" placeholder="ตำบล" name="subdistrictId" id="subdistrictId">
-    <label><span class="error">*</span></label>
-  </div> -->
-  <div class="row">
-				 <div class="col-md-4">
-					 <div class="form-group">
-						 <label for="user_profile">จังหวัด</label><span class="error">*</span>
-						 <select class="form-control" name="provinceId" id="provinceId">
-							 <option>จังหวัด</option>
-						 </select>
-					 </div>
-				 </div>
-				 <div class="col-md-4">
-					 <div class="form-group">
-						 <label for="user_profile">อำเภอ</label><span class="error">*</span>
-						 <select class="form-control" name="districtId" id="districtId">
-							 <option>อำเภอ</option>
-						 </select>
-					 </div>
-				 </div>
-				 <div class="col-md-4">
-					 <div class="form-group">
-						 <label for="user_profile">ตำบล</label><span class="error">*</span>
-						 <select class="form-control" name="subdistrictId" id="subdistrictId">
-							 <option>ตำบล</option>
-						 </select>
-					 </div>
-				 </div>
-			 </div>
 
-<div class="form-group">
-        <button type="insert" class="btn btn-primary"></button>
-      </div>
-  <!-- </div> -->
-    <!-- </div> -->
-    </form>
-  </div>
 </body>
 </html>
-
