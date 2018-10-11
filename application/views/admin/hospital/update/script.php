@@ -1,55 +1,30 @@
 <script>
-   
-   
-   $("#update").validate({
+
+    $("#update").validate({
     rules: {
-    nameofhospital: {
-        required: true
-    },
-    latitude: {
-        required: true,
-      },
-    longitude: { 
-            required: true,
-      },
-    provinceId:{
-        required :true,    
-      },
-    districtId:{
-          required: true
-      },
-    subdistrictId:{
-          required: true
-      },
-    tell:{
-          required: true
-      }
-      
+        nameofhospital: {
+            required: true
+        },
+        dob:{
+            required :true,    
+        },
+        bloodgroup:{
+            required: true
+        }
+        
     },
     messages: {
-    nameofhospital: {
-        required: "กรุณากรอกชื่อ โรงพยาบาล"
+        nameofhospital: {
+            required: "กรุณากรอกชื่อ โรงพยาบาล"
+        },
+        dob: {
+            required: "กรุณากรอก วัน เดือน ปี เกิด",
+        },
+        bloodgroup: { 
+                required:"กรุณากรอก กรุ๊ปเลือด",
+        }
     },
-    latitude: {
-        required: "กรุณากรอก ละติจูด",
-      },
-    longitude: { 
-            required:"กรุณากรอก ลองติจูด",
-      },
-    provinceId:{
-        required :"กรุณากรอกชื่อ จังหวัด" 
-      },
-    districtId:{
-          required: "กรุณากรอกชื่อ อำเภอ"
-      },
-    subdistrictId:{
-          required: "กรุณากรอกชื่อ ตำบล"
-      },
-    tell:{
-          required: "กรุณากรอกเบอร์โทร โรงพยาบาล"
-      }
-    },
-});
+    });
     
     $("#update").submit(function(){
         updateHospital();
@@ -63,12 +38,11 @@
         if(isValid){
             var data = {
                 "nameofhospital": $("#nameofhospital").val(),
-                "latitude": $("#latitude").val(),
-                "longitude":$("#longitude").val(),
-                "provinceId":$("#provinceId").val(),
-                "districtId":$("#districtId").val(),
-                "subdistrictsId":$("#subdistrictsId").val(),
-                "tell":$("#tell").val(),
+                "allergy": $("#allergy").val(),
+                "dob":$("#dob").val(),
+                "bloodgroup":$("#bloodgroup").val(),
+                "disease":$("#disease").val(),
+                
                 "id": localStorage.getItem("userId")
                 
             };
