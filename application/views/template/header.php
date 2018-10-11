@@ -15,8 +15,11 @@
         <li><a href="#page-top" class="page-scroll">Home</a></li>
         <li><a href="#alert" class="page-scroll">แจ้งเตือน</a></li>
         <li><a href="#user" class="page-scroll">บัญชีผู้ใช้</a></li>
-        <li><a href="#history" class="page-scroll">ประวัติยา</a></li>
+        <li><a href="#history" class="page-scroll">ประวัติการกินยา</a></li>
         <li><a href="#searh" class="page-scroll">ค้นหาโรงพยาบาล</a></li>
+        <li><a href="#searh" class="page-scroll">ตั้งเวลากินยา</a></li>
+        
+        
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
