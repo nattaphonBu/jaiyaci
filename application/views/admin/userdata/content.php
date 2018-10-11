@@ -4,19 +4,19 @@
         <div class="col">
           <div class="card">
             <div class="card-header">
-              <h4>Herb</h4>
+              <h4>ผู้ใช้</h4>
             </div>
             <table class="table table-striped" id="myTable">
               <thead class="thead-dark">
                 <tr>
                   <th>ลำดับ</th>
-                  <th>U</th>
-                  <th>properties</th>
-                  <th>warning</th>
-                  <th></th>
+                  <th>ชื่อผู้ใช้</th>
+                  <th>อีเม</th>
+                  <th>เบอร์โทรศัพท์</th>
+                  <th>ตู้</th>
                 </tr>
               </thead>
-              <tbody id="Province">
+              <tbody id="User">
               </tbody>
             </table>
 

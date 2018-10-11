@@ -11,7 +11,7 @@ class Login extends CI_Controller {
 	public function index()
 	{
 		$this->load->view("template/head");
-		$this->load->view("template/header");
+		$this->load->view("template/headerLogin");
 		$this->load->view("template/banner");
 		$this->load->view('login/content');
 		$this->load->view("template/footer");

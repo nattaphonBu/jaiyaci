@@ -1,7 +1,7 @@
 <script>
    
    
-   $("#insert").validate({
+   $("#update").validate({
     rules: {
     nameofhospital: {
         required: true
