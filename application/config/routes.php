@@ -61,3 +61,4 @@ $route['admin/machine'] ='index';
 $route['user/timetogetpillow']='timetogetpillow/';
 $route['user/userdata'] = 'UserData';
 $route['Userdata'] = 'admin/User/index';
+$route['Hospital'] = 'user/Hospital/index';

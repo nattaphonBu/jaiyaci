@@ -39,21 +39,22 @@ $("#insert").validate({
             
             $.post("http://localhost:8080/JaiyaSrc/api/login/findOne", JSON.stringify(data),
             function (data, textStatus, jqXHR){
-                // alert(data.message);
-                var username = data.username;
-                var _id = data._id;
-                var status =data.status;
-                localStorage.setItem("userName", "username");
-                localStorage.setItem("_id", "_id");
+                alert(data.message);
+                var username = data.data.username;
+                var _id = data.data._id;
+                var status =data.data.status;
+                localStorage.setItem("username",username);
+                localStorage.setItem("_id", _id);
                 localStorage.setItem("status", "status");
                 console.log(username);
                 console.log(_id);
                 console.log(status);
-                if( status== 1){
-                    window.location.replace("https://www.google.com/");
+                console.log(status);
+                if(status == 1){
+                    window.location.replace( href="<?=base_url("menu/menu") ?>");
                 }
                 else{
-                    window.location.replace("https://www.w3schools.com/jsref/prop_win_localstorage.asp");
+                    window.location.replace( "https://www.w3schools.com/jsref/met_console_log.asp");
                 }
                 
             });
