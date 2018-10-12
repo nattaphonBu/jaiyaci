@@ -1,6 +1,5 @@
 {"_id":{"$oid":"5bb6eb202463abfd60b8c9de"},"provinceId":7,"provinceName":"ลพบุรี","latitude":14.7995081,"longtitude":100.6533706}
-{"_id":{"$oid":"5bb6eb202463abfd60b8c9df"},"provinceId":8,"provinceName":"สิงห์บุรี","latitude":14.8936253,"longtitude":100.3967314}
-{"_id":{"$oid":"5bb6eb202463abfd60b8c9e0"},"provinceId":9,"provinceName":"ชัยนาท","latitude":15.1851971,"longtitude":100.125125}
+{"_id":{"$oid":"5bb6eb202463abfd60b8c9df"},"provinceId":8,"provinceName":"สิงห์บุรี","latitude":14.8936253,"longtitude":100.3967314}{"_id":{"$oid":"5bb6eb202463abfd60b8c9e0"},"provinceId":9,"provinceName":"ชัยนาท","latitude":15.1851971,"longtitude":100.125125}
 {"_id":{"$oid":"5bb6eb202463abfd60b8c9e1"},"provinceId":10,"provinceName":"สระบุรี","latitude":14.5289154,"longtitude":100.9101421}
 {"_id":{"$oid":"5bb6eb202463abfd60b8c9e2"},"provinceId":11,"provinceName":"ชลบุรี","latitude":13.3611431,"longtitude":100.9846717}
 {"_id":{"$oid":"5bb6eb202463abfd60b8c9e3"},"provinceId":12,"provinceName":"ระยอง","latitude":12.6833115,"longtitude":101.2374295}

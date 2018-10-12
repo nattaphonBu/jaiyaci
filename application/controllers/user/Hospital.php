@@ -9,11 +9,11 @@ class Hospital extends CI_Controller {
     }
     public function index(){
 		$this->load->view("template/head");
-		// $this->load->view("template/header");
-		// $this->load->view("template/banner");
+		$this->load->view("template/header");
+		$this->load->view("template/banner");
 		$this->load->view('user/hospital/content');
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
-		$this->load->view("admin/userData/script");
+		$this->load->view("user/hospital/script");
     }
 }
