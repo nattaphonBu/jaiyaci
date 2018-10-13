@@ -45,17 +45,26 @@ $("#insert").validate({
                 var status =data.data.status;
                 localStorage.setItem("username",username);
                 localStorage.setItem("_id", _id);
-                localStorage.setItem("status", "status");
+                localStorage.setItem("status", status);
                 console.log(username);
                 console.log(_id);
                 console.log(status);
-                console.log(status);
-                if(status == 1){
-                    window.location.replace( href="<?=base_url("menu/menu") ?>");
+
+                if(data.message == true){
+                    if(status == 1){
+                        alert("ลงชื่อเข้าใช้สำเร็จ "+username)
+                        window.location.replace( href="<?=base_url("menu") ?>");
+                    }
+                    else{
+                        window.location.replace( "https://www.w3schools.com/jsref/met_console_log.asp");
+                    }
                 }
                 else{
-                    window.location.replace( "https://www.w3schools.com/jsref/met_console_log.asp");
+                    alert("ชื่อผู้ใช้หรือหรัสผ่านผิด กรุณาลงชื่อเข้าใช้ใหม่");
+                    window.location.replace( href="<?=base_url("login") ?>");
                 }
+                
+               
                 
             });
             

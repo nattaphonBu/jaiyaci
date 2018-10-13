@@ -1,5 +1,7 @@
 <script>
-   
+       if(username == null){
+        window.location.replace(href="<?=base_url("login") ?>");
+    }
    
     $("#insert").validate({
         rules: {
@@ -44,7 +46,8 @@
     $("#insert").submit(function(){
         insertUserdata();
     })
-
+    // var username = localStorage.getItem("username");
+    console.log(username);
 
     function insertUserdata(){
         event.preventDefault();
@@ -58,7 +61,8 @@
                 "gender":$("#gender").val(),
                 "bloodgroup":$("#bloodgroup").val(),
                 "disease":$("#disease").val(),
-                "allergy":$("#allergy").val()
+                "allergy":$("#allergy").val(),
+                "iduser": localStorage.getItem("_id")
             };
             console.log(data);
             $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),

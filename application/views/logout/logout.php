@@ -1,3 +1,3 @@
 <script>
- localStorage.removeItem("userName");
+ localStorage.removeItem("username");
 </script>

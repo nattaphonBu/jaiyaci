@@ -159,9 +159,10 @@ hr {
 .intro {
 	display: table;
 	width: 100%;
-	padding: 0;
+	/* height: ; */
+	/* padding: 0; */
 	text-align: center;
-	background: url(../img/intro-bg.jpg) no-repeat center bottom;
+	background: url(../img/pic3.jpg) no-repeat center bottom;
 	/* background: url(../img/world-1185076_1280.png) no-repeat center bottom; */
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;

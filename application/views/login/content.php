@@ -34,7 +34,7 @@
             </div>
             <div class="col-md-5 col-md-offset-5">
                 <div class="form-group">
-                    <a class=" btn btn-lg btn-info" href="<?=base_url("Register/insert") ?>"><i>สมัครสมาชิก</i></a>
+                    <a class=" btn btn-lg btn-info" href="<?=base_url("user/Register/insert") ?>"><i>สมัครสมาชิก</i></a>
                 </div>
             </div>
             </div>
