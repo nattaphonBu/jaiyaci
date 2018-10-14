@@ -23,7 +23,7 @@
     
                     
   </body>
-                <div class="card-body black bg-light">
+                <!-- <div class="card-body black bg-light">
                     <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
@@ -34,5 +34,5 @@
                       <br>
                     </div>
                     </div> 
-                  </div>
+                  </div> -->
 </html>

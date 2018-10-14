@@ -1,5 +1,4 @@
 
-
     <br>
     <br>
     <br>
@@ -12,10 +11,8 @@
             <div class="card text-white bg-success">
                 <div class="card-header">
 
-                  <h3 class="card-title"></i> แก้ไขทะเบียนประวัติผู้ใช้</h3>
+                  <h3 class="card-title"></i> แก้ไขประวัติผู้ใช้</h3>
                 </div>
-                
-                
                   <div class="card-body black bg-light">
                     <div class="row">
                     <div class="col-md-4">
@@ -60,7 +57,6 @@
                                 <option value="B">B</option>
                                 <option value="O">O</option>
                                 <option value="AB">AB</option>
-                                
                               </select>
                             </div>
                       <div class="col-md-4">
@@ -73,10 +69,7 @@
                     <div class="form-group">
                       <button type="insert" class="btn btn-primary">บันทึก</button>
                     </div>
-                  </div>
-               
-                 
-               
+                  </div>    
               </div>
             </div>
         </div>

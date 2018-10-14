@@ -57,7 +57,6 @@
                                 <option value="B">B</option>
                                 <option value="O">O</option>
                                 <option value="AB">AB</option>
-                                
                               </select>
                             </div>
                       <div class="col-md-4">
@@ -70,10 +69,7 @@
                     <div class="form-group">
                       <button type="insert" class="btn btn-primary">บันทึก</button>
                     </div>
-                  </div>
-               
-                 
-               
+                  </div>    
               </div>
             </div>
         </div>

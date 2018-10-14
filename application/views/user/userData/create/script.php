@@ -1,7 +1,7 @@
 <script>
-       if(username == null){
-        window.location.replace(href="<?=base_url("login") ?>");
-    }
+    //    if(username == null){
+    //     window.location.replace(href="<?=base_url("login") ?>");
+    // }
    
     $("#insert").validate({
         rules: {
@@ -47,7 +47,7 @@
         insertUserdata();
     })
     // var username = localStorage.getItem("username");
-    console.log(username);
+    // console.log(username);
 
     function insertUserdata(){
         event.preventDefault();
@@ -67,7 +67,13 @@
             console.log(data);
             $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),
             function (data, textStatus, jqXHR){
-                alert(data.message);
+                if(data.message == true){
+                    alert("ลงทะเบียนข้อมูลสำเร็จ");
+                    window.location.replace( href="<?=base_url("menu") ?>");
+                }else{
+                    alert("ลงทะเบียนล้มเหลว");
+                    window.location.replace( href="<?=base_url("user/Userdata/insert") ?>");
+                }
             });
             
         }

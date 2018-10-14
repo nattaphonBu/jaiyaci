@@ -36,7 +36,10 @@
     <![endif]-->
     <script>
     var username = localStorage.getItem("username");
-    // localStorage.removeItem(username);
+    var iduser = localStorage.getItem("_id");
+    var status = localStorage.getItem("status");
+    console.log(username);
+    console.log(iduser);
     if(username == null){
         // alert("ลงชื่อออกสำเร็จ");
         window.location.replace(href="<?=base_url("login") ?>");

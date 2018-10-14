@@ -30,11 +30,12 @@ class UserData extends CI_Controller {
 	
 	public function update()
 	{
-		$this->load->view("user/layout/head");
-		$this->load->view("user/layout/header");
+		$this->load->view("template/head");
+		$this->load->view("template/header");
+		$this->load->view("template/banner");
 		$this->load->view('user/userData/update/content');
-		$this->load->view("user/layout/footer");
-		$this->load->view("user/layout/foot");	
+		$this->load->view("template/footer");
+		$this->load->view("template/foot");	
 		$this->load->view("user/userData/update/script");
 
 		
