@@ -49,14 +49,19 @@ $("#insert").validate({
                 console.log(username);
                 console.log(_id);
                 console.log(status);
+                console.log(data.data);
 
                 if(data.message == true){
                     if(status == 1){
                         alert("ลงชื่อเข้าใช้สำเร็จ "+username)
                         window.location.replace( href="<?=base_url("menu") ?>");
                     }
+                    if(status == 2){
+                        alert("ลงชื่อเข้าใช้สำเร็จ "+username)
+                        window.location.replace( href="<?=base_url("menu") ?>");
+                    }
                     else{
-                        window.location.replace( "https://www.w3schools.com/jsref/met_console_log.asp");
+                        // window.location.replace( "https://www.w3schools.com/jsref/met_console_log.asp");
                     }
                 }
                 else{

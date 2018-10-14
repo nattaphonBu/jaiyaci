@@ -1,10 +1,10 @@
 <script type="text/javascript">
 
-    var username = localStorage.getItem("username");
-    console.log(username);
-        if(username == null){
-        window.location.replace(href="<?=base_url("login") ?>");
-    }
+    // var username = localStorage.getItem("username");
+    // console.log(username);
+    //     if(username == null){
+    //     window.location.replace(href="<?=base_url("login") ?>");
+    // }
     // "id": localStorage.getItem("userId")
 
 

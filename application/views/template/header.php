@@ -18,6 +18,7 @@
         <li><a href="#history" class="page-scroll">ประวัติการกินยา</a></li>
         <li><a href="#searh" class="page-scroll">ค้นหาโรงพยาบาล</a></li>
         <li><a href="#searh" class="page-scroll">ตั้งเวลากินยา</a></li>
+        <li><a href="<?=base_url("login/logout") ?>" class="page-scroll">ลงชื่อออก</a></li>
         
         
       </ul>
