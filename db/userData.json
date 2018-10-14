@@ -1,1 +1,2 @@
 {"_id":{"$oid":"5ba0a404a5bf58b81c6b7053"},"id":"1","firstname":"arefeen","lastname":"gindi","dob":"05/09/2540","gender":1.0,"allergy":"pillowA,pillowB","bloodgroup":"O","picture":"arefeen.jpg","iduser":1.0,"disease":"หอบหืด"}
+{"_id":{"$oid":"5bc300f7e183801e6476bda4"},"firstName":"nat","lastName":"test","dob":"Oct 2, 2018","gender":"ชาย","allergy":"Asprin","bloodgroup":"O","disease":"ww","status":0,"iduser":"5bc2d0b52782923504301476"}
