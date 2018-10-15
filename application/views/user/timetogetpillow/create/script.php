@@ -1,67 +1,59 @@
 <script>
-   
-   
+    
     $("#insert").validate({
         rules: {
-        firstname: {
-            required: true
-        },
-        lastname: {
-            required: true,
-          },
-          dob: { 
+            time: {
+                required: true
+            },
+            date: {
                 required: true,
+                
           },
-          gender:{
-            required :true,
-            minlenght: 9
-          },
-          bloodgroup:{
-              required: true
-          },
-          
+          pillow: { 
+                required: true,
+          }
         },
         messages: {
-        firstname: {
-            required: "กรุณากรอกชื่อจริง"
-        },
-        lastname: {
-            required: "กรุณากรอกนามสกุล",
-          },
-          dob: { 
-                required:"กรุณากรอกวันเดือนปีเกิด",
-          },
-          gender:{
-            required :"กรุณากรอกเพศ"
-            
-          },
-          bloodgroup:{
-              required: "กรุณากรอกกรุ๊ปเลือด"
-          }
+            time: {
+                required: "กรุณากรอกเวลา"
+            },
+            date: {
+                required: "กรุณากรอกวันเวลาที่กินยา",
+                
+            },
+          pillow: {
+                required: "กรุณากรอกชื่อยา",
+                
+            },
         },
     });
     
-    // $("#insert").submit(function(){
-    //     createRim();
-    // })
+    $("#insert").submit(function(){
+        timetogetpillow();
+    })
 
 
-    // function createRim(){
-    //     event.preventDefault();
-    //     var isValid = $("#insert").valid();
+    function timetogetpillow(){
+        event.preventDefault();
+        var isValid = $("#insert").valid();
         
-    //     if(isValid){
-    //         var data = $("#insert").serialize();
-    //         $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),
-    //         function(data){
-    //             alert(data.message);
-    //         });
+        if(isValid){
+            var data = {
+                "date": $("#date").val(),
+                "time": $("#time").val(),
+                "pillow":$("#pillow").val()
+            };
+            console.log(data);
+            $.post("http://localhost:8080/JaiyaSrc/api/registernew/insert", JSON.stringify(data),
+            function (data, textStatus, jqXHR){
+                alert(data.message);
+            });
             
-    //     }
-    // }
+        }
+    }
     
 
 </script>
-   
+
 </body>
 </html>
