@@ -12,12 +12,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#page-top" class="page-scroll">Home</a></li>
-        <li><a href="#alert" class="page-scroll">แจ้งเตือน</a></li>
-        <li><a href="#user" class="page-scroll">บัญชีผู้ใช้</a></li>
-        <li><a href="#history" class="page-scroll">ประวัติการกินยา</a></li>
-        <li><a href="#searh" class="page-scroll">ค้นหาโรงพยาบาล</a></li>
-        <li><a href="#searh" class="page-scroll">ตั้งเวลากินยา</a></li>
+        <li><a href="<?=base_url("user/Menu/menu") ?>" class="page-scroll">Home</a></li>
+        <li><a href="<?=base_url("user/Alert/alert") ?>" class="page-scroll">แจ้งเตือน</a></li>
+        <li><a href="<?=base_url("user/UserData") ?>" class="page-scroll">บัญชีผู้ใช้</a></li>
+        <li><a href="<?=base_url("user/History") ?>" class="page-scroll">ประวัติการกินยา</a></li>
+        <li><a href="<?=base_url("user/Hospital") ?>" class="page-scroll">ค้นหาโรงพยาบาล</a></li>
+        <li><a href="<?=base_url("user/Timetogetpillow/insert") ?>" class="page-scroll">ตั้งเวลากินยา</a></li>
         <li><a href="<?=base_url("login/logout") ?>" class="page-scroll">ลงชื่อออก</a></li>
         
         

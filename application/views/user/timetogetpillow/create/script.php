@@ -1,67 +1,73 @@
 <script>
-   
-   
+    
     $("#insert").validate({
         rules: {
-        firstname: {
-            required: true
-        },
-        lastname: {
-            required: true,
+            time: {
+                required: true
+            },
+            date: {
+                required: true
+                
           },
-          dob: { 
-                required: true,
+          pillow: { 
+                required: true
           },
-          gender:{
-            required :true,
-            minlenght: 9
-          },
-          bloodgroup:{
-              required: true
-          },
-          
+          rang:{
+                required: true
+          }
         },
         messages: {
-        firstname: {
-            required: "กรุณากรอกชื่อจริง"
+            time: {
+                required: "กรุณากรอกเวลา"
+            },
+            date: {
+                required: "กรุณากรอกวันเวลาที่กินยา",
+                
+            },
+          pillow: {
+                required: "กรุณากรอกชื่อยา",
+                
+            },
+        rang:{
+            required :"กรุณากรอกช่วงเวลา"
         },
-        lastname: {
-            required: "กรุณากรอกนามสกุล",
-          },
-          dob: { 
-                required:"กรุณากรอกวันเดือนปีเกิด",
-          },
-          gender:{
-            required :"กรุณากรอกเพศ"
-            
-          },
-          bloodgroup:{
-              required: "กรุณากรอกกรุ๊ปเลือด"
-          }
         },
     });
     
-    // $("#insert").submit(function(){
-    //     createRim();
-    // })
+    $("#insert").submit(function(){
+        timetogetpillow();
+    })
 
 
-    // function createRim(){
-    //     event.preventDefault();
-    //     var isValid = $("#insert").valid();
+    function timetogetpillow(){
+        event.preventDefault();
+        var isValid = $("#insert").valid();
         
-    //     if(isValid){
-    //         var data = $("#insert").serialize();
-    //         $.post("http://localhost:8080/JaiyaSrc/api/register/insert", JSON.stringify(data),
-    //         function(data){
-    //             alert(data.message);
-    //         });
+        if(isValid){
+            var data = {
+                "date": $("#date").val(),
+                "time": $("#time").val(),
+                "pillow":$("#pillow").val(),
+                "rang": $("#rang").val(),
+                "iduser": localStorage.getItem("_id")
+            };
+            console.log(data);
+            $.post("http://localhost:8080/JaiyaSrc/api/timetogetpillow/insert", JSON.stringify(data),
+            function (data, textStatus, jqXHR){
+                if(data.message == true){
+                    alert("บันทึกสำเร็จ");
+                    window.location.replace( href="<?=base_url("menu") ?>");
+                }else{
+                    alert("บันทึกไม่สำเร็จ");
+                    window.location.replace( href="<?=base_url("menu") ?>");
+                }
+            });
             
-    //     }
-    // }
+        }
+    }
     
 
 </script>
-   
+
 </body>
 </html>

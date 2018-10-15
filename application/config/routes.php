@@ -54,6 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['register'] = 'user/Register';
 $route['menu'] ='user/Menu/menu';
+$route['menuadmin'] ='admin/Menu/menu';
 $route['hospital'] = 'admin/Hospital/insert';
 $route['alert'] ='user/Alert/alert';
 $route['userdata/user'] = 'UserData';
