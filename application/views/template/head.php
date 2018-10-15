@@ -40,10 +40,10 @@
     var status = localStorage.getItem("status");
     console.log(username);
     console.log(iduser);
-    if(username == null){
-        // alert("ลงชื่อออกสำเร็จ");
-        window.location.replace(href="<?=base_url("login") ?>");
-    }
+    // if(username == null){
+    //     // alert("ลงชื่อออกสำเร็จ");
+    //     window.location.replace(href="<?=base_url("login") ?>");
+    // }
     // console.log("username");
     </script>
 </head>
