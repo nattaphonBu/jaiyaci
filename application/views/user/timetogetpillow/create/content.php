@@ -1,4 +1,4 @@
-<div class="well">
+<!-- <div class="well">
   <div id="datetimepicker3" class="input-append">
     <input data-format="hh:mm:ss" type="text"></input>
     <span class="add-on">
@@ -13,4 +13,6 @@
       pickDate: false
     });
   });
-</script>
+</script> -->
+
+
