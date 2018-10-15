@@ -23,8 +23,10 @@ $(document).ready(function() {
                 $.each(alert, function( index, value ) {
                     stralert += '<tr>'
                             + '<td>'+i+'</td>'
-                            + '<td>'+value.med+'</td>'
-                            + '<td>'+value.datetime+'</td>'
+                            + '<td>'+value.pillow+'</td>'
+                            + '<td>'+value.date+'</td>'
+                            + '<td>'+value.time+'</td>'
+                            + '<td>'+value.rang+'</td>'
                                      
                             + '</tr>';
                             i++;            
