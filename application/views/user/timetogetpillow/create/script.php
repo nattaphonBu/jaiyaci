@@ -48,8 +48,8 @@
                 "date": $("#date").val(),
                 "time": $("#time").val(),
                 "pillow":$("#pillow").val(),
-                "rang": $("#rang".val)(),
-                "iduser": localStorage.getItem("userId")
+                "rang": $("#rang").val(),
+                "iduser": localStorage.getItem("_id")
             };
             console.log(data);
             $.post("http://localhost:8080/JaiyaSrc/api/timetogetpillow/insert", JSON.stringify(data),
