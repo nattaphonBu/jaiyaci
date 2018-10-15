@@ -19,5 +19,13 @@ class Alert extends CI_Controller {
 		$this->load->view("template/foot");	
 		$this->load->view("user/alert/script");
 	}
+	public function button($_id){
+		
+		$data = array(
+			'_id'=>$_id
+		);
+
+		$this->load->view("user/alert/button/button/script",$data);
+	}
 	
 }
