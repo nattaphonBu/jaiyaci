@@ -17,7 +17,7 @@
         <li><a href="<?=base_url("user/UserData") ?>" class="page-scroll">บัญชีผู้ใช้</a></li>
         <li><a href="<?=base_url("user/History") ?>" class="page-scroll">ประวัติการกินยา</a></li>
         <li><a href="<?=base_url("user/Hospital") ?>" class="page-scroll">ค้นหาโรงพยาบาล</a></li>
-        <li><a href="<?=base_url("") ?>" class="page-scroll">ตั้งเวลากินยา</a></li>
+        <li><a href="<?=base_url("user/Timetogetpillow/insert") ?>" class="page-scroll">ตั้งเวลากินยา</a></li>
         <li><a href="<?=base_url("login/logout") ?>" class="page-scroll">ลงชื่อออก</a></li>
         
         
