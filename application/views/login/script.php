@@ -46,10 +46,10 @@ $("#insert").validate({
                 localStorage.setItem("username",username);
                 localStorage.setItem("_id", _id);
                 localStorage.setItem("status", status);
-                console.log(username);
-                console.log(_id);
-                console.log(status);
-                console.log(data.data);
+                // console.log(username);
+                // console.log(_id);
+                // console.log(status);
+                // console.log(data.data);
 
                 if(data.message == true){
                     if(status == 1){
@@ -58,7 +58,7 @@ $("#insert").validate({
                     }
                     if(status == 2){
                         alert("ลงชื่อเข้าใช้สำเร็จ "+username)
-                        window.location.replace( href="<?=base_url("menu") ?>");
+                        window.location.replace( href="<?=base_url("menuadmin") ?>");
                     }
                     else{
                         // window.location.replace( "https://www.w3schools.com/jsref/met_console_log.asp");
