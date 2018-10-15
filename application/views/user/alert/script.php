@@ -15,7 +15,7 @@ $(document).ready(function() {
 <script>
         let herbs = $("#alert");
         let i = 1;
-        $.post("http://localhost:8080/JaiyaSrc/api/alert/insert", {},
+        $.post("http://localhost:8080/JaiyaSrc/api/alert/findAll", {},
             function (data, textStatus, jqXHR) {
                 console.log(data);
                 var alert = data.data;
