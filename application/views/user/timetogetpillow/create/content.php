@@ -18,7 +18,19 @@
                     <input type="time" class="form-control" id="time" name="time" placeholder="">
                 </div>
                 </div>
-            </div>  
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="form-group">
+                <label class="text-dark">ช่วงเวลาที่กิน</label><span class="error">*</span>
+                <select class="form-control" name="rang" id="rang">
+                  <option value="">ช่วงเวลาที่กิน</option>
+                  <option value="ก่อนอาหาร">ก่อนอาหาร</option>
+                  <option value="หลังอาหาร">หลังอาหาร</option>
+                </select>      
+                </div>  
+            </div>
+            </div>
             <div class="col-md-4 col-md-offset-4">
             <div class="form-group"> 
                 <div class="form-group">
