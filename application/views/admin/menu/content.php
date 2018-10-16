@@ -1,32 +1,19 @@
-<div id="navigation">
-<ul>
-<li class="home"><a href="#"><span>Homepage</span></a></li>
-<li class="products"><a href="#"><span>Products &amp;amp;amp;amp; Services</span></a></li>
-<li class="contact"><a href="#"><span>Contact Us</span></a></li>
-</ul>
-</div>
-<style>
-#navigation {
-background: url(images/navigation.png) top left repeat-x;
-overflow: auto;
-display: block;
-float: left;
-width: 100%;
-}
-#navigation * {
-padding:0;
-margin:0;
-font-family: Georgia, "Times New Roman", Times, serif;
-font-size: 1em;
-}
-#navigation ul {
-display: block;
-float: left;
-padding: 10px 0 0 0;
-}
-#navigation ul li {
-list-style: none;
-float: left;
-margin: 0 0 0 5px;
-}
-</style>
+<div class="container">
+			<!-- Top Navigation -->
+			
+			<div class="component">
+				<!-- Start Nav Structure -->
+				<button class="cn-button" id="cn-button">Admin</button>
+				<div class="cn-wrapper" id="cn-wrapper">
+					<ul>
+						<li><a href="<?=base_url("admin/Menu/menu") ?>"><span>Home</span></a></li>
+						<li><a href="<?=base_url("admin/Alert/Alert") ?>"><span>แจ้งเตือน</span></a></li>
+						<li><a href="<?=base_url("admin/Userdata/insert") ?>"><span>บัญชีผู้ใช้</span></a></li>
+						<li><a href="<?=base_url("admin/History") ?>"><span>ประวัติการกินยา</span></a></li>
+						<li><a href="<?=base_url("admin/Hospital") ?>"><span>ค้นหาโรงพยาบาล</span></a></li>
+						<li><a href="<?=base_url("admin/Timetogetpillow/insert") ?>"><span>ตั้งเวลากินยา</span></a></li>
+						<li><a href="<?=base_url("login/logout") ?>"><span>ลงชื่อออก</span></a></li>
+				</div>
+				<!-- End of Nav Structure -->
+			</div>
+		</div><!-- /container -->
