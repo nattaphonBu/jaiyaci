@@ -9,7 +9,7 @@ class Hospital extends CI_Controller {
 	}
 	public function update()
 	{
-		$this->load->view("template/head");
+		$this->load->view("template/headadmin");
 		$this->load->view("template/header");
 		$this->load->view("template/banner");
 		$this->load->view('admin/hospital/update/content');
@@ -21,8 +21,9 @@ class Hospital extends CI_Controller {
 	}
 	public function insert()
 	{
-		$this->load->view("template/head");
+		$this->load->view("template/headadmin");
 		$this->load->view("template/header");
+		$this->load->view("template/banner");
 		$this->load->view('admin/hospital/create/content');
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
