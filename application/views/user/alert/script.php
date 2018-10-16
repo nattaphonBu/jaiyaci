@@ -21,8 +21,8 @@ $(document).ready(function() {
         };
             console.log(iduser);
             
-        // $.post("http://localhost:8080/JaiyaSrc/api/timetogetpillow/searchTimetogetpillow", JSON.stringify(data),
-        $.post("http://localhost:8080/JaiyaSrc/api/alert/findAll", {},
+        $.post("http://localhost:8080/JaiyaSrc/api/timetogetpillow/searchTimetogetpillow", JSON.stringify(data),
+        // $.post("http://localhost:8080/JaiyaSrc/api/alert/findAll", {},
             function (data, textStatus, jqXHR) {
                 // console.log(data);
                 var alert = data.data;
@@ -33,8 +33,8 @@ $(document).ready(function() {
                             stralert += '<tr>'
                             + '<td>'+i+'</td>'
                             + '<td>'+value.pillow+'</td>'
-                            + '<td>'+value.date+'</td>'
                             + '<td>'+value.time+'</td>'
+                            + '<td>'+value.date+'</td>'
                             + '<td>'+value.rang+'</td>'
                             + '<td>'
                             + '<a href="buttton/'+value._id+'" class="btn btn-success">'

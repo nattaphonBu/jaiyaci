@@ -55,11 +55,6 @@
                     <button type="insert" class="btn-lg btn-success">บันทึก</button>
                 </div>
             </div>
-            <!-- <div class="col-md-5 col-md-offset-5">
-                <div class="form-group">
-                    <a class=" btn btn-lg btn-info" href="<?=base_url("user/Register/insert") ?>"><i>สมัครสมาชิก</i></a>
-                </div>
-            </div> -->
             </div>
         </div>
     </div>

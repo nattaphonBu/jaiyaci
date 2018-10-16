@@ -99,15 +99,19 @@ img {
 <body>
 <center>
 <div class="form-style-3">
-<form>
+<form id="insert">
 <br>
 <fieldset><legend>สมัครสมาชิก</legend>
-<label for="field1"><span>Username<span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
-<label for="field2"><span>Password<span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" /></label>
-<label for="field3"><span>ConfirmPassword<span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<label for="field3"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<label for="field3"><span>Tell<span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-
+<label for="field1"><span>Username<span class="required">*</span></span><input type="text" class="input-field" name="username" id="username" value="" /></label>
+<label for="field2"><span>Password<span class="required">*</span></span><input type="password" class="input-field" name="password"  id="password" value="" /></label>
+<label for="field3"><span>ConfirmPassword<span class="required">*</span></span><input type="password" class="input-field" name="confirmPassword" id="confirmPassword" value="" /></label>
+<label for="field3"><span>Email <span class="required">*</span></span><input type="email" class="input-field" name="email" id="email" value="" /></label>
+<label for="field3"><span>Tell<span class="required">*</span></span><input type="text" class="input-field" name="tel" id="tel" value="" /></label>
+<div class="col-md-5 col-md-offset-5">
+                <div class="form-group">
+                    <button type="insert" class="btn-lg btn-success">บันทึก</button>
+                </div>
+            </div>
 <!-- <option value="Appointment">Appointment</option>
 <option value="Interview">Interview</option>
 <option value="Regarding a post">Regarding a post</option> -->

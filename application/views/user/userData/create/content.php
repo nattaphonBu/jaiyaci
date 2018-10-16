@@ -95,18 +95,20 @@ img {
 <body>
 <center>
 <div class="form-style-3">
-<form>
+<form id="insert">
 <fieldset><legend>ประวัติส่วนตัว</legend>
-<label for="field1"><span>    ชื่อ <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
-<label for="field2"><span>นามสกุล <span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" /></label>
-<label for="field3"><span>วันเดือนปีเกิด<span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<label for="field3"><span>เพศ <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<label for="field3"><span>ยาที่แพ้ <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<label for="field3"><span>กรุ๊ปเลือด <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<label for="field3"><span>โรคประจำตัว <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<!-- <option value="Appointment">Appointment</option>
-<option value="Interview">Interview</option>
-<option value="Regarding a post">Regarding a post</option> -->
+<label for="field1"><span>ชื่อ <span class="required">*</span></span><input type="text" class="input-field" name="firstName" id="firstName" value="" /></label>
+<label for="field2"><span>นามสกุล <span class="required">*</span></span><input type="email" class="input-field" name="lastName" id="lastName" value="" /></label>
+<label for="field3"><span>วันเดือนปีเกิด<span class="required">*</span></span><input type="text" class="input-field" name="dob" id="dob" value="" /></label>
+<label for="field3"><span>เพศ <span class="required">*</span></span><input type="text" class="input-field" name="gender" id="gender" value="" /></label>
+<label for="field3"><span>ยาที่แพ้ </span><input type="text" class="input-field" name="bloodgroup" id="bloodgroup" value="" /></label>
+<label for="field3"><span>กรุ๊ปเลือด <span class="required">*</span></span><input type="text" class="input-field" name="disease"  id="disease" value="" /></label>
+<label for="field3"><span>โรคประจำตัว </span><input type="text" class="input-field" name="allergy" id="allergy" value="" /></label>
+<div class="col-md-5 col-md-offset-5">
+                <div class="form-group">
+                    <button type="insert" class="btn-lg btn-success">บันทึก</button>
+                </div>
+            </div>
 </select></label>
 </fieldset>
 
