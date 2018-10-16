@@ -10,13 +10,12 @@ class Menu extends CI_Controller {
 	public function menu()
 	{	
 		$this->load->view("template/headadmin");
+		$this->load->view("template/header");
 		$this->load->view("template/banner");
-		$this->load->view("admin/menu/content");
-		$this->load->view("template/footUsermenu");
+		$this->load->view('admin/menu/content');
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
 		$this->load->view("admin/menu/script");
-		$this->load->view("template/footadminmenu");
 		
 	}
 	
