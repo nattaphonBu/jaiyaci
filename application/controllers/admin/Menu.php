@@ -18,6 +18,8 @@ class Menu extends CI_Controller {
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
 		$this->load->view("admin/menu/script");
+		$this->load->view("template/headadminmenu");
+		$this->load->view("template/footadminmenu");
 		
 	}
 	
