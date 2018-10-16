@@ -79,7 +79,14 @@
             console.log(data);
             $.post("http://localhost:8080/JaiyaSrc/api/registernew/insert", JSON.stringify(data),
             function (data, textStatus, jqXHR){
-                alert(data.message);
+                if(data.message == true){
+                    alert("ลงทะเบียนสำเร็จ");
+                    window.location.replace( href="<?=base_url("login") ?>");
+                }else{
+                    alert("ลงทะเบียนไม่สำเร็จ");
+                    window.location.replace( href="<?=base_url("login") ?>");
+                }
+            
             });
             
         }
