@@ -21,6 +21,7 @@ class Menu extends CI_Controller {
 		$this->load->view("template/headadminmenu");
 		$this->load->view("template/footadminmenu");
 		
+		
 	}
 	
 }
