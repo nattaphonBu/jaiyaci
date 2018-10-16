@@ -13,11 +13,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
       <li><a href="<?=base_url("user/Menu/menu") ?>"><span>Home</span></a></li>
-						<li><a href="<?=base_url("user/Alert/Alert") ?>"><span>แจ้งเตือน</span></a></li>
-						<li><a href="<?=base_url("user/Userdata/insert") ?>"><span>บัญชีผู้ใช้</span></a></li>
-						<li><a href="<?=base_url("user/History") ?>"><span>ประวัติการกินยา</span></a></li>
-						<li><a href="<?=base_url("user/Hospital") ?>"><span>ค้นหาโรงพยาบาล</span></a></li>
-						<li><a href="<?=base_url("user/Timetogetpillow/insert") ?>"><span>ตั้งเวลากินยา</span></a></li>
+						<li><a href="<?=base_url("user/Alert/Alert") ?>"><span>ผู้ใช้ในระบบ</span></a></li>
+						<li><a href="<?=base_url("user/Userdata/insert") ?>"><span>ค้นหาตู้</span></a></li>
+						<li><a href="<?=base_url("user/History") ?>"><span>ตรวจสอบสถานะตู้</span></a></li>
+						<li><a href="<?=base_url("user/Hospital") ?>"><span>เพิ่มข้อมูลตู้</span></a></li>
 						<li><a href="<?=base_url("login/logout") ?>"><span>ลงชื่อออก</span></a></li>
         
         
