@@ -9,8 +9,9 @@ class Register extends CI_Controller {
     }
 	public function insert()
 	{
-		$this->load->view("template/head");
-		$this->load->view("template/header");
+		$this->load->view("template/headLogin");
+		$this->load->view("template/headerLogin");
+		$this->load->view("template/banner");
 		$this->load->view('user/register/create/content');
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
