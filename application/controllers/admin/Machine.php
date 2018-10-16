@@ -9,16 +9,18 @@ class Machine extends CI_Controller {
     }
 	public function insert()
 	{
-		$this->load->view("layout/head");
-		$this->load->view("layout/header");
+		$this->load->view("template/headadmin");
+		$this->load->view("template/header");
+		$this->load->view("template/banner");
 		$this->load->view('admin/machine/create/content');
-		$this->load->view("layout/footer");
-		$this->load->view("layout/foot");	
+		$this->load->view("template/footer");
+		$this->load->view("template/foot");	
 	}
 	public function index()
 	{
-		$this->load->view("template/head");
+		$this->load->view("template/headadmin");
 		$this->load->view("template/header");
+		$this->load->view("template/banner");
 		$this->load->view('admin/machine/content');
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
