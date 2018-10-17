@@ -4,8 +4,15 @@
         <div class="col">
           <div class="card">
             <div class="card-header">
-              <h4>ผู้ใช้</h4>
+              <h4>Machine</h4>
             </div>
+            <nav class="ml-4">
+              <ul class="pagination">
+            <li class="page-item">
+                  <a href="<?=base_url("admin/Machine/insert") ?>" class="page-link">new machine</a>
+                </li>
+                </ul>
+            </nav>
             <table class="table table-striped" id="myTable">
               <thead class="thead-dark">
                 <tr>
@@ -14,9 +21,9 @@
                   <th>ละติจูด</th>
                   <th>ลองติจูด</th>
                   <th>จังหวัด</th>
-				  <th>อำเภอ</th>
-				  <th>subdistricts</th>
-				  <th>status</th>
+				          <th>อำเภอ</th>
+				          <th>subdistricts</th>
+				          <th>status</th>
                 </tr>
               </thead>
               <tbody id="User">
