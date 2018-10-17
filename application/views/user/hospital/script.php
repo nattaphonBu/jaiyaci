@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 
     var map, infoWindow;
     function initMap() {
@@ -62,4 +62,4 @@
     }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAykTRj0-nsj1qeU1hHLB7iIidkVRBBRQo&callback=initMap"
-    async defer></script>
+    async defer></script> -->

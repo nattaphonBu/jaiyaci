@@ -1,86 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<style>
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-</style>
-</head>
-<body>
 
-    <form id="insert">
-    <div class="card-body black bg-light">
-        <center>
-			<h1>Create Machine</h1>
-            <img src="./publish/img/book.png" alt="" height="200" width="200">
-            <div class="col-md-4 mb-4">
+<body>
+    <form id ="insert">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-5 col-md-offset-5">
+            <div class="intro-text">
+                <h1>Create Machine</h1>
+            </div>  
+        </div> 
+            <!-- <div class="col-md-4 col-md-offset-4"> -->
+             
+            <!-- <div class="col-md-4 mb-4"> -->
+                <!-- <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="h5">userid</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="username">
+                </div>
+                </div>
+            </div>   -->
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
                 <div class="form-group">
-                    <p align="LEFT">
-                        <label>ID</label><span class="error">*</span>
-                        <input type="text" class="form-control" id="ID" name="ID" placeholder="ID">
+                    <label class="h5">NameofMachine</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="" name="" placeholder="NameofMachine">           
                 </div>  
             </div>
-            <div class="col-md-4 mb-4">
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
                 <div class="form-group">
-                <p align="LEFT">
-                        <label>User ID</label><span class="error">*</span>
-                        <input type="text" class="form-control" id="userid" name="userid" placeholder="userid">           
+                    <label class="h5">latitude</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="" name="" placeholder="latitude">           
                 </div>  
             </div>
-            <div class="col-md-4 mb-4">
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
                 <div class="form-group">
-                <p align="LEFT">
-                        <label>Name Machine</label><span class="error">*</span>
-                        <input type="text" class="form-control" id="nameofmachine" name="nameofmachine" placeholder="nameofmachine">           
+                    <label class="h5">longitude</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="password" name="password" placeholder="longitude">           
                 </div>  
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="form-group">
-                <p align="LEFT">
-                        <label>Latitude</label><span class="error">*</span>
-                        <input type="text" class="form-control" id="latitude" name="latitude" placeholder="latitude">           
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="text-dark">
+                    <label class="h5">province</label><span class="error">*</span>
+                    <select class="form-control" name="" id="">
+                    <option value="">province</option>
+                    <option value="province">province</option>
+                    <option value="province">province</option>
+                    </select>
                 </div>  
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="form-group">
-                <p align="LEFT">
-                        <label>Longitude</label><span class="error">*</span>
-                        <input type="text" class="form-control" id="longitude" name="longitude" placeholder="longitude">           
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="text-dark">
+                    <label class="h5">district</label><span class="error">*</span>
+                    <select class="form-control" name="" id="">
+                    <option value="">district</option>
+                    <option value="district">district</option>
+                    <option value="district">district</option>
+                    </select>
                 </div>  
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="form-group">
-                <p align="LEFT">
-                        <label>Province</label><span class="error">*</span>
-                        <input type="text" class="form-control" id="province" name="province" placeholder="province">           
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="text-dark">
+                    <label class="h5">subdistricts</label><span class="error">*</span>
+                    <select class="form-control" name="" id="">
+                    <option value="">subdistricts</option>
+                    <option value="subdistricts">subdistricts</option>
+                    <option value="subdistricts">subdistricts</option>
+                    </select>
                 </div>  
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="form-group">
-                <p align="LEFT">
-                        <label>District</label><span class="error">*</span>
-                        <input type="text" class="form-control" id="district" name="district" placeholder="district">           
-                </div>  
             </div>
-            <div class="col-md-4 mb-4">
+
+            <div class="col-md-5 col-md-offset-5">
                 <div class="form-group">
-                <p align="LEFT">
-                        <label>Subdistricts</label><span class="error">*</span>
-                        <input type="text" class="form-control" id="subdistricts" name="subdistricts" placeholder="subdistricts">           
-                </div>  
+                    <button type="insert" class="btn-lg btn-success">บันทึก</button>
+                </div>
             </div>
-        </center>
-    </div>	
-	</form>
-</html>
+            
+            </div>
+        </div>
+   
+    </form>
+</body>
 

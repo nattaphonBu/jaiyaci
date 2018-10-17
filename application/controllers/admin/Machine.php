@@ -17,7 +17,7 @@ class Machine extends CI_Controller {
 		$this->load->view("template/footUsermenu");
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
-		$this->load->view('admin/machine/create/script');
+		// $this->load->view('admin/machine/create/script');
 	}
 	public function status()
 	{
@@ -41,6 +41,19 @@ class Machine extends CI_Controller {
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
 		$this->load->view('admin/machine/checkmachine/script');
+	}
+
+	public function  update()
+	{
+		$this->load->view("template/headUsermenu");
+		$this->load->view("template/head");
+		$this->load->view("template/headadmin");
+		$this->load->view("template/banner");
+		$this->load->view('admin/machine/update/content');
+		$this->load->view("template/footUsermenu");
+		$this->load->view("template/footer");
+		$this->load->view("template/foot");	
+		// $this->load->view('admin/machine/create/script');
 	}
 	
 }

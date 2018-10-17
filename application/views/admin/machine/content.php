@@ -6,6 +6,13 @@
             <div class="card-header">
               <h4>สถานะตู้</h4>
             </div>
+            <nav class="ml-4">
+              <ul class="pagination">
+            <li class="page-item">
+                  <a href="<?=base_url("admin/Machine/insert") ?>" class="page-link">new machine</a>
+                </li>
+                </ul>
+            </nav>
             <table class="table table-striped" id="myTable">
               <thead class="thead-dark">
                 <tr>

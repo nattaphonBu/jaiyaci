@@ -26,20 +26,20 @@
         },
         messages: {
         nameofmachine: {
-            required: "กรุณากรอกชื่อจริง"
+            required: "กรุณากรอกชื่อ"
         },
         latitude: {
-            required: "กรุณากรอกนามสกุล",
+            required: "กรุณากรอกละติจูด",
           },
           longitude: { 
-                required:"กรุณากรอกวันเดือนปีเกิด",
+                required:"กรุณากรอกลองจิจูด",
           },
           provinceId:{
-            required :"กรุณากรอกเพศ"
+            required :"กรุณากรอกจังหวัด"
             
           },
           districtId:{
-              required: "กรุณากรอกกรุ๊ปเลือด"
+              required: "กรุณากรอกกอำเภอ"
           },
             subdistrictId:{
               required: "กรุณากรอกตำบล"
@@ -61,16 +61,22 @@
                 "nameofmachine": $("#nameofmachine").val(),
                 "latitude": $("#latitude").val(),
                 "longitude":$("#longitude").val(),
-                "provinceId":$("#provinceId").val(),
-                "districtId":$("#districtId").val(),
-                "subdistrictsId":$("#subdistrictsId").val(),
+                "province":$("#province").val(),
+                "district":$("#district").val(),
+                "subdistricts":$("#subdistricts").val(),
                 "userId":$("#userId").val()
                 
             };
             console.log(data);
             $.post("http://localhost:8080/JaiyaSrc/api/machine/insert", JSON.stringify(data),
             function (data, textStatus, jqXHR){
-                alert(data.message);
+                if(data.message == true){
+                    alert("บันทึกสำเร็จ");
+                    window.location.replace( href="<?=base_url("admin/Machine") ?>");
+                }else{
+                    alert("บันทึกไม่สำเร็จ");
+                    window.location.replace( href="<?=base_url("admin/Machine/insert") ?>");
+                }
             });
             
         }
