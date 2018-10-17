@@ -15,7 +15,7 @@
       }
         onLoad();  
       function loadProvince(){
-        $.post("http://localhost:8080/JaiyaSrc/api/location/findprovince",{},
+        $.post("http://localhost:8080/JaiyaSrc/api/hospitaladmin/insert",{},
             function (data, textStatus, jqXHR){
             var province = data.data;
             $.each(province, function( index, value,textStatus, jqXHR ) {
