@@ -15,8 +15,8 @@
       <li><a href="<?=base_url("user/Menu/menu") ?>"><span>Home</span></a></li>
 						<li><a href="<?=base_url("user/Alert/Alert") ?>"><span>ผู้ใช้ในระบบ</span></a></li>
 						<li><a href="<?=base_url("admin/machine/checkmachine/content") ?>"><span>ค้นหาตู้</span></a></li>
-						<li><a href="<?=base_url("user/History") ?>"><span>ตรวจสอบสถานะตู้</span></a></li>
-						<li><a href="<?=base_url("user/Hospital") ?>"><span>เพิ่มข้อมูลตู้</span></a></li>
+						<li><a href="<?=base_url("admin/machine/status") ?>"><span>ตรวจสอบสถานะตู้</span></a></li>
+						<li><a href="<?=base_url("admin/machine/insert") ?>"><span>เพิ่มข้อมูลตู้</span></a></li>
 						<li><a href="<?=base_url("login/logout") ?>"><span>ลงชื่อออก</span></a></li>
         
         
