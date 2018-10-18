@@ -16,7 +16,6 @@
                             + '<td>'+value.nameofmachine+'</td>'
                             + '<td>'+value.latitude+'</td>'
                             + '<td>'+value.longitude+'</td>'
-                            + '<td>'+value.districtId+'</td>'
                             + '<td>'+value.provinceId+'</td>'
                             + '<td>'
                             + '<a class="btn btn btn-danger btn-lg active" role="button" aria-disabled="true">ตู้เสีย</a>'
