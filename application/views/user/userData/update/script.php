@@ -1,19 +1,15 @@
 <script>
    
    
-    $("#insert").validate({
+    $("#update").validate({
         rules: {
-            username: {
+            firstname: {
                 required: true
             },
-            password: {
-                required: true,
-                minlength:6
+            lastname: {
+                required: true
             },
-            tel:{
-                required :true,
-                minlength: 9
-            },
+           
             dob: { 
                 required: true,
             },
@@ -29,14 +25,10 @@
             username: {
                 required: "กรุณากรอกชื่อ"
             },
-            password: {
-                required: "กรุณากรอกรหัสผ่าน",
-                minlength: "รหัสผ่านอย่างน้อย 6 ตัวอักษร"
+            lastname: {
+                required: "กรุณากรอกนามสกุล"
             },
-            tel:{
-                minlength: "เบอร์โทรศัพท์อย่างน้อย 9 ตัว",
-                required: "กรุณากรอกเบอร์โทรศัพท์"
-            },
+            
             dob: { 
                 required:"กรุณากรอกวันเดือนปีเกิด",
             },
@@ -50,14 +42,14 @@
         },
     });
     
-    $("#insert").submit(function(){
-        insertUserdata();
+    $("#update").submit(function(){
+        updateUserdata();
     })
 
 
-    function insertUserdata(){
+    function updateUserdata(){
         event.preventDefault();
-        var isValid = $("#insert").valid();
+        var isValid = $("#update").valid();
         
         if(isValid){
             var data = {

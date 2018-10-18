@@ -5,14 +5,10 @@
             username: {
                 required: true
             },
-            password: {
-                required: true,
-                minlength:6
+            lastname: {
+                required: true
             },
-            tel:{
-                required :true,
-                minlength: 9
-            },
+           
             dob: { 
                 required: true,
             },
@@ -28,14 +24,10 @@
             username: {
                 required: "กรุณากรอกชื่อ"
             },
-            password: {
-                required: "กรุณากรอกรหัสผ่าน",
-                minlength: "รหัสผ่านอย่างน้อย 6 ตัวอักษร"
+            lastname: {
+                required: "กรุณากรอกนามสกุล"
             },
-            tel:{
-                minlength: "เบอร์โทรศัพท์อย่างน้อย 9 ตัว",
-                required: "กรุณากรอกเบอร์โทรศัพท์"
-            },
+            
             dob: { 
                 required:"กรุณากรอกวันเดือนปีเกิด",
             },
@@ -54,11 +46,12 @@
                 // console.log(data);
                 var userdata = data.data.status;
                 var stralert = "";
+                
                 $.each(userdata, function( index, value ) {
                     console.log(userdata);
                     if(value.iduser == iduser){
                         if(value.status == 1){
-                           
+                            stralert = value.username
                             alert("hello world");
                         }
                         else{

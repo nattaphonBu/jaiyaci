@@ -108,18 +108,18 @@ img {
             <div class="col-md-4 col-md-offset-4">
                 <div class="form-group"> 
                     <div class="intro-text">
-                    <label class="text-dark">ชื่อ-นามสกุล</label><span class="error">*</span>
-                    <input type="text" class="form-control" id="username" name="username" placeholder="ชื่อ-นามสกุล">
+                    <label class="text-dark">ชื่อ</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="ชื่อ">
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-md-offset-4">
-            <div class="form-group"> 
-                <div class="form-group">
-                <label class="text-dark">รหัสผ่าน</label><span class="error">*</span>
-                <input type="password" class="form-control" id="password" name="password" placeholder="รหัสผ่าน">
-                </div>  
-            </div>
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">นามสกุล</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="นามสกุล">
+                    </div>
+                </div>
             </div>
             <div class="col-md-4 col-md-offset-4">
                 <div class="form-group"> 
@@ -161,22 +161,7 @@ img {
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-md-offset-4">
-            <div class="form-group"> 
-                <div class="form-group">
-                    <label class="text-dark">อีเมล</label><span class="error">*</span>
-                    <input type="email" class="form-control" id="tel" name="email" placeholder="email">           
-                </div>  
-            </div>
-            </div>
-            <div class="col-md-4 col-md-offset-4">
-            <div class="form-group"> 
-                <div class="form-group">
-                    <label class="text-dark">เบอร์โทรศัพท์</label><span class="error">*</span>
-                    <input type="text" class="form-control" id="tel" name="tel" placeholder="เบอร์โทรศัพท์">           
-                </div>  
-            </div>
-            </div>
+           
             
             <div class="col-md-4 col-md-offset-5">
                 <div class="form-group">
