@@ -11,10 +11,25 @@
                 <tr>
                   <th>ลำดับ</th>
                   <th>ชื่อผู้ใช้</th>
-                  <th>อีเม</th>
+                  <th>อีเมล</th>
                   <th>เบอร์โทรศัพท์</th>
                   <th>ตู้</th>
+                  <th>แก้ไข</th>
+                  <th>ลบ</th>
                 </tr>
+                <?php
+                while () {
+                  <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th><a href="<?=base_url("update/content") ?>"><button>แก้ไข</button></a></th>
+                    <th><a href="<?=base_url("update/content") ?>"><button>ลบ</button></a></th>
+                  </tr>
+                }
+                ?>
               </thead>
               <tbody id="User">
               </tbody>

@@ -22,13 +22,27 @@
                   <th>ลองติจูด</th>
                   <th>อำเภอ</th>
                   <th>จังหวัด</th>
+                  <th>แก้ไข</th>
+                  <th>ลบ</th>
+                </tr>
+                <tr><<?php  while () {
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th><button type="#" class="btn-lg btn-success">แก้ไข</button></th>
+                  <th><button type="#" class="btn-lg btn-success">ลบ</button></th>
+                }
+                  ?>
                 </tr>
               </thead>
               <tbody id="Machine">
               </tbody>
             </table>
 
-            
+
           </div>
         </div>
       </div>
