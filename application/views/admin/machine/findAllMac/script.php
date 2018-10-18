@@ -24,6 +24,21 @@
                             + '</tr>';
                             counter++;
                         }   
+                        if(value.status == 1){
+                            let counter = 1;
+                            stralert += '<tr>'
+                            + '<td>'+counter+'</td>'
+                            + '<td>'+value.nameofmachine+'</td>'
+                            + '<td>'+value.latitude+'</td>'
+                            + '<td>'+value.longitude+'</td>'
+                            + '<td>'+value.districtId+'</td>'
+                            + '<td>'+value.provinceId+'</td>'
+                            + '<td>'
+                            + '<a class="btn btn btn-success btn-lg active" role="button" aria-disabled="true">ตู้ปกติ</a>'
+                            + '</td>'
+                            + '</tr>';
+                            counter++;
+                        }   
                             i++;              
                 });
                 herbs.html(stralert);  
