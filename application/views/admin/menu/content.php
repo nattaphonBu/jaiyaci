@@ -11,7 +11,7 @@
 						<li><a href="<?=base_url("admin/Machine") ?>"><span>ค้นหาตู้</span></a></li>
 						<li><a href="<?=base_url("admin/checkMachine") ?>"><span>ตรวจสอบสถานะตู้</span></a></li>
 						<li><a href="<?=base_url("admin/Mechine/insert") ?>"><span>เพิ่มข้อมูลตู้</span></a></li>
-						<li><a href="<?=base_url("admin/hospital/create/insert") ?>"><span>เพิ่มข้อมูลโรงพยาบาล</span></a></li>
+						<li><a href="<?=base_url("admin/hospital/insert") ?>"><span>เพิ่มข้อมูลโรงพยาบาล</span></a></li>
 						<li><a href="<?=base_url("login/logout") ?>"><span>ลงชื่อออก</span></a></li>
 				</div>
 				<!-- End of Nav Structure -->
