@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ลงทะเบียนบัญชีผู้ใช้</title>
+  <title>แก้ไขข้อมูลผู้ใช้</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <script src="main.js"></script>
@@ -86,42 +86,109 @@ img {
 </style>
 </head>
 <body>
+<br>
+<br>
+<br>
+<br>
 <center>
-<img src="https://img.live/images/2018/10/15/girl.png" alt="girl.png"  />
+<img src="https://img.live/images/2018/10/15/note.png" alt="note.png"  />
 </center>
 
 
 </head>
 <body>
-<center>
-<div class="form-style-3">
-<form>
-<fieldset><legend>ประวัติส่วนตัว</legend>
-<label for="field1"><span>    ชื่อ <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
-<label for="field2"><span>นามสกุล <span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" /></label>
-<label for="field3"><span>วันเดือนปีเกิด<span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<label for="field3"><span>เพศ <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<label for="field3"><span>ยาที่แพ้ <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<label for="field3"><span>กรุ๊ปเลือด <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<label for="field3"><span>โรคประจำตัว <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-<!-- <option value="Appointment">Appointment</option>
-<option value="Interview">Interview</option>
-<option value="Regarding a post">Regarding a post</option> -->
-</select></label>
-</fieldset>
-
-</form>
-</div>
-</center>
+    <form id ="insert">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-5 col-md-offset-5">
+            <div class="intro-text">
+                <h1>แก้ไขข้อมูลผู้ใช้</h1>
+            </div>  
+        </div> 
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">ชื่อ-นามสกุล</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="ชื่อ-นามสกุล">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="form-group">
+                <label class="text-dark">รหัสผ่าน</label><span class="error">*</span>
+                <input type="password" class="form-control" id="password" name="password" placeholder="รหัสผ่าน">
+                </div>  
+            </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">วันเดือนปีเกิด</label><span class="error">*</span>
+                    <input type="date" class="form-control" id="dob" name="dob" placeholder="วันเดือนปีเกิด">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">เพศ</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="gender" name="gender" placeholder="เพศ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">ยาที่แพ้</label>
+                    <input type="text" class="form-control" id="disease" name="disease" placeholder="ยาที่แพ้">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">กรุ๊ปเลือด</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="bloodgroup" name="bloodgroup" placeholder="กรุ๊ปเลือด">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">โรคประจำตัว</label>
+                    <input type="text" class="form-control" id="allergy" name="allergy" placeholder="โรคประจำตัว">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="form-group">
+                    <label class="text-dark">อีเมล</label><span class="error">*</span>
+                    <input type="email" class="form-control" id="tel" name="email" placeholder="email">           
+                </div>  
+            </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="form-group">
+                    <label class="text-dark">เบอร์โทรศัพท์</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="tel" name="tel" placeholder="เบอร์โทรศัพท์">           
+                </div>  
+            </div>
+            </div>
+            
+            <div class="col-md-4 col-md-offset-5">
+                <div class="form-group">
+                    <button type="insert" class="btn-lg btn-success">บันทึก</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </form>
 </body>
 </html>
-    
-    
-
-
-
-
-    
     
     
 
