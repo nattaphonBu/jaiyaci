@@ -130,7 +130,7 @@
                 "latitude": $("#latitude").val(),
                 "longitude":$("#longitude").val(),
                 "provinceId":$("#provinceId").val(),
-                "districtId":$("#districtId").val()
+                // "districtId":$("#districtId").val()
                 // "subdistrictsId":$("#subdistrictsId").val()                
                 
             };
