@@ -21,14 +21,16 @@ class Hospital extends CI_Controller {
 	}
 	public function insert()
 	{
+		$this->load->view("template/headUsermenu");
+		$this->load->view("template/head");
 		$this->load->view("template/headadmin");
-		$this->load->view("template/header");
 		$this->load->view("template/banner");
 		$this->load->view('admin/hospital/create/content');
+		$this->load->view("template/footUsermenu");
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
 		$this->load->view("admin/hospital/create/script");
-
+		
 		
 	}
 	

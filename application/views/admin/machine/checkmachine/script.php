@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
 
     var map, infoWindow;
     function initMap() {
@@ -38,18 +38,18 @@
                         'Error: Your browser doesn\'t support geolocation.');
     infoWindow.open(map);
     }
-        $.post("http://localhost:8080/JaiyaSrc/api/location/findHostpital", {},
+        $.post("http://localhost:8080/JaiyaSrc/api/location/findmachine", {},
             function (data, textStatus, jqXHR){
                 // alert(data.message);
                 var name = data.data;    
-                var latijude = data.data.latijude;
-                var longjijude = data.data.longjijude;
+                var latitude = data.data.latitude;
+                var longitude = data.data.longitude;
                 name.forEach(function(name) {
-                    console.log(name.longjijude);
+                    console.log(name.latitude);
                     marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(name.latijude, name.longjijude),
+                        position: new google.maps.LatLng(name.latitude, name.longitude),
                         map: map,
-                        title:name.nameofhospital
+                        title:name.nameofmachine
                     });
                 });        
         });
@@ -61,5 +61,5 @@
         
     }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
-    async defer></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAykTRj0-nsj1qeU1hHLB7iIidkVRBBRQo&callback=initMap"
+    async defer></script>
