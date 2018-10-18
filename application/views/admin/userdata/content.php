@@ -14,15 +14,22 @@
                   <th>อีเมล</th>
                   <th>เบอร์โทรศัพท์</th>
                   <th>ตู้</th>
+                  <th>แก้ไข</th>
+                  <th>ลบ</th>
                 </tr>
-                <tr>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th></th>
-                  <th><a href="<?=base_url("login/logout") ?>"><button>แก้ไข</button></a></th>
-                </tr>
+                <?php
+                while () {
+                  <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th><a href="<?=base_url("update/content") ?>"><button>แก้ไข</button></a></th>
+                    <th><a href="<?=base_url("update/content") ?>"><button>ลบ</button></a></th>
+                  </tr>
+                }
+                ?>
               </thead>
               <tbody id="User">
               </tbody>
