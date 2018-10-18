@@ -1,38 +1,29 @@
 <section id="posts">
     <div class="container">
+    <input  type="hidden"  name="iduser"  id="iduser"  value='<?php echo urldecode($_id) ; ?>'>
       <div class="row">
         <div class="col">
           <div class="card">
             <div class="card-header">
-              <h4>โรงพยาบาลต่างๆ</h4>
-              <button type="delete" class="btn btn-primary">สร้าง</button>
+              <h4>รายการแจ้งเตือน</h4>
             </div>
             <table class="table table-striped" id="myTable">
               <thead class="thead-dark">
                 <tr>
+                  <th>ลำดับ</th>
                   <th>ชื่อโรงพยาบาล</th>
                   <th>ละติจูด</th>
-                  <th>ลองติจูด</th>
-                  <th>เบอร์โทร</th>
+                  <th>ลองจิจูด</th>
                   <th>จังหวัด</th>
-                  <th>อัพเดต</th>
+                  <th>อำเภอ</th>
+                  <th>ตำบล</th>
+                 <th></th>
                 </tr>
-                <?php while () {
-                  <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th><a href="<?=base_url("") ?>"><button type="delete" class="btn btn-primary">อัพเดต</button></a></th>
-                  </tr>
-                }
-                ?>
               </thead>
-              <tbody id="User">
+              <tbody id="alert">
               </tbody>
             </table>
+
             <!-- PAGINATION -->
             <nav class="ml-4">
               <ul class="pagination">
@@ -47,9 +38,6 @@
                 </li>
                 <li class="page-item">
                   <a href="#" class="page-link">3</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link">4</a>
                 </li>
                 <li class="page-item">
                   <a href="#" class="page-link">Next</a>

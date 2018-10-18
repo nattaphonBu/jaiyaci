@@ -32,31 +32,17 @@
                 </div>  
             </div>
             </div>
-            
-            <div class="col-md-4 col-md-offset-4">
-            <div class="form-group"> 
-                <div class="form-group">
-                    <label class="h5">อำเภอ</label><span class="error">*</span>
-                    <input type="text" class="form-control" id="districtId" name="districtId" placeholder="อำเภอ">           
-                </div>  
-            </div>
-            </div>
+
             <div class="col-md-4 col-md-offset-4">
             <div class="form-group"> 
                 <div class="form-group">
                     <label class="h5">จังหวัด</label><span class="error">*</span>
-                    <input type="text" class="form-control" id="provinceId" name="provinceId" placeholder="จังหวัด">           
-                </div>  
+                    <select class="form-control" name="provinceId" id="provinceId">
+							 <option>จังหวัด</option>
+				    </select> 
             </div>
             </div>
-            <!-- <div class="col-md-4 col-md-offset-4">
-            <div class="form-group"> 
-                <div class="form-group">
-                    <label class="h5">subdistrictId</label><span class="error">*</span>
-                    <input type="text" class="form-control" id="subdistrictId" name="subdistrictId" placeholder="subdistrictId">           
-                </div>  
-            </div>
-            </div> -->
+            
 
             <div class="col-md-5 col-md-offset-5">
                 <div class="form-group">

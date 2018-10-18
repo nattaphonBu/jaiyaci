@@ -1,31 +1,15 @@
-<!-- <script>
-$(document).ready(function() {
-    $('#example').DataTable( {
-        "ajax": {
-            "url" : base_url+"http://localhost:8080/JaiyaSrc/api/location/findprovince",
-            "dataSrc": "data"
-            function (data, textStatus, jqXHR){
-                alert(data.message);
-            });
-            
-        }
-    } );
-} );
-</script> -->
 <script>
         let herbs = $("#Machine");
         let i = 1;
-        $.post("http://localhost:8080/JaiyaSrc/api/location/findmachine1", {},
         
+        $.post("http://localhost:8080/JaiyaSrc/api/location/findmachine1", {},
+            // alert(data.message);
             function (data, textStatus, jqXHR) {
-                // console.log(data.data.status);
+                // console.log(data);
                 var alert = data.data;
-                var province =data.province;
-                console.log(province);
                 var stralert = "";
                 $.each(alert, function( index, value ) {
-                    // console.log(value.statusmachine);
-                        if(value.status == 2){
+                           if(value.status == 2){
                             let counter = 1;
                             stralert += '<tr>'
                             + '<td>'+counter+'</td>'
@@ -40,9 +24,7 @@ $(document).ready(function() {
                             + '</tr>';
                             counter++;
                         }   
-                            i++;  
-                        
-                              
+                            i++;              
                 });
                 herbs.html(stralert);  
             }
