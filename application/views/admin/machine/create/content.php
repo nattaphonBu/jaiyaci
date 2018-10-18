@@ -42,25 +42,7 @@
 				    </select> 
             </div>
             </div>
-            <div class="col-md-4 col-md-offset-4">
-            <div class="form-group"> 
-                <div class="form-group">
-                    <label class="h5">อำเภอ</label><span class="error">*</span>
-                    <select class="form-control" name="districtId" id="districtId">
-							 <option>อำเภอ</option>
-				    </select>           
-                </div>  
-            </div>
-            </div>
-            <!-- <div class="col-md-4 col-md-offset-4">
-            <div class="form-group"> 
-                <div class="form-group">
-                    <label class="h5">ตำบล</label><span class="error">*</span>
-                    <select class="form-control" name="subdsitrictId" id="subdsitrictId">
-							 <option>ตำบล</option>
-				    </select> 
-            </div>
-            </div> -->
+            
 
             <div class="col-md-5 col-md-offset-5">
                 <div class="form-group">
