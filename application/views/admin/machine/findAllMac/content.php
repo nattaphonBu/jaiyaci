@@ -4,7 +4,7 @@
         <div class="col">
           <div class="card">
             <div class="card-header">
-              <h4>สถานะตู้</h4>
+              <h4>Machine</h4>
             </div>
             <nav class="ml-4">
               <ul class="pagination">
@@ -20,7 +20,6 @@
                   <th>หมายเลขเครื่อง</th>
                   <th>ละติจูด</th>
                   <th>ลองติจูด</th>
-                  <th>อำเภอ</th>
                   <th>จังหวัด</th>
                 </tr>
 
