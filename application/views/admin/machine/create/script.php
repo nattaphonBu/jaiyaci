@@ -12,16 +12,17 @@
           longitude: { 
                 required: true,
           },
+          
+          districtId:{
+              required: true
+          },
           provinceId:{
             required :true,
             
           },
-          districtId:{
-              required: true
-          },
-            subdistrictId:{
-              required: true
-          },
+        //     subdistrictId:{
+        //       required: true
+        //   },
           
         },
         messages: {
@@ -31,19 +32,20 @@
         latitude: {
             required: "กรุณากรอกละติจูด",
           },
-          longitude: { 
-                required:"กรุณากรอกลองจิจูด",
+        longitude: { 
+            required:"กรุณากรอกลองจิจูด",
+        },
+          
+          districtId:{
+              required: "กรุณากรอกกอำเภอ"
           },
           provinceId:{
             required :"กรุณากรอกจังหวัด"
             
           },
-          districtId:{
-              required: "กรุณากรอกกอำเภอ"
-          },
-            subdistrictId:{
-              required: "กรุณากรอกตำบล"
-          },
+        //     subdistrictId:{
+        //       required: "กรุณากรอกตำบล"
+        //   },
         },
     });
     
@@ -61,10 +63,9 @@
                 "nameofmachine": $("#nameofmachine").val(),
                 "latitude": $("#latitude").val(),
                 "longitude":$("#longitude").val(),
-                "province":$("#province").val(),
-                "district":$("#district").val(),
-                "subdistricts":$("#subdistricts").val(),
-                "userId":$("#userId").val()
+                "provinceId":$("#provinceId").val(),
+                "districtId":$("#districtId").val()
+                // "subdistrictsId":$("#subdistrictsId").val()                
                 
             };
             console.log(data);

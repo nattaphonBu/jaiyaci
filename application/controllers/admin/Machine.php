@@ -17,7 +17,7 @@ class Machine extends CI_Controller {
 		$this->load->view("template/footUsermenu");
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
-		// $this->load->view('admin/machine/create/script');
+		$this->load->view('admin/machine/create/script');
 	}
 	public function status()
 	{
@@ -25,7 +25,7 @@ class Machine extends CI_Controller {
 		$this->load->view("template/head");
 		$this->load->view("template/headadmin");
 		$this->load->view("template/banner");
-		$this->load->view('admin/machine/content');
+		$this->load->view('admin/machine/findAllMac/content');
 		$this->load->view("template/footUsermenu");
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
