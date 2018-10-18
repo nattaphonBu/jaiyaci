@@ -19,7 +19,7 @@ class Machine extends CI_Controller {
 		$this->load->view("template/foot");	
 		// $this->load->view('admin/machine/create/script');
 	}
-	public function index()
+	public function status()
 	{
 		$this->load->view("template/headUsermenu");
 		$this->load->view("template/head");

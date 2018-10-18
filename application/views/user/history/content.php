@@ -27,7 +27,9 @@
               <thead class="thead-dark">
                 <tr>
                   <th>ลำดับ</th>
-                  <th>วันเวลา</th>
+                  <th>เวลา</th>
+                  <th>วัน</th>
+                  <th>สถานะ</th>
                   <th></th>
                 </tr>
               </thead>

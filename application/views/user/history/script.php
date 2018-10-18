@@ -2,19 +2,37 @@
 <script>
         let herbs = $("#timetogetpillow");
         let i = 1;
-        $.post("http://localhost:8080/JaiyaSrc/api/", {},
+        $.post("http://localhost:8080/JaiyaSrc/api/history/findAll", {},
             function (data, textStatus, jqXHR) {
-                console.log(data);
+                
                 var timetogetpillow = data.data;
                 var strHerb = "";
+                
                 $.each(timetogetpillow, function( index, value ) {
-                    strHerb += '<tr>'
-                            + '<td>'+i+'</td>'
-                            + '<td>'+value.datetime+'</td>'
-                            + '<td>'
-                            + '</td>'
-                            + '</tr>';
-                            i++;            
+                    if(value.iduser == iduser){
+
+                        if(value.statustoeatpillow == 2){
+                            strHerb += '<tr>'
+                                + '<td>'+i+'</td>'
+                                + '<td>'+value.time+'</td>'
+                                + '<td>'+value.date+'</td>'
+                                + '<td>'
+                                + '<a class="btn btn btn-danger btn-lg active" role="button" aria-disabled="true">ไม่ได้รับประทาน</a>'
+                                + '</td>'
+                                + '</tr>';
+                        }else{
+                            strHerb += '<tr>'
+                                + '<td>'+i+'</td>'
+                                + '<td>'+value.time+'</td>'
+                                + '<td>'+value.date+'</td>'
+                                + '<td>'
+                                + '<a class="btn btn btn-success btn-lg active" role="button" aria-disabled="true">รับประทานแล้ว</a>'
+                                + '</td>'
+                                + '</tr>';
+                        }
+                            i++;
+                    }
+                                
                 });
                 herbs.html(strHerb);  
             }
