@@ -8,14 +8,14 @@
         },
     });
     
-    $("#update").submit(function(){
+    $("#insert").submit(function(){
         timetogetpillowbutton();
     })
     $datetoeat = date("m.d.y");
     $timetoeat = date("H:i:s");
     function timetogetpillowbutton(){
         event.preventDefault();
-        var isValid = $("#update").valid();
+        var isValid = $("#insert").valid();
         
         if(isValid){
             var data = {
@@ -24,7 +24,7 @@
                 "status": $("#status").val(),
                 "_id":$("#_id").val()
             };
-            console.log(data);
+            
             $.post("http://localhost:8080/JaiyaSrc/api/timetogetpillow/update", JSON.stringify(data),
             function (data, textStatus, jqXHR){
                 if(data.message == true){
