@@ -66,7 +66,7 @@ $(document).ready(function() {
                 var stralert = "";
                 $.each(alert, function( index, value ) {
                     if(value.iduser == iduser){
-                        if(value.statustoeatpillow == 2){
+                        if(value.statustoeatpillow == 1){
                             stralert += '<tr>'
                             + '<td>'+i+'</td>'
                             + '<td>'+value.pillow+'</td>'
