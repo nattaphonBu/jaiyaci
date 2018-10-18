@@ -11,9 +11,17 @@
                 <tr>
                   <th>ลำดับ</th>
                   <th>ชื่อผู้ใช้</th>
-                  <th>อีเม</th>
+                  <th>อีเมล</th>
                   <th>เบอร์โทรศัพท์</th>
                   <th>ตู้</th>
+                </tr>
+                <tr>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th><a href="<?=base_url("login/logout") ?>"><button>แก้ไข</button></a></th>
                 </tr>
               </thead>
               <tbody id="User">
