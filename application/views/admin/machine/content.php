@@ -9,7 +9,7 @@
             <nav class="ml-4">
               <ul class="pagination">
             <li class="page-item">
-                  <a href="<?=base_url("admin/Machine/insert") ?>" class="page-link">new machine</a>
+                  <a href="<?=base_url("admin/Machine/insert") ?>" class="page-link">เพิ่มข้อมูลตู้ยา</a>
                 </li>
                 </ul>
             </nav>
