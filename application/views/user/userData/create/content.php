@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ลงทะเบียนบัญชีผู้ใช้</title>
+  <title>เพิ่มข้อมูลผู้ใช้</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <script src="main.js"></script>
@@ -86,35 +86,92 @@ img {
 </style>
 </head>
 <body>
+<br>
+<br>
+<br>
+<br>
 <center>
-<img src="https://img.live/images/2018/10/15/girl.png" alt="girl.png"  />
+<img src="https://img.live/images/2018/10/15/note.png" alt="note.png"  />
 </center>
 
 
 </head>
 <body>
-<center>
-<div class="form-style-3">
-<form id="insert">
-<fieldset><legend>ประวัติส่วนตัว</legend>
-<label for="field1"><span>ชื่อ <span class="required">*</span></span><input type="text" class="input-field" name="firstName" id="firstName" value="" /></label>
-<label for="field2"><span>นามสกุล <span class="required">*</span></span><input type="email" class="input-field" name="lastName" id="lastName" value="" /></label>
-<label for="field3"><span>วันเดือนปีเกิด<span class="required">*</span></span><input type="text" class="input-field" name="dob" id="dob" value="" /></label>
-<label for="field3"><span>เพศ <span class="required">*</span></span><input type="text" class="input-field" name="gender" id="gender" value="" /></label>
-<label for="field3"><span>ยาที่แพ้ </span><input type="text" class="input-field" name="bloodgroup" id="bloodgroup" value="" /></label>
-<label for="field3"><span>กรุ๊ปเลือด <span class="required">*</span></span><input type="text" class="input-field" name="disease"  id="disease" value="" /></label>
-<label for="field3"><span>โรคประจำตัว </span><input type="text" class="input-field" name="allergy" id="allergy" value="" /></label>
-<div class="col-md-5 col-md-offset-5">
+    <form id ="insert">
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-5 col-md-offset-5">
+            <div class="intro-text">
+                <h1>เพิ่มข้อมูลผู้ใช้</h1>
+            </div>  
+        </div> 
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">ชื่อ</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="ชื่อ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">นามสกุล</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="นามสกุล">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">วันเดือนปีเกิด</label><span class="error">*</span>
+                    <input type="date" class="form-control" id="dob" name="dob" placeholder="วันเดือนปีเกิด">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">เพศ</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="gender" name="gender" placeholder="เพศ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">ยาที่แพ้</label>
+                    <input type="text" class="form-control" id="disease" name="disease" placeholder="ยาที่แพ้">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">กรุ๊ปเลือด</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="bloodgroup" name="bloodgroup" placeholder="กรุ๊ปเลือด">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="text-dark">โรคประจำตัว</label>
+                    <input type="text" class="form-control" id="allergy" name="allergy" placeholder="โรคประจำตัว">
+                    </div>
+                </div>
+            </div>
+           
+            
+            <div class="col-md-4 col-md-offset-5">
                 <div class="form-group">
                     <button type="insert" class="btn-lg btn-success">บันทึก</button>
                 </div>
             </div>
-</select></label>
-</fieldset>
-
-</form>
-</div>
-</center>
+            </div>
+        </div>
+    </div>
+    </form>
 </body>
 </html>
     
@@ -124,3 +181,12 @@ img {
 
 
     
+
+
+    
+    
+
+     
+
+
+     

@@ -1,18 +1,4 @@
 <!-- <script>
-$(document).ready(function() {
-    $('#example').DataTable( {
-        "ajax": {
-            "url" : base_url+"http://localhost:8080/JaiyaSrc/api/location/findprovince",
-            "dataSrc": "data"
-            function (data, textStatus, jqXHR){
-                alert(data.message);
-            });
-            
-        }
-    } );
-} );
-</script> -->
-<!-- <script>
         let herbs = $("#alert");
         let i = 1;
         var data = {
@@ -55,7 +41,7 @@ $(document).ready(function() {
    
     </script> -->
 
-    
+
 <script>
         let herbs = $("#alert");
         let i = 1;
@@ -85,9 +71,5 @@ $(document).ready(function() {
                 herbs.html(stralert);  
             }
         );
-
-
-
-
     
     </script>

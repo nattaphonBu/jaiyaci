@@ -1,54 +1,55 @@
 <script>
    
    
-    $("#insert").validate({
+    $("#update").validate({
         rules: {
-        firstName: {
-            required: true
-        },
-        lastName: {
-            required: true,
-          },
-          dob: { 
+            firstname: {
+                required: true
+            },
+            lastname: {
+                required: true
+            },
+           
+            dob: { 
                 required: true,
-          },
-          gender:{
-            required :true,
-            
-          },
-          bloodgroup:{
-              required: true
-          },
-          
+            },
+            gender:{
+                required :true,
+                
+            },
+            bloodgroup:{
+                required: true
+            }
         },
         messages: {
-        firstName: {
-            required: "กรุณากรอกชื่อจริง"
-        },
-        lastName: {
-            required: "กรุณากรอกนามสกุล",
-          },
-          dob: { 
-                required:"กรุณากรอกวันเดือนปีเกิด",
-          },
-          gender:{
-            required :"กรุณากรอกเพศ"
+            username: {
+                required: "กรุณากรอกชื่อ"
+            },
+            lastname: {
+                required: "กรุณากรอกนามสกุล"
+            },
             
-          },
-          bloodgroup:{
-              required: "กรุณากรอกกรุ๊ปเลือด"
-          }
+            dob: { 
+                required:"กรุณากรอกวันเดือนปีเกิด",
+            },
+            gender:{
+                required :"กรุณากรอกเพศ"
+                
+            },
+            bloodgroup:{
+                required: "กรุณากรอกกรุ๊ปเลือด"
+            }
         },
     });
     
-    $("#insert").submit(function(){
-        insertUserdata();
+    $("#update").submit(function(){
+        updateUserdata();
     })
 
 
-    function insertUserdata(){
+    function updateUserdata(){
         event.preventDefault();
-        var isValid = $("#insert").valid();
+        var isValid = $("#update").valid();
         
         if(isValid){
             var data = {

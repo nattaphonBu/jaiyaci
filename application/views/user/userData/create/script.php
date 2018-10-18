@@ -5,41 +5,42 @@
    
     $("#insert").validate({
         rules: {
-        firstName: {
-            required: true
-        },
-        lastName: {
-            required: true,
-          },
-          dob: { 
-                required: true,
-          },
-          gender:{
-            required :true,
+            username: {
+                required: true
+            },
+            lastname: {
+                required: true
+            },
             
-          },
-          bloodgroup:{
-              required: true
-          },
-          
+            dob: { 
+                required: true,
+            },
+            gender:{
+                required :true,
+                
+            },
+            bloodgroup:{
+                required: true
+            }
         },
         messages: {
-        firstName: {
-            required: "กรุณากรอกชื่อจริง"
-        },
-        lastName: {
-            required: "กรุณากรอกนามสกุล",
-          },
-          dob: { 
+            username: {
+                required: "กรุณากรอกชื่อ"
+            },
+            lastname: {
+                required: "กรุณากรอกนามสกุล"
+            },
+  
+            dob: { 
                 required:"กรุณากรอกวันเดือนปีเกิด",
-          },
-          gender:{
-            required :"กรุณากรอกเพศ"
-            
-          },
-          bloodgroup:{
-              required: "กรุณากรอกกรุ๊ปเลือด"
-          }
+            },
+            gender:{
+                required :"กรุณากรอกเพศ"
+                
+            },
+            bloodgroup:{
+                required: "กรุณากรอกกรุ๊ปเลือด"
+            }
         },
     });
     

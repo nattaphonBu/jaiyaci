@@ -13,9 +13,7 @@
                 required: true,
           },
           
-          districtId:{
-              required: true
-          },
+          
           provinceId:{
             required :true,
             
@@ -36,9 +34,7 @@
             required:"กรุณากรอกลองจิจูด",
         },
           
-          districtId:{
-              required: "กรุณากรอกกอำเภอ"
-          },
+          
           provinceId:{
             required :"กรุณากรอกจังหวัด"
             
@@ -50,11 +46,11 @@
     });
     var provinceDropdown = $("#provinceId");
     provinceDropdown.append('<option value="">เลือกจังหวัด</option>');
-    var districtDropdown = $('#districtId');
-      districtDropdown.append('<option value="">เลือกอำเภอ</option>');
+    // var districtDropdown = $('#districtId');
+    //   districtDropdown.append('<option value="">เลือกอำเภอ</option>');
 
-      var subdistrictDropdown = $('#subdistrictId');
-      subdistrictDropdown.append('<option value="">เลือกตำบล</option>');
+    //   var subdistrictDropdown = $('#subdistrictId');
+    //   subdistrictDropdown.append('<option value="">เลือกตำบล</option>');
 
     loadProvince();
     

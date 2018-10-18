@@ -7,7 +7,7 @@ $(document).ready(function() {
             function (data, textStatus, jqXHR){
                 alert(data.message);
             });
-            
+
         }
     } );
 } );
@@ -27,6 +27,7 @@ $(document).ready(function() {
                             + '<td>'+value.email+'</td>'
                             + '<td>'+value.tel+'</td>'
                             + '<td>'+value.Idmachine+'</td>'
+                            + '<td>'+i+'</td>'
                             + '<td>'
                             + '<a href="editherb/'+value._id+'/'+value.username+'/'+value.properties+'/'+value.warning+'" class="btn btn-info">'
                             + '<i class="far fa-edit"></i> Edit'
@@ -38,9 +39,9 @@ $(document).ready(function() {
                             + '</a>'
                             + '</td>'
                             + '</tr>';
-                            i++;            
+                            i++;
                 });
-                herbs.html(strHerb);  
+                herbs.html(strHerb);
             }
         );
 
