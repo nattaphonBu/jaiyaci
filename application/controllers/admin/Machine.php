@@ -55,7 +55,6 @@ class Machine extends CI_Controller {
 		$this->load->view("template/foot");	
 		// $this->load->view('admin/machine/create/script');
 	}
-
 	public function index()
 	{
 		$this->load->view("template/headUsermenu");
@@ -68,5 +67,4 @@ class Machine extends CI_Controller {
 		$this->load->view("template/foot");	
 		$this->load->view('admin/machine/findAllMac/script');
 	}
-	
 }
