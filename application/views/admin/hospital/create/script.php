@@ -139,10 +139,10 @@
             function (data, textStatus, jqXHR){
                 if(data.message == true){
                     alert("บันทึกสำเร็จ");
-                    window.location.replace( href="<?=base_url("admin/Machine") ?>");
+                    window.location.replace( href="<?=base_url("admin/Hospital") ?>");
                 }else{
                     alert("บันทึกไม่สำเร็จ");
-                    window.location.replace( href="<?=base_url("admin/Machine/insert") ?>");
+                    window.location.replace( href="<?=base_url("admin/Hospital/insert") ?>");
                 }
             });
             
