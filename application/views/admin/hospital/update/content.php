@@ -1,70 +1,67 @@
-<div class="container">
-<form id="update">
-    <div class="row justify-content-md-center">
-    <section class="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-                  <h3> แก้ไขข้อมูลโรงพยาบาล</h3>               
-                
-                  <div class="card-body black bg-light">
-                    <div class="row">
-                        <div class="form-group col-md-4">
-                          <label class="text-dark">ชื่อ</label> <span class="error">*</span>
-                          <input type="text" class="form-control" placeholder="ชื่อ" name="nameofhospital" id="nameofhospital">
-                        </div>
-                    </div>
-                    <div class="row">
-                      <div class="form-group col-md-4">
-                          <label class="text-dark">ยาที่แพ้</label> 
-                          <input type="text" class="form-control" placeholder="ยาที่แพ้" name="allergy" id="allergy">
-                        </div>
-                    </div>
-                    
-                    <div class="row">  
-                      <div class="form-group col-md-4">
-                        <label class="text-dark">วันเดือนปีเกิด</label> <span class="error">*</span>
-                        <input type="date" name="dob" id="dob" class="form-control"> 
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="form-group col-md-4">
-                        <label class="text-dark">กรุ๊ปเลือด</label><span class="error">*</span>
-                          <select class="form-control" name="bloodgroup" id="bloodgroup">
-                            <option value="">กรุ๊ปเลือด</option>
-                            <option value="A">A</option>
-                            <option value="B">B</option>
-                            <option value="O">O</option>
-                            <option value="AB">AB</option>      
-                          </select>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <label class="text-dark">โรคประจำตัว</label> 
-                          <input type="text" class="form-control" placeholder="โรคประจำตัว" name="disease" id="disease">
-                        </div>
-                      </div>
-                    </div> 
 
-                    
-                      <button type="submit" class="btn btn-primary">บันทึก</button>
-                    
-                  </div>
-              </div>
+<body>
+<form id ="insert">
+<input type="hidden" id="_id" name="_id" value="<?=$_id ?>">
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-5 col-md-offset-5">
+        <div class="intro-text">
+            <h1>เพิ่มข้อมูลโรงพยาบาล</h1>
+        </div>  
+    </div> 
+        <div class="col-md-4 col-md-offset-4">
+        <div class="form-group"> 
+            <div class="form-group">
+                <label class="h5">ชื่อโรงพยาบาล</label><span class="error">*</span>
+                <input type="text" class="form-control" id="nameofhospital" name="nameofhospital" value="<?php echo $nameofhospital?>">           
+            </div>  
+        </div>
+        </div>
+        <div class="col-md-4 col-md-offset-4">
+        <div class="form-group"> 
+            <div class="form-group">
+                <label class="h5">เบอโทรศัพทฺ์</label><span class="error">*</span>
+                <input type="text" class="form-control" id="tell" name="tell" placeholder="เบอโทรศัพทฺ์" value="<?php echo $tell?>">           
+            </div>  
+        </div>
+        </div>
+        <div class="col-md-4 col-md-offset-4">
+        <div class="form-group"> 
+            <div class="form-group">
+                <label class="h5">ละติจูด</label><span class="error">*</span>
+                <input type="text" class="form-control" id="lattiude" name="lattiude" placeholder="ละติจูด" value="<?php echo $lattiude?>">           
+            </div>  
+        </div>
+        </div>
+        <div class="col-md-4 col-md-offset-4">
+        <div class="form-group"> 
+            <div class="form-group">
+                <label class="h5">ลองติจูด</label><span class="error">*</span>
+                <input type="text" class="form-control" id="longitude" name="longitude" placeholder="ลองติจูด" value="<?php echo $longitude?>">           
+            </div>  
+        </div>
+        </div>
+
+        <div class="col-md-4 col-md-offset-4">
+        <div class="form-group"> 
+            <div class="form-group">
+                <label class="h5">จังหวัด</label><span class="error">*</span>
+                <select class="form-control" name="provinceId" id="provinceId" value="<?php echo $provinceId?>">
+           <option>จังหวัด</option>
+        </select> 
+        </div>
+        </div>
+        
+
+        <div class="col-md-5 col-md-offset-5">
+            <div class="form-group">
+                <button type="insert" class="btn-lg btn-success">บันทึก</button>
             </div>
         </div>
-      </div>
-    </section>
+        
+        </div>
     </div>
+
 </form>
-</div>
-    
-    
-    
+</body>
 
-
-
-
-    

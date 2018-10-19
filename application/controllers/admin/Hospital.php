@@ -7,16 +7,25 @@ class Hospital extends CI_Controller {
 		parent::__construct();
 		
 	}
-	public function update()
+	public function update($_id,$nameofhospital,$lattiude,$longitude,$provinceId,$tell)
 	{
+		
+		$data =array(
+			"_id"=>$_id,
+			"nameofhospital"=>$nameofhospital,
+			"lattiude"=>$lattiude,
+			"longitude"=>$longitude,
+			"provinceId"=>$provinceId,
+			"tell"=>$tell
+		);
+		$this->load->view("template/head");
 		$this->load->view("template/headadmin");
-		$this->load->view("template/header");
 		$this->load->view("template/banner");
-		$this->load->view('admin/hospital/update/content');
+		$this->load->view('admin/hospital/update/content',$data);
+		$this->load->view("template/footUsermenu");
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
 		$this->load->view("admin/hospital/update/script");
-
 		
 	}
 	public function insert()
