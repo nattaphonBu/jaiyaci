@@ -1,12 +1,19 @@
 <section id="posts">
     <div class="container">
-    <input  type="hidden"  name="iduser"  id="iduser"  value='<?php echo urldecode($_id) ; ?>'>
+    <!-- <input  type="hidden"  name="iduser"  id="iduser"  value='<?php echo urldecode($_id) ; ?>'> -->
       <div class="row">
         <div class="col">
           <div class="card">
             <div class="card-header">
-              <h4>รายการแจ้งเตือน</h4>
+              <h4>โรงพยาบาล</h4>
             </div>
+            <nav class="ml-4">
+              <ul class="pagination">
+            <li class="page-item">
+                  <a href="<?=base_url("admin/Hospital/insert") ?>" class="page-link">เพิ่มข้อมูลโรงพยาบาล</a>
+                </li>
+                </ul>
+            </nav>
             <table class="table table-striped" id="myTable">
               <thead class="thead-dark">
                 <tr>
@@ -15,12 +22,12 @@
                   <th>ละติจูด</th>
                   <th>ลองจิจูด</th>
                   <th>จังหวัด</th>
-                  <th>อำเภอ</th>
-                  <th>ตำบล</th>
+                  <th>เบอร์โทรศัพท์</th>
+                 <th></th>
                  <th></th>
                 </tr>
               </thead>
-              <tbody id="alert">
+              <tbody id="Hospital">
               </tbody>
             </table>
 
