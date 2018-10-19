@@ -22,7 +22,7 @@
             }
         },
         messages: {
-            username: {
+            firstname: {
                 required: "กรุณากรอกชื่อ"
             },
             lastname: {
@@ -43,30 +43,49 @@
     });
 
     
-    
+    $.post("http://localhost:8080/JaiyaSrc/api/UserDataAdmin/findOne", {},
+            // alert(data.message);
+            function (data, textStatus, jqXHR) {
+                // console.log(data);
+                var alert = data.data;
+                var stralert = "";
+                $.each(alert, function( index, value ) {           
+                            stralert += 
+                            // +'<a href="<?=base_url("user/userData/update/'+value._id+'/'+value.firstname+'/'+value.lastname+'/'+value.dob+'/'+value.gender+'/'+value.disease+'/'+value.bloodgroup+'/'+value.allergy+'/")?>">'
+                            +'<a href=userData/update/'+value._id+'/'+value.firstname+'/'+value.lastname+'/'+value.dob+'/'+value.gender+'/'+value.disease+'/'+value.bloodgroup+'/'+value.allergy+'/">'
+                            +'<button type="button" class="btn btn-warning">แก้ไข</button>'
+                            +'</a>'
+                           
+                            i++;              
+                });
+                herbs.html(stralert);  
+            }
+        );
 
-    var id = $("#id").val();
-
-$.post("http://localhost:8080/JaiyaSrc/api/UserDataAdmin/findAllUserdata",{
-    "userid": id
-},function(data){
-    if(data.message!=200){
-        showMessage(data.message,"user/userData");
-    }
-
-    if(data.message == 200){
-        result = data.data;
-        $("#firstname").val(result.firstname);
-        $("#lastname").val(result.lastname);
-        $("#dob").val(result.dob);
-        $("#gender").val(result.gender);
-        $("#disease").val(result.disease);
-        $("#bloodgroup").val(result.bloodgroup);
-        $("#allergy").val(result.allergy);
  
-    }
+
+//     var id = $("#id").val();
+
+// $.post("http://localhost:8080/JaiyaSrc/api/UserDataAdmin/findAllUserdata",{
+//     "userid": id
+// },function(data){
+//     if(data.message!=200){
+//         showMessage(data.message,"user/userData");
+//     }
+
+//     if(data.message == 200){
+//         result = data.data;
+//         $("#firstname").val(result.firstname);
+//         $("#lastname").val(result.lastname);
+//         $("#dob").val(result.dob);
+//         $("#gender").val(result.gender);
+//         $("#disease").val(result.disease);
+//         $("#bloodgroup").val(result.bloodgroup);
+//         $("#allergy").val(result.allergy);
+ 
+//     }
     
-});
+// });
     
     $("#update").submit(function(){
         updateUserdata();
