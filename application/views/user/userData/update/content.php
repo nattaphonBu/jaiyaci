@@ -109,7 +109,7 @@ img {
                 <div class="form-group"> 
                     <div class="intro-text">
                     <label class="text-dark">ชื่อ</label><span class="error">*</span>
-                    <input type="text" class="form-control" id="username" name="username" placeholder="ชื่อ">
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="ชื่อ">
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@ img {
                 <div class="form-group"> 
                     <div class="intro-text">
                     <label class="text-dark">นามสกุล</label><span class="error">*</span>
-                    <input type="text" class="form-control" id="username" name="username" placeholder="นามสกุล">
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="นามสกุล">
                     </div>
                 </div>
             </div>

@@ -11,7 +11,8 @@ class User extends CI_Controller {
 	{
 		$this->load->view("template/head");
 		$this->load->view("template/headadmin");
-		$this->load->view("template/banner");
+    	$this->load->view("template/header");
+    	$this->load->view("template/banner");
 		$this->load->view('admin/userdata/content');
 		$this->load->view("template/footUsermenu");
 		$this->load->view("template/footer");
@@ -35,6 +36,19 @@ class User extends CI_Controller {
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");	
 		$this->load->view("admin/userdata/update/script");
+
+	}
+
+	public function update()
+	{
+		$this->load->view("template/headadmin");
+    	$this->load->view("template/header");
+    	$this->load->view("template/banner");
+		$this->load->view('admin/userdata/update/content');
+		$this->load->view("template/footer");
+		$this->load->view("template/foot");
+		$this->load->view("admin/userdata/update/script");
+
 
 	}
 
