@@ -9,7 +9,7 @@ class Machine extends CI_Controller {
     }
 	public function insert()
 	{
-		$this->load->view("template/headUsermenu");
+		
 		$this->load->view("template/head");
 		$this->load->view("template/headadmin");
 		$this->load->view("template/banner");
@@ -21,7 +21,7 @@ class Machine extends CI_Controller {
 	}
 	public function status()
 	{
-		$this->load->view("template/headUsermenu");
+		
 		$this->load->view("template/head");
 		$this->load->view("template/headadmin");
 		$this->load->view("template/banner");
@@ -32,7 +32,7 @@ class Machine extends CI_Controller {
 		$this->load->view('admin/machine/script');
 	}
 	public function checkMachine(){
-		$this->load->view("template/headUsermenu");
+		
 		$this->load->view("template/head");
 		$this->load->view("template/headadmin");
 		$this->load->view("template/banner");
@@ -45,7 +45,7 @@ class Machine extends CI_Controller {
 
 	public function  update()
 	{
-		$this->load->view("template/headUsermenu");
+	
 		$this->load->view("template/head");
 		$this->load->view("template/headadmin");
 		$this->load->view("template/banner");
@@ -57,7 +57,7 @@ class Machine extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->load->view("template/headUsermenu");
+		
 		$this->load->view("template/head");
 		$this->load->view("template/headadmin");
 		$this->load->view("template/banner");
