@@ -1,3 +1,4 @@
+
 <section id="posts">
     <div class="container">
     <!-- <input  type="hidden"  name="iduser"  id="iduser"  value='<?php echo urldecode($_id) ; ?>'> -->

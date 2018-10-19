@@ -127,7 +127,7 @@
         if(isValid){
             var data = {
                 "nameofhospital": $("#nameofhospital").val(),
-                "lattiude": $("#lattiude").val(),
+                "latitude": $("#latitude").val(),
                 "longitude":$("#longitude").val(),
                 "provinceId":$("#provinceId").val(),
                 "tell":$("#tell").val()

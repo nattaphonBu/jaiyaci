@@ -1,94 +1,72 @@
 
-
-    <br>
-    <br>
-    <br>
-    <form id="insert">
-    <div class="row justify-content-md-center">
-    <section class="content">
-      <div class="container-fluid">
+<body>
+    <form id ="insert">
+    <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12">
-            <div class="card text-white bg-success">
-                <div class="card-header">
-
-                  <h3 class="card-title"></i> แก้ไขทะเบียนประวัติผู้ใช้</h3>
+        <div class="col-md-5 col-md-offset-5">
+            <div class="intro-text">
+                <h1>แก้ไขข้อมูล</h1>
+            </div>  
+        </div> 
+            <div class="col-md-4 col-md-offset-4">
+                <div class="form-group"> 
+                    <div class="intro-text">
+                    <label class="h5">ชื่อผู้ใช้</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="" value="<?php echo $username?>">
                 </div>
-                
-                
-                  <div class="card-body black bg-light">
-                    <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                          <label class="text-dark">ชื่อ</label> <span class="error">*</span>
-                          <input type="text" class="form-control" placeholder="ชื่อ" name="firstName" id="firstName">
-                        </div>
-                      </div>
-                      <br>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <label class="text-dark">นามสกุล</label> <span class="error">*</span>
-                          <input type="text" class="form-control" placeholder="นามสกุล" name="lastName" id="lastName">
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <label class="text-dark">วันเดือนปีเกิด</label> <span class="error">*</span>
-                           <input type="date" name="dob" id="dob">
-                        </div>
-                      </div>
-                      <div class="form-group col-md-2">
-                              <label class="text-dark">เพศ</label><span class="error">*</span>
-                              <select class="form-control" name="gender" id="gender">
-                                <option value="">เพศ</option>
-                                <option value="ชาย">ชาย</option>
-                                <option value="หญิง">หญิง</option>
-                                
-                              </select>
-                            </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                          <label class="text-dark">ยาที่แพ้</label> 
-                          <input type="text" class="form-control" placeholder="ยาที่แพ้" name="allergy" id="allergy">
-                        </div>
-                      </div>
-                      <div class="form-group col-md-2">
-                              <label class="text-dark">กรุ๊ปเลือด</label><span class="error">*</span>
-                              <select class="form-control" name="bloodgroup" id="bloodgroup">
-                                <option value="">กรุ๊ปเลือด</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="O">O</option>
-                                <option value="AB">AB</option>
-                                
-                              </select>
-                            </div>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <label class="text-dark">โรคประจำตัว</label> 
-                          <input type="text" class="form-control" placeholder="โรคประจำตัว" name="disease" id="disease">
-                        </div>
-                      </div>
-                    </div> 
-                    <div class="form-group">
-                      <button type="insert" class="btn btn-primary">บันทึก</button>
-                    </div>
-                  </div>
-               
-                 
-               
-              </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="form-group">
+                    <label class="h5">พาสเวิด</label><span class="error">*</span>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="">           
+                </div>  
+            </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="form-group">
+                    <label class="h5">ยืนยันพาสเวิด</label><span class="error">*</span>
+                    <input type="password" class="form-control" id="confirmpassword" name="confirmpassword" placeholder="">           
+                </div>  
+            </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="form-group">
+                    <label class="h5">อีเมล</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="อีเมล" name="อีเมล" placeholder="" value="<?php echo $email?>">           
+                </div>  
+            </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="form-group">
+                    <label class="h5">เบอร์โทรศัพท์</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="tel" name="tel" placeholder=""value="<?php echo $tel?>">           
+                </div>  
+            </div>
+            </div>
+            <!-- <div class="col-md-4 col-md-offset-4">
+            <div class="form-group"> 
+                <div class="form-group">
+                    <label class="h5">ตู้ยา</label><span class="error">*</span>
+                    <input type="text" class="form-control" id="Idmachine" name="Idmachine" placeholder=""value="<?php echo $Idmachine?>">           
+                </div>  
+            </div>
+            </div> -->
+            
+            
+            
+            <div class="col-md-5 col-md-offset-5">
+                <div class="form-group">
+                    <button type="insert" class="btn-lg btn-success">บันทึก</button>
+                </div>
+            </div>
             </div>
         </div>
-      </div>
-    </section>
-</div>
-</form>
-    
-    
-    
+    </div>
+    </form>
+</body>
 
-
-
-
-    

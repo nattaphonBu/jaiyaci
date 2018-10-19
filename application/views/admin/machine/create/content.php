@@ -28,7 +28,7 @@
             <div class="form-group"> 
                 <div class="form-group">
                     <label class="h5">ลองติจูด</label><span class="error">*</span>
-                    <input type="text" class="form-control" id="longjijude" name="longjijude" placeholder="ลองติจูด">           
+                    <input type="text" class="form-control" id="longitude" name="longitude" placeholder="ลองติจูด">           
                 </div>  
             </div>
             </div>

@@ -1,21 +1,8 @@
-<!-- <script>
-$(document).ready(function() {
-    $('#example').DataTable( {
-        "ajax": {
-            "url" : base_url+"http://localhost:8080/JaiyaSrc/api/location/findprovince",
-            "dataSrc": "data"
-            function (data, textStatus, jqXHR){
-                alert(data.message);
-            });
-
-        }
-    } );
-} );
-</script> -->
-<script>
-        let herbs = $("#User");
+<script> 
+let herbs = $("#User");
         let i = 1;
-        $.post("http://localhost:8080/JaiyaSrc/api/userdataadmin/findAllUser", {},
+
+        $.post("http://localhost:8080/JaiyaSrc/api/registernew/findAll", {},
             function (data, textStatus, jqXHR) {
                 console.log(data);
                 var user = data.data;
@@ -27,16 +14,12 @@ $(document).ready(function() {
                             + '<td>'+value.email+'</td>'
                             + '<td>'+value.tel+'</td>'
                             + '<td>'+value.Idmachine+'</td>'
-                            + '<td>'+i+'</td>'
                             + '<td>'
-                            + '<a href="editherb/'+value._id+'/'+value.username+'/'+value.properties+'/'+value.warning+'" class="btn btn-info">'
-                            + '<i class="far fa-edit"></i> Edit'
-                            + '</a> &nbsp;'
-                            // + '<a href="deleteherb/'+value._id+'" class="btn btn-danger">'
-                            + '<button class="btn btn-danger" onclick="deleteUSer(\''+value._id+'\')">'
-                            + '<i class="far fa-trash-alt"></i> Delete>'
-                            + '</button>'
-                            + '</a>'
+                            +'<a href=User/update/'+value._id+'/'+value.username+'/'+value.tel+'/'+value.Idmachine+'/">'
+                            +'<button type="button" class="btn btn-warning">แก้ไข</button>'
+                            +'</a>'
+                            + '<td>'
+                            +'<button type="button" onclick="deleted(\''+value._id+'\')" class="btn btn-danger">ลบ</button>'
                             + '</td>'
                             + '</tr>';
                             i++;
@@ -44,20 +27,26 @@ $(document).ready(function() {
                 herbs.html(strHerb);
             }
         );
+</script>
 
-
-
-
-    function deleteUSer(userId){
-        $.ajax({
-            type:"deleteuser"
-            url: "http://localhost:8080/JaiyaSrc/api/userdataadmin/delete",
-            data:JSON.stringify( {
-                "id" :userId
-            )},
-            dataType: "json",
-            success:function(response){
-                    alert("hello");
-            }
+<script>
+    function deleted(id){
+  $.ajax({
+    type: "delete",
+    url: "http://localhost:8080/JaiyaSrc/api/UserDataAdmin/deleteuser",
+    data: JSON.stringify({
+      "id": id
+    }),
+    dataType: "json",
+    success: function (data) {
+        if(data.message == true){
+            alert("ลบสำเร็จ");
+            window.location.replace( href="<?=base_url("admin/User") ?>");
+        }else{
+            alert("ลบไม่สำเร็จ");
+            window.location.replace( href="<?=base_url("admin/User") ?>");
         }
-    </script>
+    }
+  });
+}
+</script>

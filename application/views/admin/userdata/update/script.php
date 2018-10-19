@@ -1,70 +1,72 @@
 <script>
-   
-   
     $("#insert").validate({
         rules: {
-        firstName: {
-            required: true
-        },
-        lastName: {
-            required: true,
-          },
-          dob: { 
+            username: {
+                required: true
+            },
+            password: {
                 required: true,
+                minlength:6
           },
-          gender:{
+          confirmpassword: { 
+                required: true,
+                equalTo: "#password",
+                minlength: 6
+          },
+          tel:{
             required :true,
-            
-          },
-          bloodgroup:{
-              required: true
-          },
-          
+            minlength: 9
+          }
         },
         messages: {
-        firstName: {
-            required: "กรุณากรอกชื่อจริง"
-        },
-        lastName: {
-            required: "กรุณากรอกนามสกุล",
-          },
-          dob: { 
-                required:"กรุณากรอกวันเดือนปีเกิด",
-          },
-          gender:{
-            required :"กรุณากรอกเพศ"
-            
-          },
-          bloodgroup:{
-              required: "กรุณากรอกกรุ๊ปเลือด"
-          }
+            username: {
+                required: "กรุณากรอกชื่อ"
+            },
+            password: {
+                required: "รหัสผ่าน",
+                minlength: "รหัสผ่านอย่างน้อย 6 ตัวอักษร"
+            },
+          confirmpassword: {
+                required: "รหัสผ่านอีกครั้ง",
+                equalTo: "กรุณาใส่รหัสผ่านให้ตรงกัน",
+                minlength: "รหัสผ่านอย่างน้อย 6 ตัวอักษร"
+            },
+            tel:{
+                minlength: "เบอร์โทรศัพท์อย่างน้อย 9 ตัว",
+                required: "เบอร์โทรศัพท์"
+            }
         },
     });
     
     $("#insert").submit(function(){
-        insertUserdata();
+        register();
     })
 
 
-    function insertUserdata(){
+    function register(){
         event.preventDefault();
         var isValid = $("#insert").valid();
         
         if(isValid){
             var data = {
-                "firstName": $("#firstName").val(),
-                "lastName": $("#lastName").val(),
-                "dob":$("#dob").val(),
-                "gender":$("#gender").val(),
-                "bloodgroup":$("#bloodgroup").val(),
-                "disease":$("#disease").val(),
-                "allergy":$("#allergy").val(),
-                "id": localStorage.getItem("userId")
+                "username": $("#username").val(),
+                "password": $("#password").val(),
+                "email":$("#email").val(),
+                "tel":$("#tel").val(),
+                "id" : $("#_id").val()
+
             };
             console.log(data);
-            $.post("http://localhost:8080/JaiyaSrc/api/register/update", JSON.stringify(data),
+            $.post("http://localhost:8080/JaiyaSrc/api/registernew/update", JSON.stringify(data),
             function (data, textStatus, jqXHR){
-                alert(data.message);
+                if(data.message == true){
+                    alert("แก้ไขสำเร็จสำเร็จ");
+                    window.location.replace( href="<?=base_url("admin/User") ?>");
+                }else{
+                    alert("แก้ไขไม่สำเร็จไม่สำเร็จ");
+                    window.location.replace( href="<?=base_url("admin/User") ?>");
+                }
+            
             });
             
         }
@@ -72,12 +74,6 @@
     
 
 </script>
-   
+
 </body>
 </html>
-
-
-
-
-
-
