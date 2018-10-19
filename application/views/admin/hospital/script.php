@@ -22,7 +22,7 @@
                             +'<button type="button" class="btn btn-warning">แก้ไข</button>'
                             +'</a>'
                             + '<td>'
-                            + '<a class="btn btn btn-danger btn-lg active" role="button" aria-disabled="true">ลบ</a>'
+                            +'<button type="button" onclick="deleted(\''+value._id+'\')" class="btn btn-danger">ลบ</button>'
                             + '</td>'
                             + '</tr>';
                             i++;              
@@ -36,3 +36,24 @@
 
    
     </script>
+    <script>
+    function deleted(id){
+  $.ajax({
+    type: "delete",
+    url: "http://localhost:8080/JaiyaSrc/api/HospitalAdmin/delete",
+    data: JSON.stringify({
+      "id": id
+    }),
+    dataType: "json",
+    success: function (data) {
+        if(data.message == true){
+            alert("ลบสำเร็จ");
+            window.location.replace( href="<?=base_url("admin/Hospital") ?>");
+        }else{
+            alert("ลบไม่สำเร็จ");
+            window.location.replace( href="<?=base_url("admin/Hospital") ?>");
+        }
+    }
+  });
+}
+</script>
