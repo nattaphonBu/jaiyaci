@@ -41,6 +41,29 @@
         },
     });
     
+    var id = $("#id").val();
+
+$.post("http://localhost:8080/JaiyaSrc/api/UserDataAdmin/findAllUserdata",{
+    "userid": id
+},function(data){
+    if(data.message!=200){
+        showMessage(data.message,"user/userData");
+    }
+
+    if(data.message == 200){
+        result = data.data;
+        $("#firstname").val(result.firstname);
+        $("#lastname").val(result.lastname);
+        $("#dob").val(result.dob);
+        $("#gender").val(result.gender);
+        $("#disease").val(result.disease);
+        $("#bloodgroup").val(result.bloodgroup);
+        $("#allergy").val(result.allergy);
+ 
+    }
+    
+});
+
     $("#insert").submit(function(){
         insertUserdata();
     })

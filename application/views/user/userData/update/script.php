@@ -42,6 +42,9 @@
         },
     });
 
+    
+    
+
     var id = $("#id").val();
 
 $.post("http://localhost:8080/JaiyaSrc/api/UserDataAdmin/findAllUserdata",{
@@ -60,8 +63,7 @@ $.post("http://localhost:8080/JaiyaSrc/api/UserDataAdmin/findAllUserdata",{
         $("#disease").val(result.disease);
         $("#bloodgroup").val(result.bloodgroup);
         $("#allergy").val(result.allergy);
-
-       
+ 
     }
     
 });
@@ -84,12 +86,20 @@ $.post("http://localhost:8080/JaiyaSrc/api/UserDataAdmin/findAllUserdata",{
                 "bloodgroup":$("#bloodgroup").val(),
                 "disease":$("#disease").val(),
                 "allergy":$("#allergy").val(),
-                "id": localStorage.getItem("userId")
+                "id" : $("#_id").val()
+                // "id": localStorage.getItem("userId")
+                
             };
             console.log(data);
             $.post("http://localhost:8080/JaiyaSrc/api/register/update", JSON.stringify(data),
             function (data, textStatus, jqXHR){
-                alert(data.message);
+                if(data.message == true){
+                    alert("แก้ไขสำเร็จ");
+                    window.location.replace( href="<?=base_url("user/userData") ?>");
+                }else{
+                    alert("แก้ไขไม่สำเร็จ");
+                    window.location.replace( href="<?=base_url("user/userData/insert") ?>");
+                }
             });
             
         }

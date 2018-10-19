@@ -10,12 +10,25 @@ class User extends CI_Controller {
 	public function index()
 	{
 		$this->load->view("template/headadmin");
-    $this->load->view("template/header");
-    $this->load->view("template/banner");
+    	$this->load->view("template/header");
+    	$this->load->view("template/banner");
 		$this->load->view('admin/userdata/content');
 		$this->load->view("template/footer");
 		$this->load->view("template/foot");
 		$this->load->view("admin/userdata/script");
+
+
+	}
+
+	public function update()
+	{
+		$this->load->view("template/headadmin");
+    	$this->load->view("template/header");
+    	$this->load->view("template/banner");
+		$this->load->view('admin/userdata/update/content');
+		$this->load->view("template/footer");
+		$this->load->view("template/foot");
+		$this->load->view("admin/userdata/update/script");
 
 
 	}
