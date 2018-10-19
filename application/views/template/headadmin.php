@@ -12,12 +12,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-      <li><a href="<?=base_url("user/Menu/menu") ?>"><span>Home</span></a></li>
-						<li><a href="<?=base_url("user/Alert/Alert") ?>"><span>ผู้ใช้ในระบบ</span></a></li>
-						<li><a href="<?=base_url("admin/machine/checkmachine/content") ?>"><span>ค้นหาตู้</span></a></li>
-						<li><a href="<?=base_url("admin/machine/status") ?>"><span>ตรวจสอบสถานะตู้</span></a></li>
-						<li><a href="<?=base_url("admin/Machine") ?>"><span>เพิ่มข้อมูลตู้</span></a></li>
-						<li><a href="<?=base_url("login/logout") ?>"><span>ลงชื่อออก</span></a></li>
+      <li><a href="<?=base_url("admin/Menu/menu") ?>"><span>Home</span></a></li>
+      <li><a href="<?=base_url("admin/User") ?>"><span>ผู้ใช้งานในระบบ</span></a></li>
+      <li><a href="<?=base_url("admin/Machine") ?>"><span>ค้นหาตู้</span></a></li>
+      <li><a href="<?=base_url("admin/Machine/checkMachine") ?>"><span>ตรวจสอบสถานะตู้</span></a></li>
+      <li><a href="<?=base_url("admin/Machine/insert") ?>"><span>เพิ่มข้อมูลตู้</span></a></li>
+      <li><a href="<?=base_url("admin/hospital/") ?>"><span>เพิ่มข้อมูลโรงพยาบาล</span></a></li>
+      <li><a href="<?=base_url("login/logout") ?>"><span>ลงชื่อออก</span></a></li>
         
         
       </ul>
