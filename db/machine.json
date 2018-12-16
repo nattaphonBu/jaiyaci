@@ -1,18 +1,20 @@
-{"_id":{"$oid":"5bbee92df2861b3e4fbae6d7"},"userid":1.0,"nameofmachine":"Mac-01","latitude":8.641318,"longitude":99.89142,"province":"นครศรีธรรมราช","district":"ท่าศาลา","subdistricts":"ไทยบุรี","status":1.0}
-{"_id":{"$oid":"5bbeef7ff2861b3e4fbae6de"},"userid":8.0,"nameofmachine":"Mac-08","latitude":8.568249,"longitude":99.812201,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"ทอนหงส์ ","status":1.0}
-{"_id":{"$oid":"5bbeefd7f2861b3e4fbae6df"},"userid":9.0,"nameofmachine":"Mac-09","latitude":8.565145,"longitude":99.844872,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"ทอนหงส์ ","status":1.0}
-{"_id":{"$oid":"5bbef160f2861b3e4fbae6e0"},"userid":5.0,"nameofmachine":"Mac-05","latitude":8.531045,"longitude":99.840634,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"ทอนหงส์ ","status":1.0}
-{"_id":{"$oid":"5bbef3daf2861b3e4fbae6e2"},"userid":12.0,"nameofmachine":"Mac-12","latitude":8.616006,"longitude":99.778278,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"ทอนหงส์ ","status":1.0}
-{"_id":{"$oid":"5bbef369f2861b3e4fbae6e1"},"userid":11.0,"nameofmachine":"Mac-11","latitude":8.500421,"longitude":99.877757,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"นาเรียง ","status":1.0}
-{"_id":{"$oid":"5bbeec72f2861b3e4fbae6da"},"userid":10.0,"nameofmachine":"Mac-10","latitude":9.150071,"longitude":99.335812,"province":"สุราษฎร์ธานี","district":"เมืองสุราษฎร์ธานี","subdistricts":"เทศบาลนครสุราษฎร์ธานี","status":1.0}
-{"_id":{"$oid":"5bbef439f2861b3e4fbae6e3"},"userid":13.0,"nameofmachine":"Mac-13","latitude":8.590894,"longitude":99.807725,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"ทอนหงส์ ","status":1.0}
-{"_id":{"$oid":"5bbef6eef2861b3e4fbae6e6"},"userid":16.0,"nameofmachine":"Mac-16","latitude":8.549086,"longitude":99.856117,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"อินคีรี","status":1.0}
-{"_id":{"$oid":"5bbef5f4f2861b3e4fbae6e4"},"userid":14.0,"nameofmachine":"Mac-14","latitude":8.60069,"longitude":99.811112,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"ทอนหงส์ ","status":1.0}
-{"_id":{"$oid":"5bbef671f2861b3e4fbae6e5"},"userid":15.0,"nameofmachine":"Mac-15","latitude":8.589664,"longitude":99.774891,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"ทอนหงส์ ","status":1.0}
-{"_id":{"$oid":"5bbefa46f2861b3e4fbae6e7"},"userid":17.0,"nameofmachine":"Mac-17","latitude":8.431528,"longitude":99.936866,"province":"นครศรีธรรมราช","district":"อำเภอเมืองนครศรีธรรมราช","subdistricts":"เทศบาลนครนครศรีธรรมราช","status":1.0}
-{"_id":{"$oid":"5bbee98df2861b3e4fbae6d8"},"userid":2.0,"nameofmachine":"Mac-02","latitude":8.647732,"longitude":99.888499,"province":"นครศรีธรรมราช","district":"ท่าศาลา","subdistricts":"ไทยบุรี","status":1.0}
-{"_id":{"$oid":"5bbeea08f2861b3e4fbae6d9"},"userid":3.0,"nameofmachine":"Mac-03","latitude":8.665927,"longitude":99.929232,"province":"นครศรีธรรมราช","district":"ท่าศาลา","subdistricts":"ท่าศาลา","status":1.0}
-{"_id":{"$oid":"5bbeed86f2861b3e4fbae6db"},"userid":4.0,"nameofmachine":"Mac-04","latitude":8.543395,"longitude":99.88853,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"อินคีรี","status":1.0}
-{"_id":{"$oid":"5bbefaaff2861b3e4fbae6e8"},"userid":18.0,"nameofmachine":"Mac-18","latitude":9.154664,"longitude":99.322189,"province":"สุราษฎร์ธานี","district":"เมืองสุราษฎร์ธานี","subdistricts":"เทศบาลนครสุราษฎร์ธานี","status":1.0}
-{"_id":{"$oid":"5bbeedcff2861b3e4fbae6dc"},"userid":6.0,"nameofmachine":"Mac-06","latitude":8.543769,"longitude":99.888895,"province":"นครศรีธรรมราช","district":"พรหมคีรี","subdistricts":"อินคีรี","status":1.0}
-{"_id":{"$oid":"5bbeef33f2861b3e4fbae6dd"},"userid":7.0,"nameofmachine":"Mac-07","latitude":8.548188,"longitude":99.909527,"province":"นครศรีธรรมราช","district":"ท่าศาลา","subdistricts":"ดอนตะโก","status":1.0}
+[
+{"_id":{"$oid":"5bbee92df2861b3e4fbae6d7"},"userid":1.0,"nameofmachine":"Mac-01","latitude":8.641318,"longitude":99.89142,"provinceId":63,"districtId":843,"subdistrictId":7670,"status":1.0},
+{"_id":{"$oid":"5bbeef7ff2861b3e4fbae6de"},"userid":8.0,"nameofmachine":"Mac-08","latitude":8.568249,"longitude":99.812201,"provinceId":63,"districtId":837,"subdistrictId":7608,"status":1.0},
+{"_id":{"$oid":"5bbeefd7f2861b3e4fbae6df"},"userid":9.0,"nameofmachine":"Mac-09","latitude":8.565145,"longitude":99.844872,"provinceId":63,"districtId":837,"subdistrictId":7608,"status":1.0},
+{"_id":{"$oid":"5bbef160f2861b3e4fbae6e0"},"userid":5.0,"nameofmachine":"Mac-05","latitude":8.531045,"longitude":99.840634,"provinceId":63,"districtId":837,"subdistrictId":7608,"status":1.0},
+{"_id":{"$oid":"5bbef3daf2861b3e4fbae6e2"},"userid":12.0,"nameofmachine":"Mac-12","latitude":8.616006,"longitude":99.778278,"provinceId":63,"districtId":837,"subdistrictId":7608,"status":1.0},
+{"_id":{"$oid":"5bbef369f2861b3e4fbae6e1"},"userid":11.0,"nameofmachine":"Mac-11","latitude":8.500421,"longitude":99.877757,"provinceId":63,"districtId":837,"subdistrictId":7609,"status":1.0},
+{"_id":{"$oid":"5bbeec72f2861b3e4fbae6da"},"userid":10.0,"nameofmachine":"Mac-10","latitude":9.150071,"longitude":99.335812,"provinceId":67,"districtId":884,"subdistrictId":7926,"status":1.0},
+{"_id":{"$oid":"5bbef439f2861b3e4fbae6e3"},"userid":13.0,"nameofmachine":"Mac-13","latitude":8.590894,"longitude":99.807725,"provinceId":63,"districtId":837,"subdistrictId":7608,"status":1.0},
+{"_id":{"$oid":"5bbef6eef2861b3e4fbae6e6"},"userid":16.0,"nameofmachine":"Mac-16","latitude":8.549086,"longitude":99.856117,"provinceId":63,"districtId":837,"subdistrictId":7607,"status":1.0},
+{"_id":{"$oid":"5bbef5f4f2861b3e4fbae6e4"},"userid":14.0,"nameofmachine":"Mac-14","latitude":8.60069,"longitude":99.811112,"provinceId":63,"districtId":837,"subdistrictId":7608,"status":1.0},
+{"_id":{"$oid":"5bbef671f2861b3e4fbae6e5"},"userid":15.0,"nameofmachine":"Mac-15","latitude":8.589664,"longitude":99.774891,"provinceId":63,"districtId":837,"subdistrictId":7608,"status":1.0},
+{"_id":{"$oid":"5bbefa46f2861b3e4fbae6e7"},"userid":17.0,"nameofmachine":"Mac-17","latitude":8.431528,"longitude":99.936866,"provinceId":63,"districtId":836,"subdistrictId":7578,"status":1.0},
+{"_id":{"$oid":"5bbee98df2861b3e4fbae6d8"},"userid":2.0,"nameofmachine":"Mac-02","latitude":8.647732,"longitude":99.888499,"provinceId":63,"districtId":843,"subdistrictId":7670,"status":1.0},
+{"_id":{"$oid":"5bbeea08f2861b3e4fbae6d9"},"userid":3.0,"nameofmachine":"Mac-03","latitude":8.665927,"longitude":99.929232,"provinceId":63,"districtId":843,"subdistrictId":7662,"status":1.0},
+{"_id":{"$oid":"5bbeed86f2861b3e4fbae6db"},"userid":4.0,"nameofmachine":"Mac-04","latitude":8.543395,"longitude":99.88853,"provinceId":63,"districtId":837,"subdistrictId":7607,"status":1.0},
+{"_id":{"$oid":"5bbefaaff2861b3e4fbae6e8"},"userid":18.0,"nameofmachine":"Mac-18","latitude":9.154664,"longitude":99.322189,"provinceId":67,"districtId":884,"subdistrictId":7926,"status":1.0},
+{"_id":{"$oid":"5bbeedcff2861b3e4fbae6dc"},"userid":6.0,"nameofmachine":"Mac-06","latitude":8.543769,"longitude":99.888895,"provinceId":63,"districtId":837,"subdistrictId":7607,"status":1.0},
+{"_id":{"$oid":"5bbeef33f2861b3e4fbae6dd"},"userid":7.0,"nameofmachine":"Mac-07","latitude":8.548188,"longitude":99.909527,"provinceId":63,"districtId":843,"subdistrictId":7671,"status":1.0}
+]

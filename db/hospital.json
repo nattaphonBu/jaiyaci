@@ -3,504 +3,541 @@
     "nameofhospital": "โรงพยาบาลสิชล",
     "latitude": 9.003981,
     "longitude": 99.903917,
-    "tell": "075 536 336",
-    "provinceId": 63
+    "emergencyphone": "075 536 336",
+    "provinceId": 63,
+    "subdistrictId":7734,
+    "districtId":849
   },
   {
     "nameofhospital": "โรงพยาบาลทุ่งสง",
     "latitude": 8.163833,
     "longitude": 99.679992,
-    "tell": "075 410 100",
-    "provinceId": 63
+    "emergencyphone": "075 410 100",
+    "provinceId": 63,
+    "subdistrictId":7953,
+    "districtId":886
   },
   {
     "nameofhospital": "โรงพยาบาลขนอม",
     "latitude": 9.204984,
     "longitude": 99.85945,
-    "tell": "075 529 033",
-    "provinceId": 63
+    "emergencyphone": "075 529 033",
+    "provinceId": 63,
+    "subdistrictId":7743,
+    "districtId":850
   },
   {
     "nameofhospital": "โรงพยาบาลนบพิตำ",
     "latitude": 8.716245,
     "longitude": 99.751485,
-    "tell": "075 355 676",
-    "provinceId": 63
-  },
-  {
-    "nameofhospital": "โรงพยาบาลขนอม",
-    "latitude": 9.204984,
-    "longitude": 99.85945,
-    "tell": "075 529 033",
-    "provinceId": 63
+    "emergencyphone": "075 355 676",
+    "provinceId": 63,
+    "subdistrictId":7669,
+    "districtId":843
   },
   {
     "nameofhospital": "โรงพยาบาลท่าศาลา",
     "latitude": 8.660173,
     "longitude": 99.923315,
-    "tell": "075 521 333",
-    "provinceId": 63
+    "emergencyphone": "075 521 333",
+    "provinceId": 63,
+    "subdistrictId":7662,
+    "districtId":843
   },
   {
     "nameofhospital": "โรงพยาบาลพิปูน",
     "latitude": 8.540088,
     "longitude": 99.608917,
-    "tell": "075 499 026",
-    "provinceId": 63
+    "emergencyphone": "075 499 026",
+    "provinceId": 63,
+    "subdistrictId":7634,
+    "districtId":840
   },
   {
     "nameofhospital": "โรงพยาบาลพรหมคีรี",
     "latitude": 8.522962,
     "longitude": 99.82205,
-    "tell": "075 396 123",
-    "provinceId": 63
+    "emergencyphone": "075 396 123",
+    "provinceId": 63,
+    "subdistrictId":7605,
+    "districtId":837
   },
   {
     "nameofhospital": "โรงพยาบาลถ้ำพรรณรา",
     "latitude": 8.425893,
     "longitude": 99.372375,
-    "tell": "075 306 240",
+    "emergencyphone": "075 306 240",
+    "subdistrictId":7761,
+    "districtId":853,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลสมเด็จพระยุพราชฉวาง",
     "latitude": 8.438853,
     "longitude": 99.524048,
-    "tell": "075 481 113",
+    "emergencyphone": "075 481 113",
+    "subdistrictId":7624,
+    "districtId":839,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลทุ่งใหญ่",
     "latitude": 8.317524,
     "longitude": 99.360557,
-    "tell": "075 489 080",
+    "emergencyphone": "075 489 080",
+    "subdistrictId":7698,
+    "districtId":846,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลพ่อท่านคล้ายวาจาสิทธิ์",
     "latitude": 8.373424,
     "longitude": 99.559358,
-    "tell": "075 466 878",
+    "emergencyphone": "075 466 878",
+    "subdistrictId":7779,
+    "districtId":857,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลลานสกา",
     "latitude": 8.364988,
     "longitude": 99.800116,
-    "tell": "075 391 023",
+    "emergencyphone": "075 391 023",
+    "subdistrictId":7610,
+    "districtId":838,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลปากพนัง",
     "latitude": 8.358693,
     "longitude": 100.198134,
-    "tell": "075 517 990",
+    "emergencyphone": "075 517 990",
+    "subdistrictId":7718,
+    "districtId":847,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลนาบอน",
     "latitude": 8.259378,
     "longitude": 99.582825,
-    "tell": "075 491 332",
+    "emergencyphone": "075 491 332",
+    "subdistrictId":7695,
+    "districtId":845,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลร่อนพิบูลย์",
     "latitude": 8.171194,
     "longitude": 99.865194,
-    "tell": "075 449 120",
+    "emergencyphone": "075 449 120",
+    "subdistrictId":7723,
+    "districtId":848,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลบางขัน",
     "latitude": 8.023333,
     "longitude": 99.49283,
-    "tell": "075 371 025",
+    "emergencyphone": "075 371 025",
+    "subdistrictId":7758,
+    "districtId":852,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลจุฬาภรณ์ นครศรีธรรมราช",
     "latitude": 8.081208,
     "longitude": 99.831595,
-    "tell": "075 355 402",
+    "emergencyphone": "075 355 402",
+    "subdistrictId":7769,
+    "districtId":854,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลชะอวด",
     "latitude": 7.993356,
     "longitude": 99.9844,
-    "tell": "075 381 011",
+    "emergencyphone": "075 381 011",
+    "subdistrictId":7649,
+    "districtId":842,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลเชียรใหญ่",
     "latitude": 8.161965,
     "longitude": 100.137359,
-    "tell": "075 386 256",
+    "emergencyphone": "075 386 256",
+    "subdistrictId":7642,
+    "districtId":841,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลหัวไทร",
     "latitude": 8.047757,
     "longitude": 100.286229,
-    "tell": "075 389 511",
+    "emergencyphone": "075 389 511",
+    "subdistrictId":7746,
+    "districtId":851,
     "provinceId": 63
   },
   {
     "nameofhospital": "โรงพยาบาลมหาราชนครศรีธรรมราช",
     "latitude": 8.390988,
     "longitude": 99.971582,
-    "tell": "075 340 250",
+    "emergencyphone": "075 340 250",
+    "subdistrictId":7578,
+    "districtId":836,
     "provinceId": 63
   },
+
+
   {
     "nameofhospital": "โรงพยาบาลระโนด",
     "latitude": 7.783464,
     "longitude": 100.336065,
-    "tell": "074 392 932",
+    "emergencyphone": "074 392 932",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลกระแสสินธุ์",
     "latitude": 7.620578,
     "longitude": 100.329619,
-    "tell": "074 399 899",
+    "emergencyphone": "074 399 899",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลสทิงพระ",
     "latitude": 7.456146,
     "longitude": 100.444444,
-    "tell": "074397112",
+    "emergencyphone": "074397112",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลรัตภูมิ",
     "latitude": 7.132595,
     "longitude": 100.253385,
-    "tell": "074 395 234",
+    "emergencyphone": "074 395 234",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลควนเนียง",
     "latitude": 7.195178,
     "longitude": 100.346925,
-    "tell": "074 346 686",
+    "emergencyphone": "074 346 686",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลสิงหนคร",
     "latitude": 7.234225,
     "longitude": 100.529681,
-    "tell": 74332902,
+    "emergencyphone": 74332902,
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลบางกล่ำ",
     "latitude": 7.092746,
     "longitude": 100.409001,
-    "tell": "074 328 221",
+    "emergencyphone": "074 328 221",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลสงขลา",
     "latitude": 7.14212,
     "longitude": 100.565253,
-    "tell": "074 338 100",
+    "emergencyphone": "074 338 100",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลหาดใหญ่",
     "latitude": 7.016594,
     "longitude": 100.466936,
-    "tell": "074 273 100",
+    "emergencyphone": "074 273 100",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลคลองหอยโข่ง",
     "latitude": 6.905124,
     "longitude": 100.396716,
-    "tell": "074 251 789",
+    "emergencyphone": "074 251 789",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลนาหม่อม",
     "latitude": 6.984549,
     "longitude": 100.585921,
-    "tell": "074 593 774",
+    "emergencyphone": "074 593 774",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลจะนะ",
     "latitude": 6.914841,
     "longitude": 100.739958,
-    "tell": "074 207 070",
+    "emergencyphone": "074 207 070",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลเทพา",
     "latitude": 6.804372,
     "longitude": 100.95436,
-    "tell": "074 376 359",
+    "emergencyphone": "074 376 359",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลสะบ้าย้อย",
     "latitude": 6.62385,
     "longitude": 100.9481,
-    "tell": "074 377 101",
+    "emergencyphone": "074 377 101",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลสมเด็จพระบรมราชินีนาถ ณ อำเภอนาทวี",
     "latitude": 6.729179,
     "longitude": 100.6937,
-    "tell": "074 341 701",
+    "emergencyphone": "074 341 701",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลสะเดา",
     "latitude": 6.635654,
     "longitude": 100.407163,
-    "tell": "074 379 995",
+    "emergencyphone": "074 379 995",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลปาดังเบซาร์",
     "latitude": 6.651835,
     "longitude": 100.341477,
-    "tell": "074 521 011",
+    "emergencyphone": "074 521 011",
     "provinceId": 70
   },
   {
     "nameofhospital": "โรงพยาบาลเกาะพงัน",
     "latitude": 9.735987,
     "longitude": 99.991184,
-    "tell": "077 377 034",
+    "emergencyphone": "077 377 034",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลเกาะสมุย",
     "latitude": 9.521738,
     "longitude": 99.935617,
-    "tell": "077 913 200",
+    "emergencyphone": "077 913 200",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลชัยบุรี",
     "latitude": 8.46956,
     "longitude": 99.080634,
-    "tell": "077 367 075",
+    "emergencyphone": "077 367 075",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลพระแสง",
     "latitude": 8.57237,
     "longitude": 99.243143,
-    "tell": "077 369 098",
+    "emergencyphone": "077 369 098",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลสมเด็จพระยุพราชเวียงสระ",
     "latitude": 8.637283,
     "longitude": 99.371318,
-    "tell": "077 361 283",
+    "emergencyphone": "077 361 283",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลบ้านนาสาร",
     "latitude": 8.841974,
     "longitude": 99.367813,
-    "tell": "077 341 415",
+    "emergencyphone": "077 341 415",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลบ้านนาเดิม",
     "latitude": 8.89246,
     "longitude": 99.305637,
-    "tell": "077 359 018",
+    "emergencyphone": "077 359 018",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลเคียนซา",
     "latitude": 8.834707,
     "longitude": 99.160825,
-    "tell": "077 266 180",
+    "emergencyphone": "077 266 180",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลบ้านตาขุน",
     "latitude": 8.914798,
     "longitude": 98.890112,
-    "tell": "077 397 374",
+    "emergencyphone": "077 397 374",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลพนม",
     "latitude": 8.865155,
     "longitude": 98.818815,
-    "tell": "077 399 084",
+    "emergencyphone": "077 399 084",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลคีรีรัฐนิคม",
     "latitude": 9.021235,
     "longitude": 98.972704,
-    "tell": "077 265 177",
+    "emergencyphone": "077 265 177",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลท่าโรงช้าง",
     "latitude": 9.056612,
     "longitude": 99.172546,
-    "tell": "077 357 167",
+    "emergencyphone": "077 357 167",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลพุนพิน",
     "latitude": 9.105578,
     "longitude": 99.232203,
-    "tell": "077 311 100",
+    "emergencyphone": "077 311 100",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลสุราษฎร์ธานี",
     "latitude": 9.123412,
     "longitude": 99.310402,
-    "tell": "077 915 600",
+    "emergencyphone": "077 915 600",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลกาญจนดิษฐ์",
     "latitude": 9.161188,
     "longitude": 99.493171,
-    "tell": "077 379 131",
+    "emergencyphone": "077 379 131",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลดอนสัก",
     "latitude": 9.318425,
     "longitude": 99.694536,
-    "tell": "077 371 401",
+    "emergencyphone": "077 371 401",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลท่าฉาง",
     "latitude": 9.25805,
     "longitude": 99.187875,
-    "tell": "077 389 111",
+    "emergencyphone": "077 389 111",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลวิภาวดี",
     "latitude": 9.24166,
     "longitude": 98.979836,
-    "tell": "077 292 144",
+    "emergencyphone": "077 292 144",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลไชยา",
     "latitude": 9.386711,
     "longitude": 99.207004,
-    "tell": "077 431 103",
+    "emergencyphone": "077 431 103",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลท่าชนะ",
     "latitude": 9.598253,
     "longitude": 99.166181,
-    "tell": "077 381 167",
+    "emergencyphone": "077 381 167",
     "provinceId": 67
   },
   {
     "nameofhospital": "โรงพยาบาลบาเจาะ",
     "latitude": 6.503671,
     "longitude": 101.660507,
-    "tell": "073 599 085",
+    "emergencyphone": "073 599 085",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลรือเสาะ",
     "latitude": 6.377667,
     "longitude": 101.508737,
-    "tell": "073 571 191",
+    "emergencyphone": "073 571 191",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลยี่งอเฉลิมพระเกียรติ 80 พรรษา",
     "latitude": 6.393074,
     "longitude": 101.692463,
-    "tell": "073 591 454",
+    "emergencyphone": "073 591 454",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลนราธิวาสราชนครินทร์",
     "latitude": 6.414323,
     "longitude": 101.823975,
-    "tell": "073 510 997",
+    "emergencyphone": "073 510 997",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลศรีสาคร",
     "latitude": 6.240274,
     "longitude": 101.498807,
-    "tell": "073 561 145",
+    "emergencyphone": "073 561 145",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลระแงะ",
     "latitude": 6.297085,
     "longitude": 101.727315,
-    "tell": "073 671 287",
+    "emergencyphone": "073 671 287",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลเจาะไอร้อง",
     "latitude": 6.222212,
     "longitude": 101.808559,
-    "tell": "073 544 073",
+    "emergencyphone": "073 544 073",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลตากใบ",
     "latitude": 6.250262,
     "longitude": 102.046659,
-    "tell": "073 581 200",
+    "emergencyphone": "073 581 200",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลจะแนะ",
     "latitude": 6.130628,
     "longitude": 101.696656,
-    "tell": "073 543 569",
+    "emergencyphone": "073 543 569",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลสุไหงปาดี",
     "latitude": 6.08193,
     "longitude": 101.877471,
-    "tell": "073 651 169",
+    "emergencyphone": "073 651 169",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลสุคิริน",
     "latitude": 5.942491,
     "longitude": 101.777601,
-    "tell": "073 656 178",
+    "emergencyphone": "073 656 178",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลแว้ง",
     "latitude": 5.942592,
     "longitude": 101.886863,
-    "tell": "073 659 008",
+    "emergencyphone": "073 659 008",
     "provinceId": 76
   },
   {
     "nameofhospital": "โรงพยาบาลสุไหงโก-ลก",
     "latitude": 6.027096,
     "longitude": 101.971257,
-    "tell": "073 517 500",
+    "emergencyphone": "073 517 500",
     "provinceId": 76
   }
 ]
