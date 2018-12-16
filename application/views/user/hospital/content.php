@@ -22,8 +22,8 @@
     <div id="map"></div>
     
                     
-  </body>
-                <!-- <div class="card-body black bg-light">
+  <!-- </body>
+                <div class="card-body black bg-light">
                     <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">

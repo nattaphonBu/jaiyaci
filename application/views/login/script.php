@@ -39,7 +39,7 @@ $("#insert").validate({
             
             $.post("http://localhost:8080/JaiyaSrc/api/login/findOne", JSON.stringify(data),
             function (data, textStatus, jqXHR){
-                alert(data.message);
+                // alert(data.message);
                 var username = data.data.username;
                 var _id = data.data._id;
                 var status =data.data.status;
