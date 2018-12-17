@@ -1,4 +1,26 @@
-<!-- <script>
+<script>
+    $(document).ready(function){
+        $("#form").submit(function(e){
+            e.preventDefault();
+            var formdata = {
+                "name" : $('#name').val()
+            }
+            $.post("http://localhost:8080/Nutritional/api/calnutritional/findOne", JSON.stringify(formdata),
+                function (data, textStatus, jqXHR) {
+                    var name = data.data;    
+                    var latijude = data.data.latijude;
+                    var longjijude = data.data.longjijude;
+                    name.forEach(function(name) {
+                    console.log(name.longjijude);
+                    marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(name.latijude, name.longjijude),
+                        map: map,
+                        title:name.nameofhospital
+                    });
+                });        
+                }
+
+    }
 
     var map, infoWindow;
     function initMap() {
@@ -38,22 +60,19 @@
                         'Error: Your browser doesn\'t support geolocation.');
     infoWindow.open(map);
     }
+        
         $.post("http://localhost:8080/JaiyaSrc/api/location/findHostpital", {},
             function (data, textStatus, jqXHR){
                 // alert(data.message);
                 var name = data.data;    
-                var latitude = data.data.latitude;
-                var longitude = data.data.longitude;
-                var tell = data.data.tell;
+                var latijude = data.data.latijude;
+                var longjijude = data.data.longjijude;
                 name.forEach(function(name) {
-                    
-                    
+                    console.log(name.longjijude);
                     marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(name.latitude, name.longitude),
+                        position: new google.maps.LatLng(name.latijude, name.longjijude),
                         map: map,
-                        title:name.nameofhospital + "    เบอร์โทรฉุกเฉิน :" +name.tell
-                        
-                       
+                        title:name.nameofhospital
                     });
                 });        
         });
@@ -67,4 +86,3 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
     async defer></script>
-    AIzaSyBpcT0PCRiIf8bVuWMTRMT23ffxGTmn9tU -->

@@ -19,20 +19,25 @@
     </style>
   </head>
   <body>
+  <form id="form"></form>
     <div id="map"></div>
     
                     
-  <!-- </body>
-                <div class="card-body black bg-light">
+    <div class="card-body black bg-light">
                     <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
                           <label class="text-dark">
-                          <input type="text" class="form-control" placeholder="ชื่อ" name="firstName" id="firstName">
+                          <input type="text" class="form-control" placeholder="ชื่อโรงพยาบาล" name="Name" id="Name">
+                        </div>
+                        <div>
+                            <button id="submit">ค้นหา</button>
                         </div>
                       </div>
                       <br>
                     </div>
                     </div> 
-                  </div> -->
+                  </div>
+    <div id="map"></div>
+    </form>
 </html>
