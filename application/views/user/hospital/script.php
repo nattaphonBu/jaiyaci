@@ -1,11 +1,13 @@
-<script>
-    $(document).ready(function){
-        $("#form").submit(function(e){
+ <script>
+ function search(){
+   event.preventDefault();
+        $("#submit").submit(function(e){
             e.preventDefault();
+            conlole.log("Hello");
             var formdata = {
-                "name" : $('#name').val()
+                "name" : $('#nameofhospital').val()
             }
-            $.post("http://localhost:8080/Nutritional/api/calnutritional/findOne", JSON.stringify(formdata),
+            $.post("http://localhost:8080/JaiyaSrc/api/location/searchHospital", JSON.stringify(formdata),
                 function (data, textStatus, jqXHR) {
                     var name = data.data;    
                     var latijude = data.data.latijude;
@@ -18,9 +20,10 @@
                         title:name.nameofhospital
                     });
                 });        
-                }
+            });
+        });
 
-    }
+    };
 
     var map, infoWindow;
     function initMap() {
@@ -61,21 +64,21 @@
     infoWindow.open(map);
     }
         
-        $.post("http://localhost:8080/JaiyaSrc/api/location/findHostpital", {},
-            function (data, textStatus, jqXHR){
-                // alert(data.message);
-                var name = data.data;    
-                var latijude = data.data.latijude;
-                var longjijude = data.data.longjijude;
-                name.forEach(function(name) {
-                    console.log(name.longjijude);
-                    marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(name.latijude, name.longjijude),
-                        map: map,
-                        title:name.nameofhospital
-                    });
-                });        
-        });
+        // $.post("http://localhost:8080/JaiyaSrc/api/location/findHostpital", {},
+        //     function (data, textStatus, jqXHR){
+        //         // alert(data.message);
+        //         var name = data.data;    
+        //         var latijude = data.data.latijude;
+        //         var longjijude = data.data.longjijude;
+        //         name.forEach(function(name) {
+        //             console.log(name.longjijude);
+        //             marker = new google.maps.Marker({
+        //                 position: new google.maps.LatLng(name.latijude, name.longjijude),
+        //                 map: map,
+        //                 title:name.nameofhospital
+        //             });
+        //         });        
+        // });
     // var marker = new google.maps.Marker({
     //     position: {lat: 8.647728, lng: 99.8960404},
     //     map: map,
@@ -85,4 +88,4 @@
     }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
-    async defer></script>
+    async defer></script> 
