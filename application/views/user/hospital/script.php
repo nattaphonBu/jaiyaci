@@ -1,29 +1,40 @@
  <script>
- function search(){
-   event.preventDefault();
-        $("#submit").submit(function(e){
+ $(document).ready(function(){
+
+    
+        $("#form").submit(function(e){
             e.preventDefault();
-            conlole.log("Hello");
+
+            // alert("Hello");
             var formdata = {
-                "name" : $('#nameofhospital').val()
+                "nameofhospital" : $('#name').val()
             }
             $.post("http://localhost:8080/JaiyaSrc/api/location/searchHospital", JSON.stringify(formdata),
                 function (data, textStatus, jqXHR) {
                     var name = data.data;    
-                    var latijude = data.data.latijude;
-                    var longjijude = data.data.longjijude;
+                    var latitude = data.data.latitude;
+                    var longitude = data.data.longitude;
+                    var tell = data.data.emergencyphone;
                     name.forEach(function(name) {
-                    console.log(name.longjijude);
+                    console.log(name.latitude);
+                    console.log(name.longitude);
                     marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(name.latijude, name.longjijude),
+                        position: {lat:name.latitude, lng:name.longitude},
+                        // position: {lat: 8.647728, lng: 99.8960404},
                         map: map,
-                        title:name.nameofhospital
+                        // title:name.nameofhospital 
+                        title:name.nameofhospital + "    เบอร์โทรฉุกเฉิน :" +name.emergencyphone
+                        // title:emergencyphone
+
                     });
                 });        
             });
         });
-
-    };
+ });
+   
+           
+            
+     
 
     var map, infoWindow;
     function initMap() {
@@ -35,7 +46,7 @@
     });
     infoWindow = new google.maps.InfoWindow;
 
-// Try HTML5 geolocation.
+// // Try HTML5 geolocation.
     if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
         var pos = {
@@ -87,5 +98,5 @@
         
     }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIhBVY21yz9cs9SPY-AAfj7n1CsRW8478&callback=initMap"
     async defer></script> 

@@ -17,6 +17,7 @@
         padding: 0;
       }
     </style>
+    <script src="<?php echo base_url() ?>publish/js/jquery-3.3.1.min.js"></script>
   </head>
   <body>
   
@@ -28,10 +29,10 @@
                     <div class="col-md-4">
                         <div class="form-group">
                           <label class="text-dark">
-                          <input type="text" class="form-control" placeholder="ชื่อโรงพยาบาล" name="nameofhospital" id="nameofhospital">
+                          <input type="text" class="form-control" placeholder="ชื่อโรงพยาบาล" name="nameofhospital" id="name">
                         </div>
                         <div>
-                            <button id="submit" type="submit">ค้นหา</button>
+                            <button class = "button" id="submit" type="submit">ค้นหา</button>
                         </div>
                       </div>
                       <br>
